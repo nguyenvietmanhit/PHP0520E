@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- thẻ head ko hiển thị với user -->
+
+<head>
+
+    <!-- Thẻ meta thường định nghĩa ra các thành phần ở mức tổng quát cho trang web -->
+
+    <meta charset="utf-8"/>
+
+    <meta name="keywords" content="seo, web"/>
+
+    <!-- thẻ title set title cho tab của trình duyệt -->
+
+    <title>
+
+        Tiêu đề trang web
+
+    </title>
+
+</head>
+
+<!-- thẻ body chứa các nội dung sẽ
+
+hiển thị cho user -->
+
+<body>
+
+<h1>Tiêu đề</h1>
+
+dsadasdsa
+
+dsadsadsa
+
+<!-- Thẻ h - có tác dụng SEO web tốt -->
+
+<h1>Thẻ h1</h1>
+
+<h2>Thẻ h2</h2>
+
+<h3>Thẻ h3</h3>
+
+<h4>Thẻ h3</h4>
+
+<h5>Thẻ h5</h5>
+
+<h6>Thẻ h2</h6>
+
+<!-- Thẻ p - paragraph - hiển thị như 1 đoạn văn -->
+
+<p>Thẻ p</p>
+
+Nội dung bên dưới thẻ p
+
+<!-- Thẻ br = break line
+
+là thẻ dạng khuyết
+
+-->
+
+Đoạn này <br/>
+
+bị xuống dòng
+
+<!-- Thẻ hr = horizontal line, là thẻ khuyết do ko có nội dung bên trong -->
+
+<hr/>
+
+<!-- Thẻ i - italic = in nghiêng text -->
+
+<i>Thẻ i</i>
+
+<!-- Thẻ b - bold - bôi đậm text -->
+
+<b>Thẻ b</b>
+
+<!-- Thẻ u - underline - gạch chân text -->
+
+<u>Thẻ u</u>
+
+<!-- Thẻ div - division - bao các thẻ khác, xây dựng cấu trúc trang web -->
+
+<div>Nội dung thẻ div</div>
+
+<div>
+
+    <p>Nội dung thẻ p</p>
+
+    <u>Nội dung thẻ u</u>
+
+    <div>Nội dung div</div>
+
+</div>
+
+<!-- Thẻ span - khi học css thì có tác dụng style các thành phần ngang hàng trong 1 text -->
+
+<span>
+
+Nội dung <span class="red">thẻ</span> span
+
+</span>
+
+<!-- Thẻ img = là thẻ dạng khuyết - dùng hiển thị hình ảnh -->
+
+<img src="rose.jpeg" width="100" height="50" alt="Tiêu đề hiển thị khi ảnh ko tồn tại"
+     title="Rê chuột qua để xem nội dung"/>
+
+<!-- Thẻ table - tr table-row - th - td -->
+
+<table border="1" cellspacing="0" cellpadding="8">
+
+    <tr>
+
+        <th>Tên</th>
+
+        <th>Tuổi</th>
+
+    </tr>
+
+    <tr>
+
+        <td colspan="2">Mạnh</td>
+
+        <!-- <td>30</td> -->
+
+    </tr>
+
+    <tr>
+
+        <td rowspan="2">ABC</td>
+
+        <td>22</td>
+
+    </tr>
+
+    <tr>
+
+        <td>ABC1</td>
+
+        <!-- <td>40</td> -->
+
+    </tr>
+
+</table>
+
+<!-- Thẻ ul unorder list - ol order list, luôn đi kèm thẻ li-->
+
+<ul>
+
+    <li>Thẻ li thứ nhất</li>
+
+    <li>Thẻ li thứ 2</li>
+
+    <li>Thẻ li thứ 3</li>
+
+</ul>
+
+<ol>
+
+    <li>Thẻ li thứ nhất</li>
+
+    <li>Thẻ li thứ 2</li>
+
+    <li>Thẻ li thứ 3</li>
+
+</ol>
+
+<!-- Thẻ center - dùng để căn giữa -->
+
+<center>Nội dung được căn giữa</center>
+
+<!-- Thẻ a - link trên trang -->
+
+<a href="https://google.vn" target="_blank">
+
+    Click để sang trang google
+
+</a>
+
+<!-- Các thẻ liên quan đến form
+
+khi có các input thì bắt buộc phải bao ngoài bởi thẻ <form>, form mới hoạt động chính xác đc
+
+-->
+
+<form action="" method="get">
+
+    Name: <input type="text" placeholder="Nhập tên vào đây"/>
+
+    <br/>
+
+    Age: <input type="number" value="25"/>
+
+    <br/>
+
+    Gender:
+
+    <!-- Name của input type=radio phải trùng nhau để chức năng radio hoạt động chính xác -->
+
+    <input type="radio" name="gender"/> Nam
+
+    <input type="radio" name="gender"/> Nữ
+
+    <input type="radio" name="gender"/> Khác
+
+    <br/>
+
+    Jobs:
+
+    <input type="checkbox"/> Dev
+
+    <input type="checkbox"/> Tester
+
+    <input type="checkbox"/> PM
+
+    <br/>
+
+    Password:
+
+    <input type="password"/>
+
+    <br/>
+
+    Content:
+
+    <textarea rows="5" cols="40" placeholder="Nhập content..."></textarea>
+
+    <!-- Nút submit form - hay còn gọi là nút gửi thông tin đi -->
+
+    <br/>
+
+    <input type="submit" value="Send info"/>
+
+    <input type="reset" value="Clear form"/>
+
+</form>
+
+</body>
+
+</html>
