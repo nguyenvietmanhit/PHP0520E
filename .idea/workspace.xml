@@ -114,6 +114,17 @@
               <item name="Day01_Software_Setup_And_HTML" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php0520e" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php0520e" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -159,12 +170,12 @@
       <updated>1589382903784</updated>
       <workItem from="1589382905469" duration="676000" />
       <workItem from="1589469965427" duration="1100000" />
-      <workItem from="1589505904483" duration="549000" />
+      <workItem from="1589505904483" duration="800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2325000" />
+    <option name="totallyTimeSpent" value="2576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
