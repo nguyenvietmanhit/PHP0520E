@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_1.docx" afterDir="false" />
-    </list>
+    <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,27 +39,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="9" />
+          <entry key="html" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="9" />
+          <entry key="HTML" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Codes_demo/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3247">
-              <caret line="191" column="9" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/bai1.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -231,7 +228,7 @@
               <item name="Day01_Software_Setup_And_HTML" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
               <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="trần công sơn _bt1" type="462c0819:PsiDirectoryNode" />
+              <item name="trancongson" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
@@ -239,8 +236,8 @@
               <item name="Day01_Software_Setup_And_HTML" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
               <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="trần công sơn _bt1" type="462c0819:PsiDirectoryNode" />
-              <item name="bài tập về nhà" type="462c0819:PsiDirectoryNode" />
+              <item name="trancongson" type="462c0819:PsiDirectoryNode" />
+              <item name="btvn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
@@ -301,12 +298,12 @@
       <workItem from="1589382905469" duration="676000" />
       <workItem from="1589469965427" duration="1100000" />
       <workItem from="1589505904483" duration="4235000" />
-      <workItem from="1589519151028" duration="707000" />
+      <workItem from="1589519151028" duration="1507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6718000" />
+    <option name="totallyTimeSpent" value="7518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -406,6 +403,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
