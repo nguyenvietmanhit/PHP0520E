@@ -1,0 +1,272 @@
+<!-- demo_css.html -->
+<!DOCTYPE html/>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- Nhúng file .css tại đây -->
+		<link rel="stylesheet" href="demo.css" />
+		<title>Demo CSS</title>
+		<style type="text/css">
+			/*code css viết ở đây*/
+			/*h1: selector - đối tượng mà chịu ảnh hưởng bởi css của bạn */
+			/*color: property của css - thuộc tính trong css -> cần phải học*/
+			/*red - value của property tương ứng - giá trị tương ứng của thuộc tính */
+			h1 {
+				color: red;
+			}
+			/*I - SELECTOR*/
+			/*1 - Selector là tên thẻ HTML*/
+			p {
+				color: blue;
+			}
+			/*2 - Selector theo thuộc tính id hoặc class của thẻ HTML*/
+			/*id bắt đầu với ký tự # ở đầu*/
+			/*id mang tính duy nhất trên trang*/
+			#bg {
+				background-color: red;
+			}
+			/*cllass bắt đầu với ký tự .*/
+			/*class mang tính dùng chung*/
+			.span-class {
+				color: pink;
+			}
+			.class2 {
+				color: #ccc;
+			}
+			 /*3 - Selector theo cấp*/
+		</style>
+	</head>
+	<body>
+		<style type="text/css">
+			/*3 - Selector theo cấp*/
+			#div-id a {
+				color: red;
+			}
+			/*selector chỉ cho các thành phần con, ko cho các thành phần cháu chắt ...*/
+			.selector-class > a {
+				color: pink;
+			}
+
+			/*4 - Selector theo thuộc tính của thẻ*/
+			input[type='text'] {
+				background: red;
+			}
+			a[href='#link1'] {
+				color: red;
+			}
+
+			/*5 - Selector theo trạng thái thẻ*/
+			/*hover*/
+			#p-hover:hover {
+				color: red;
+			}
+			/*theo cấp*/
+			/*phần tử con đàu tiên*/
+			ul li:first-child {
+				background: red;
+			}
+			/*phần tử con cuối cùng*/
+			ul li:last-child {
+				background: blue;
+			}
+			/*phần tử con tại vị trí thứ n*/
+			ul li:nth-child(2) {
+				color: pink;
+			}
+			/*trang thái trước và sau phần tử hiện tại, :before và :after*/
+			/*bắt buộc phải có thuộc tính content*/
+			.a-before:before {
+				content: 'Nội dung đứng trước';
+			}
+			.a-before:after {
+				content: 'Nội dung đứng sau';
+			}
+
+			/*II - Khai báo vùng làm việc với CSS */
+			/*1 - Khai báo inline trong thẻ thông qua thuộc tính style*/
+			/*2 - Viết inline trong file .html sử dụng cặp thẻ <style> đặt trong thẻ <head>*/
+			/*3 - Viết trong 1 file chuyên dành cho css, có đuôi file là .css*/
+			/*thứ tự ưu tiên*/
+			/*cách 1 -> cách 2 -> cách3 */
+
+			/*IV - Các thuộc tính CSS căn bản*/
+			/*1 - Background - Màu nền*/
+			#p-background {
+				/*background-color: red;*/
+			    /* color: red; */
+			    /*background-image: url(image.jpg);
+			    background-repeat: no-repeat;
+			    background-position: center;*/
+			    /*cú pháp viết gộp các thuộc tính css*/
+			    background: red url('image.jpg') no-reepeat center;
+			    /*background: red;*/
+
+			    /*2 - Font - font chữ*/
+			    #span-font {
+			    	/* xác đinh font-family dựa vào các fonts đang có sẵn trong hệ thống tại đường dẫn sau: C:\Windows\Fonts*/
+				    font-family: 'Arial';
+				    font-style: italic;
+				    font-weight: bold;
+				    font-size: 22px;
+				}
+
+				/*3 - Text*/
+				#span-text {
+				    color: red;
+				    text-align: center;
+				    text-decoration: underline;
+				    text-transform: capitalize;
+				    text-shadow: 3px 3px 8px black;
+				    line-height: 30px;
+				}
+				/*4 - Border - viền*/
+				#div-border {
+				    /*border-style: solid;
+				    border-color: red;
+				    border-width: 3px;*/
+				    border: 3px solid red;
+				    border-radius: 10px;
+				}
+				 /*5 - Margin*/
+				 /*khoảng cách giữa các phần tử HTML với nhau*/
+				 p#margin-2 {
+				    /*margin-top: 20px;
+				    margin-left: 100px;
+				    margin-bottom: 20px;
+				    margin-right: 72px;*/
+				    background: red;
+				    /*viết gộp*/
+				    /*trên - phải - dưỡi - trái*/
+				    margin: 20px 72px 20px 100px;
+				    /*trên-dưới trái-phải			*/
+				    /*margin: 10px 20px;*/
+
+				    /*margin đều cả 4 hướng = 40px*/
+				    /*margin: 40px;*/
+				}
+				/*6 - Padding*/
+				/*khoảng cách từ viền của phần tử đến nội dung bên trong nó*/
+				p#p-padding {
+			    background: red;
+			    padding-top: 20px;
+			    padding-bottom: 20px;
+			    padding-left: 30px;
+			    padding-right: 30px;
+			    /*cú pháp viết gộp giống hêt margin*/
+			    /*padding: 20px 30px 20px 30px;*/
+			}
+			/*7 - Position*/
+			/*relative: vị trí tuoqwng đối
+				di chuyển phần tử dựa vào trí hiện tại của phần tử đó
+			*/
+			div#div-relative {
+	    		background: red;
+	    		position: relative;
+	    		top: 23px;
+	    		left: 30;
+			}
+			/*absolute*/
+			/*phần tử bị di chuển phụ thuộc vào thành phần cha đang bao lấy nó*/
+			/*absolute luôn cần 1 thành phần cha đang có relative để nó bám theo*/
+			#div-absolute {
+				position: relative;
+			}
+			#p-absolute {
+				position: absolute;
+			}
+			/*fixed*/
+			div#div-fixed {
+    				background: red;
+    				position: fixed;
+				}
+			}
+		</style>
+		<div id="div-fixed">
+			Div với css fixed
+		</div>
+			<div id="div-absolute">
+				<p id="p-absolute">
+				   Thẻ p với position absolute
+			    </p>
+			</div>
+
+		<div id="div-relative">
+			Thẻ div position relative
+		</div>
+		<p id="p-padding">
+			Nội dung padding
+		</p>
+		<p id="margin-1">Thẻ p margin 1</p>
+		<p id="margin-2">Thẻ p margin 2</p>
+
+
+		<div id="div-border">
+			Thẻ div với css border
+		</div>
+		<p id="span-text">
+			Thẻ span css text
+		</p>
+
+		<span id="span-font">
+			Thẻ span với css font
+		</span>
+		<p id="p-background">
+			Thẻ p với css background
+		</p>
+		<div id="div-css">
+			Thẻ div với css được nhúng từ file demo.css
+		</div>
+		<button style="background: red">
+			Thẻ button
+		</button>
+
+		<a class="a-before">A before</a>
+
+		<ul>
+			<li>Thẻ li thứ 1</li>
+			<li>Thẻ li thứ 2</li>
+			<li>Thẻ li thứ 3</li>
+			<li>Thẻ li thứ 4</li>
+		</ul>
+
+		<p id="p-hover">
+		Hover qua thẻ để đổi màu chữ
+		</p>
+
+		<a href="#link1">Thẻ a href = #link1</a>
+		<a href="#link2">Thẻ a href=#link2</a>
+
+
+		<input type="text" value="123" placeholder="" />
+		<input type="number" placeholder="Nhập số" />
+
+		<div class="selector-class">
+			<a>Thẻ a là con thẻ div</a>
+			<p>
+				<a>Thẻ a là cháu thẻ div</a>
+			</p>
+		</div>
+
+		<div id="div-id">
+			<a href="#" target="_blank">
+				Thẻ a
+			</a>
+			<a>Thẻ a thứ 2</a>
+		</div>
+
+
+
+
+
+		<i class="class1 class2 class3">
+			Thẻ i
+		</i>
+		<span id="bg" class="span-class">
+			Thẻ span
+		</span>
+		<p class="span-class">Thẻ p</p>
+		<h1>Demo CSS</h1>
+
+
+	</body>
+</html>
