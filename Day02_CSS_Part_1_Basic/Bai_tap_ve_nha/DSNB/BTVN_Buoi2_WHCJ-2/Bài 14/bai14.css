@@ -1,0 +1,14 @@
+.conten{
+	width: 45%;
+	height: 650px;
+	margin: 0 auto;
+	font-family: arial;
+
+}
+#abc{
+	border-radius: 5px; 
+	border: 1px solid blue;
+}
+#abc:hover {
+	border: 2px solid #4b9ce3;
+}

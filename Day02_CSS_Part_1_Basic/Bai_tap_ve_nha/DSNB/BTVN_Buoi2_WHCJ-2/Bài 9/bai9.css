@@ -1,0 +1,37 @@
+.conten{
+	width: 50%;
+	height: 450px;
+	margin: 0 auto;
+	padding: 0px 20px;
+	background: #ccccff;
+}
+.layout1{
+	font-size: 30px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.layout2-top{
+	padding-left: 25px;
+	color: #570000;
+}
+.layout2-buttom{
+	color: #7e2401;
+	padding-left: 50px;
+}
+.layout3-top{
+	color: #3879dd;
+	padding-left: 25px;
+}
+.layout3-buttom{
+	color: #180A90;
+	padding-left: 50px;
+}
+.layout-boder{
+	border: 3px dashed black;
+}
+.them{
+	margin-top: 15px;
+}
+.thieu{
+	margin-bottom: 15px;
+}

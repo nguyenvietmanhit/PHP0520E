@@ -1,0 +1,27 @@
+.conten{
+	width: 60%;
+	height: 350px;
+	background: #008000;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.layout4 {
+    background: red;
+    padding-left: 30px;
+    width: auto;
+    height: 100px;
+    padding-top: 24px;
+}
+.layout1 {
+    padding: 30px 0px;
+    font-size: 30px;
+}
+
+.layout2 {
+    padding-bottom: 20px;
+}
+
+.layout3 {
+    padding-bottom: 20px;
+}

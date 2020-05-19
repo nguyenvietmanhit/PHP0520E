@@ -1,0 +1,14 @@
+.conten{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+
+}
+.layout1{
+	width: 400px;
+	height: 400px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    --border-radius: 200px;
+    border-radius: 200px;
+}

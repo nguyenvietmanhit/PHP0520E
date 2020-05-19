@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bài Tập 4</title>
+	<link rel="stylesheet" href="cau4.css">
+</head>
+<body>
+	<div class="conten">
+		<div class="layout1">
+			<div class="layout1a">
+				<img src="https://i.imgur.com/Ne05Cnb.png" alt="Lêu Lêu">
+			</div>
+			<div class="layout1b">
+				<b>Employee Registration Form</b>
+			</div>
+		</div>
+		<div>
+			<form class="layout2">
+				<div style="margin-left: 180px">
+					<input type="radio" name="name"> Mr
+					<input type="radio" name="name">
+					Mrs
+					<input type="radio" name="name">
+					Ms
+				</div>
+				<div>
+					<div class="layout-left">
+						First Name 
+					</div>
+					<div class="layout-right">
+						<input type="text" name="username" placeholder="FirstName">
+					</div>
+				</div>
+				<div>
+					<div class="layout-left">
+						Last Name 
+					</div>
+					<div class="layout-right">
+						<input type="text" name="username" placeholder="LastName">
+					</div>
+				</div>
+				<div>
+					<div class="layout-left">
+						Mail Address1 
+					</div>
+					<div class="layout-right">
+						<input type="email" name="mail1">
+					</div>
+				</div>
+				<div>
+					<div class="layout-left">
+						Mail Address2 
+					</div>
+					<div class="layout-right">
+						<input type="email" name="mail2">
+					</div>
+				</div>
+				<div>
+					<div class="layout-left">
+						City 
+					</div>
+					<div class="layout-right">
+						<input type="text" name="city">
+					</div>
+				</div>
+				<div>
+					<div class="layout-left">
+						State 
+					</div>
+					<div class="layout-right">
+						<select>
+							<option>
+								Guiarat
+							</option>
+							<option>
+								Hindi
+							</option>
+							<option>
+								English
+							</option>
+						</select>
+					</div>
+				</div>
+				<div>
+					<div class="layout-left">
+						Zip 
+					</div>
+					<div class="layout-right">
+						<input type="number" name="zip">
+					</div>
+				</div>
+				<div>
+					<div class="layout-left">
+						Upload photo 
+					</div>
+					<div class="layout-right" >
+						<input  onclick="myFunction()" type="button" value="Choose File">
+						<span id="demo"></span>
+						<script>
+						function myFunction() {
+						document.getElementById("demo").innerHTML = "No file chosen";}
+						</script>
+					</div>
+				</div>
+				<div>
+					<div class="layout-left">
+						E-Mail 
+					</div>
+					<div class="layout-right">
+						<input type="email" name="e-mail">
+					</div>
+				</div>
+				<div>
+					<div class="layout-left">
+						Mobile 
+					</div>
+					<div class="layout-right">
+						<input type="number" name="mobile" placeholder="+91">
+					</div>
+				</div>
+				<div>
+					<div class="layout-left" style="line-height: 75px">
+						Languages known 
+					</div>
+					<div class="layout-right">
+						<input type="checkbox" name="abc"> Gujarati <br>
+						<input type="checkbox" name="abc"> Hindi <br>
+						<input type="checkbox" name="abc"> English <br>
+						<input type="checkbox" name="abc"> Marathi
+					</div>
+				</div>
+				<div>
+					<div class="layout-left" style="line-height: 100px">
+						Additional Information 
+					</div>
+					<div class="layout-right">
+						<textarea cols="30" rows="6" placeholder="optional"></textarea>
+					</div>
+				</div>
+				<div class="submit-reset">
+					<input type="submit" value="Submit">
+					<input type="reset" value="Resset">
+				</div>
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>

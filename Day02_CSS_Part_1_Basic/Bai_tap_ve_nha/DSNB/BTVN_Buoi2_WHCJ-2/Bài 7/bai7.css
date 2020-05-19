@@ -1,0 +1,20 @@
+.conten{
+	width: 60%;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.layout1{
+	text-align: center;
+}
+.layout1-top{
+	font-size: 30px;
+	margin-top: 25px;
+}
+.layout1-buttom{
+	font-size: 20px;
+	color: blue;
+	text-decoration: underline;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}

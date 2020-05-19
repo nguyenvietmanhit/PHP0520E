@@ -1,0 +1,37 @@
+.conten{
+	width: 40%;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0px 15px;
+
+}
+
+.layout1a{
+	float: left;
+}
+.layout1b{
+	float: left;
+	color: red;
+	font-size: 25px;
+	margin-top: 10px;
+}
+.layout2{
+	clear: both;
+	padding-top: 20px;
+}
+.layout-left{
+	width: 180px;
+	float: left;
+	clear: both;
+	margin-top: 7px;
+}
+.layout-right{
+	float: left;
+	width: 300px;
+	margin-top: 7px;
+}
+.submit-reset{
+	float: left;
+    clear: both;
+    margin-left: 180px;
+}
