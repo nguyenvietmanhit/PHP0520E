@@ -2,8 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_2.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 1/buoi1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 1/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 10/bai10.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 10/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 11/bai11.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 11/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 12/bai12.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 12/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 13/bai13.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 13/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 14/bai14.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 14/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 15/bai15.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 15/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 16/bai16.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 16/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 17/bai17.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 17/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 18/bai18.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 18/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 2/bai2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 2/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 3/bai3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 3/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 4/cau4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 4/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 5/bai5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 5/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 6/bai6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 6/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 7/bai7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 7/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 8/bai8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 8/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 9/bai9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 9/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai13css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai1css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai2css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai3css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai6css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/baif10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bt4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/4.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/bt4.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,76 +134,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 1/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 5/demo.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/PhanVanChinhBTVN_Buoi2_WHCJ-2/Bài 16/demo.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai14.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai15.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/leduytien/baitapngay2/bai16.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/thonguyen/BTVN2/Bai5.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -194,30 +202,6 @@
               <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="thonguyen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="thonguyen" type="462c0819:PsiDirectoryNode" />
-              <item name="BTVN2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -268,16 +252,15 @@
       <workItem from="1589505904483" duration="4235000" />
       <workItem from="1589519151028" duration="1507000" />
       <workItem from="1589642753547" duration="1983000" />
-      <workItem from="1589900530198" duration="1803000" />
+      <workItem from="1589900530198" duration="2074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17721000" />
+    <option name="totallyTimeSpent" value="17992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
