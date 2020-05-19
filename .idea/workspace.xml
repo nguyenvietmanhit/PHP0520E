@@ -1,114 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/Bai2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/Bai3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/Bai4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/Bai5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/Bai6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/Bai7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/Bai8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/Bai9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/bai1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/bai10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/Bai_tap_ve_nha_ngay_1_HTML.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/bai10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/bai2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/bai3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/bai4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/bai5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/bai6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/bai7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/bai8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/bai9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/images/bt3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenChiHai/Bai_tap_ve_nha/Bai_tap_ve_nha_ngay_1_HTML.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenChiHai/Bai_tap_ve_nha/bt_buoi1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenChiHai/Bai_tap_ve_nha/images/bt3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenMinhDuc/bai_tap_ve_nha_buoi_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenMinhDuc/bt3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenQuiNgoc/bt1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenQuiNgoc/bt3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Nguyen_Quang_Duy_2001/BaiTapVeNha.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/ThanhTrungBTVN1/BTVN1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/bt3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/manhnguyen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/nguyenduccanh/Bai lam/bai1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/nguyenduccanh/Bai lam/bai10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/nguyenduccanh/Bai lam/bai2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/nguyenduccanh/Bai lam/bai3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/nguyenduccanh/Bai lam/bai4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/nguyenduccanh/Bai lam/bai5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/nguyenduccanh/Bai lam/bai6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/nguyenduccanh/Bai lam/bai7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/nguyenduccanh/Bai lam/bai8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/nguyenduccanh/Bai lam/bai9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/nguyenduccanh/Bai lam/bt3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/phamvangiang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bt3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tranngocduc/bai10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tranngocduc/bai2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tranngocduc/bai3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tranngocduc/bai4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tranngocduc/bai5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tranngocduc/bai6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tranngocduc/bai7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tranngocduc/bai8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tranngocduc/bai9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tranngocduc/bài1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/truongthidu/btvnbuoi1/bai10_btvnbuoi1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/truongthidu/btvnbuoi1/bai1_1_btvnbuoi1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/truongthidu/btvnbuoi1/bai2_btvnbuoi1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/truongthidu/btvnbuoi1/bai3_btvnbuoi1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/truongthidu/btvnbuoi1/bai4_btvnbuoi1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/truongthidu/btvnbuoi1/bai5_btvnbuoi1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/truongthidu/btvnbuoi1/bai6_batvnbuoi1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/truongthidu/btvnbuoi1/bai7_btvnbuoi1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/truongthidu/btvnbuoi1/bai8_btvnbuoi1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/truongthidu/btvnbuoi1/bai9_btvnbuoi1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/truongthidu/btvnbuoi1/bt3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/vuthaison/Bài tập về nhà/Bai 4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/vuthaison/Bài tập về nhà/Bai 5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/vuthaison/Bài tập về nhà/Bai 6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/vuthaison/Bài tập về nhà/Bai 7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/vuthaison/Bài tập về nhà/Bai 8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/vuthaison/Bài tập về nhà/Bài 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/vuthaison/Bài tập về nhà/Bài 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/vuthaison/Bài tập về nhà/bai 1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/vuthaison/Bài tập về nhà/bt3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_1.docx" afterDir="false" />
-    </list>
+    <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +32,7 @@
     <session id="1555950535">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="2" />
@@ -147,23 +40,92 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="10" />
+          <entry key="html" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="10" />
+          <entry key="HTML" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Code_demo_tren_lop/demo_git.html">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 12(ngày 2)/bài tập 12(ngày 2).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="816">
+              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 1(ngày 2)/bài tập 1(ngày 2).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 2(ngày 2)/bài tập 2(ngày 2).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 4(ngày 2)/bài tập 4(ngày 2).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 6(ngày 2)/bài tập 6(ngày 2).html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 7( ngày 2)/bài tập 7( ngày 2).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 8(ngày 2)/bài tập 8(ngày 2).html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 9(ngày 2)/bài tập 9(ngày 2).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 10(ngày 2)/bài tập 10(ngày 2).html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 11(ngày 2)/bài tập 11(ngày 2).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -194,8 +156,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -207,74 +169,80 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php0520e" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php0520e" type="462c0819:PsiDirectoryNode" />
               <item name="Day01_Software_Setup_And_HTML" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php0520e" type="462c0819:PsiDirectoryNode" />
               <item name="Day01_Software_Setup_And_HTML" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day01_Software_Setup_And_HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php0520e" type="462c0819:PsiDirectoryNode" />
               <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php0520e" type="462c0819:PsiDirectoryNode" />
               <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php0520e" type="462c0819:PsiDirectoryNode" />
               <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php0520e" type="462c0819:PsiDirectoryNode" />
               <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Slide_bai_giang" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="duongtung" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php0520e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php0520e" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="duongtung" type="462c0819:PsiDirectoryNode" />
+              <item name="bài tập ngày 2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../drupal" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\php0520e\Day02_CSS_Part_1_Basic\Bai_tap_ve_nha\DSNB\duongtung\bài tập ngày 2" />
+      <recent name="C:\xampp\htdocs\php0520e\Day02_CSS_Part_1_Basic\Bai_tap_ve_nha" />
+      <recent name="C:\xampp\htdocs\php0520e\Day02_CSS_Part_1_Basic\Bai_tap_ve_nha\DSNB" />
       <recent name="C:\xampp\htdocs\PHP0520E\Day01_Software_Setup_And_HTML\Bai_tap_ve_nha\DSNB" />
       <recent name="C:\xampp\htdocs\PHP0520E\Day01_Software_Setup_And_HTML\Bai_tap_ve_nha" />
-      <recent name="C:\xampp\htdocs\php0520e\Day01_Software_Setup_And_HTML\Bai_tap_ve_nha\DSNB" />
-      <recent name="C:\xampp\htdocs\php0520e\Day01_Software_Setup_And_HTML\Bai_tap_ve_nha\DSNB\tungduong" />
-      <recent name="C:\xampp\htdocs\php0520e\Day01_Software_Setup_And_HTML\Bai_tap_ve_nha" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,13 +276,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12142000" />
+    <option name="totallyTimeSpent" value="14870000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -349,72 +316,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/bai1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/ThanhTrungBTVN1/BTVN1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Nguyen_Quang_Duy_2001/BaiTapVeNha.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/bai2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenChiHai/Bai_tap_ve_nha/bt_buoi1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenMinhDuc/bai_tap_ve_nha_buoi_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenQuiNgoc/bt1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/BTVL_PhamVanLong/BTVL_PhamVanLong/bai1.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/ThanhTrungBTVN1/BTVN1.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Nguyen_Quang_Duy_2001/BaiTapVeNha.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenBang/Bai_tap_ve_nha/bai2.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenChiHai/Bai_tap_ve_nha/bt_buoi1.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenMinhDuc/bai_tap_ve_nha_buoi_1.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/NguyenQuiNgoc/bt1.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/tungduong/bài tập về nhà 1.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/Tho/BTVN/Bai1.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/trancongson/btvn/bai1.html" />
     <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/nguyenduccanh/Bai lam/bai1.html" />
     <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/tranngocduc/bài1.html" />
     <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/tranngocduc/bai2.html" />
@@ -429,26 +340,72 @@
     <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/vuthaison/Bài tập về nhà/Bai 4.html" />
     <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/manhnguyen.html" />
     <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/phamvangiang.html" />
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/phamvangiang.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/leduytien/folder/bai01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/leduytien/folder/bai04.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/leduytien/folder/bai03.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/phamvangiang.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/leduytien/folder/bai01.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/leduytien/folder/bai04.html" />
+    <entry file="file://$PROJECT_DIR$/Day01_Software_Setup_And_HTML/Bai_tap_ve_nha/DSNB/leduytien/folder/bai03.html" />
     <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Code_demo_tren_lop/demo_git.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 1(ngày 2)/bài tập 1(ngày 2).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 2(ngày 2)/bài tập 2(ngày 2).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 4(ngày 2)/bài tập 4(ngày 2).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 6(ngày 2)/bài tập 6(ngày 2).html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 7( ngày 2)/bài tập 7( ngày 2).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 8(ngày 2)/bài tập 8(ngày 2).html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 9(ngày 2)/bài tập 9(ngày 2).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 10(ngày 2)/bài tập 10(ngày 2).html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 11(ngày 2)/bài tập 11(ngày 2).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/duongtung/bài tập ngày 2/bài tập 12(ngày 2)/bài tập 12(ngày 2).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
         </state>
       </provider>
     </entry>
