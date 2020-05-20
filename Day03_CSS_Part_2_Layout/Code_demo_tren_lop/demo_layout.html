@@ -1,0 +1,205 @@
+<!-- demo_layout.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo CSS Layout</title>
+</head>
+<body>
+	<style type="text/css">
+		/* CSS căn bản */
+		/* 1 - Width Height */
+		p#p-width-height {
+		    background: red;
+		    width: 50%;
+		    height: 50px;
+		    /* margin-left: auto; */
+		    /* margin-right: auto; */
+		    margin: 10px auto;
+		   /* ngoài ra còn có max-width, min-width, max-height, min-height */
+		}
+		/* 2 - z-index */
+		.div {
+			position: absolute;
+		}
+		#div1 {
+			/* z-index chỉ làm việc các phần tử đang có css position */
+			width: 100px;
+			height: 100px;
+			background: blue;
+			z-index: 1;
+		}
+		#div2 {
+			width: 50px;
+			height: 50px;
+			background: red;
+		}
+		#div3 {
+			width: 20px;
+			height: 20px;
+			background: #ccc;
+		}
+		/* 3 - overflow */
+		.css-overflow {
+			width: 40px;
+			background: red;
+			/* ẩn phần thừa đi */
+			overflow: hidden;
+		}
+		/* 4 - Opacity */
+		p#css-opacity {
+		    opacity: 0.5;
+		}
+		/* 5 - Transition - hiệu ứng chuyển động */
+		#css-transition:hover {
+			background: red;
+		}
+		p#css-transition {
+		    transition: all 3s ease;
+		}
+
+		/* II  - Layout */
+		/* css float */
+		/* display: flex */
+		/* 1 - Thành phần inline và block */
+		/* Thẻ kiểu inline: có thể đứng chung 1 hàng; */
+		/* Thẻ kiểu block: không thể đứng chung 1 hàng; */
+		/* 1 số thẻ kiểu inline: b, i, u, span, a ... */
+		/* 1 số thẻ kiểu block: div, p, h, ul, ol .. */
+		/* CSS display */
+		div#div-display {
+		    background: red;
+		    display: inline-block;
+		    margin-top: 10px;
+		}
+		li.menu-li {
+		    display: inline-block;
+		    margin-right: 20px;
+		    border-right: 1px solid #ccc;
+		    padding-right: 20px;
+		}
+		.menu-li a {
+			color: green;
+			text-decoration: none;
+		}
+		.menu-li:last-child {
+			border-right: none;
+		}
+		/* css display có 1 giá trị hay gặp: inline, inline-block, block, none, flex */
+
+		/* 2 - Dựng layout với css float */
+		/* có 3 giá trị: left, right, none */
+		#div1-float {
+			background: red;
+		}
+		#div2-float {
+			background: blue;
+			float: left;
+		}
+		#div1-float {
+		    background: red;
+		    float: left;
+		    /* width: 50%; */
+		}
+		#div3-float {
+			background: #ccc;
+		}
+	</style>
+	<!-- Cách 2: tạo 1 khối div bao lấy tất cả các phần tử đang bị float và ko bị float, sau đó áp dụng css overflow: auto cho khối này để fix vỡ giao diện của float -->
+	<div id="wrapper">
+		<div id="div1-float">
+			Nội dung div 1 với css float 
+		</div>
+		<div id="div2-float">
+			Nội dung div 2
+		</div>
+	<!--Cách 1: Fix trường hợp vỡ giao diện đối với các phần tử đứng ngay sau phần tử bị float,
+	sử dụng clear: both cho phần tử đứng giữa -->
+	<div class="clearfix"></div>
+		<div id="div3-float">
+			Nội dung div 3
+		</div>
+	</div>
+
+	<style type="text/css">
+		.col1 { background: red; }
+		.col2 { background: blue; }
+		.col3 {background: yellow; }
+		.col {
+			float: left;
+			width: 33.33%;
+		}
+		/* mặc đinh: 1 khối bao không thể bao đc các phần tử mà đang bị float ở bên trong nó, nên cần dùng css sau bao; */
+		.row {
+			overflow: auto;
+		}
+		/* 3 - Dàn trang theo kiểu flex */
+		/* cơ chế flex sẽ áp dụng với khối bao thông qua thuộc tính css display:flex; */
+		.flex-row {
+			margin: 30px 0;
+			display: flex;
+		}
+		.flex-col {
+			width: 33.33%;
+		}
+	</style>
+
+	<div class="flex-row">
+		<div class="flex-col col1">Cột flex 1</div>
+		<div class="flex-col col2">Cột flex 2</div>
+		<div class="flex-col col3">Cột flex 3</div>
+		<div class="flex-col col4">Cột flex 4</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col1 col">Cột thứ 1</div>
+		<div class="col2 col">Cột thứ 2</div>
+		<div class="col3 col">Cột thứ 3</div>
+	</div>
+	<span>Thẻ span test</span>
+
+	<!-- Xây dựng 1 menu đơn giản sử dụng cơ chế inline-block -->
+	<!-- <ul id="menu-ul">
+		<li class="menu-li">
+			<a href="#">Link 1</a>
+		</li>
+		<li class="menu-li">
+			<a href="#">Link 2</a>
+		</li>
+		<li class="menu-li">
+			<a href="#">Link 3</a>
+		</li>
+	</ul> -->
+
+
+
+
+
+	<!-- <div id="div-display">Thẻ div</div>
+	<span>Thẻ span test</span> -->
+
+	<!-- span là kiểu inline vì text phía sau ko bị xuống dòng -->
+	<!-- <span>Thẻ span</span> Text kiểm tra inline hay block 
+	<div>Thẻ div</div> Text kiểm tra -->
+
+
+	<!-- <p id="css-transition">
+		Thẻ p với css transition 
+	</p>
+	<p id="css-opacity">
+		Thẻ p với css opacity
+	</p>
+	<div class="css-overflow">
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	</div> -->
+
+
+	<!-- <div id="div1" class="div">Thẻ div 1</div>
+	<div id="div2" class="div">Thẻ div 2</div>
+	<div id="div3" class="div">Thẻ div 3</div> -->
+
+	<!-- <p id="p-width-height">
+		Thẻ p với css width height
+	</p> -->
+</body>
+</html>

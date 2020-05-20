@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thực hành dựng layout</title>
+</head>
+<body>
+	<h1>Thực hành 1 sử dụng float</h1>
+	<style type="text/css">
+		/* dùng cơ chế float */
+		/* .col-float { */
+			/* luôn phải set width đi kèm khi sử dụng float */
+		    /* float: left;
+		    width: 33.33%; */
+		/* }
+		.row-float {
+			overflow: auto;
+		} */
+		/* dùng cơ chế flex */
+		.row-float {
+			display: flex;
+		}
+		.col-float {
+			width: 33.33%;
+		}
+
+		.container {
+		    background: #ccc;
+		    width: 80%;
+		    margin: auto;
+		}
+
+		div#header {
+		    background: #666;
+		    text-align: center;
+		    padding: 10px;
+		    color: #fff;
+		    /* height: 100px; */
+		}
+		.row {
+		    display: flex;
+		}
+
+		.sidebar {
+			width: 30%;
+		}
+		.main-content {
+			width: 70%;
+		}
+
+		ul {
+			/* bỏ dấu chấm tròn mặc định của các thẻ li */
+			list-style: none;
+		}
+		a {
+		    text-decoration: none;
+		    line-height: 25px;
+		}
+		.title {
+	    	font-weight: bold;
+		}
+
+		div#footer {
+		    background: #777;
+		    text-align: center;
+		    color: #fff;
+		    padding: 10px;
+		}
+	</style>
+	<!-- <div class="row-float">
+		<div class="col-float col1">
+			aaaaaaaaaaaaaaaaaaaaaaa
+			aaaaaaaaaaaaaaaaaaaaaaa
+			aaaaaaaaaaaaaaaaaaaaaaaa
+		</div>
+		<div class="col-float col2">
+			aaaaaaaaaaaaaaaaaaaaaaa
+			aaaaaaaaaaaaaaaaaaaaaaa
+			aaaaaaaaaaaaaaaaaaaaaaaa
+		</div>
+		<div class="col-float col3">
+			aaaaaaaaaaaaaaaaaaaaaaa
+			aaaaaaaaaaaaaaaaaaaaaaa
+			aaaaaaaaaaaaaaaaaaaaaaaa
+		</div>
+	</div> -->
+
+	<h1>Demo thực hành 2</h1>
+	<div class="container">
+		<!-- HEADER -->
+		<!-- với cấu trúc 1 hàng 1 cột thì ko cần chia layout dạng row-col -->
+		<div id="header">
+			<h2 class="heading">Websites</h2>
+		</div>
+		<!-- END HEADER -->
+
+		<!-- MAIN -->
+		<div id="main">
+			<!-- Do khối main đang có cấu trúc hàng và cột, cụ thể là 1 hàng và 2 cột nên cần áp dụng cấu trúc chia layout theo dạng row-col -->
+			<div class="row">
+				<div class="sidebar col">
+					<ul>
+						<li>
+							<a href="#">Link1.vn</a>
+						</li>
+						<li>
+							<a href="#">Link2.vn</a>
+						</li>
+						<li>
+							<a href="#">Link3.vn</a>
+						</li>
+					</ul>
+				</div>
+				<div class="main-content col">
+					<p class="title">
+						Taimienphi.vn
+					</p>
+					<div class="des">
+						Mô tả cho Itplus Mô tả cho Itplus Mô tả cho Itplus Mô tả cho Itplus Mô tả cho Itplus Mô tả cho Itplus 
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END MAIN -->
+
+		<!-- FOOTER -->
+		<div id="footer">
+			Footer
+		</div>
+		<!-- END FOOTER -->
+	</div>
+</body>
+</html>
