@@ -1,0 +1,40 @@
+body{
+	font-family: arial;
+	color: grey;
+}
+h1{
+	text-align: center;
+	color: black;
+}
+table{
+	padding-left: 224px;
+}
+div#layer-one{
+	border: solid;
+	border-width: 5px;
+	border-color: #A9D7D1;
+	background:#A9D7D1; 
+
+}
+div#layer-two{
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+input[type="submit"]{
+	margin-left: 480px;
+	background: #59ACE0;
+	color: #FFFFFF;
+}
+td.one{
+	text-align: right;
+} 
+p{
+	padding-top: 20px;
+	text-align: center;
+}
+td.two{
+	text-align: left;
+}

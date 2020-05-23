@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>bài 11</title>
+    <style>
+        body
+        {
+            background-color: brown;
+        }
+        h1
+        {
+            background-color: rgb(66, 9, 9);
+            border-top-left-radius:10px ;
+            border-top-right-radius: 10px;
+        }
+        form
+        {
+            background-color: white;
+        }
+        form
+        {
+            text-align: center;
+            margin: 30px 500px 0px 500px;
+            border-radius: 10px;
+            padding-bottom: 200px;
+            
+        }
+        div input
+        {
+          
+            margin: 10px 0px 10px 20px ;
+        }
+        div
+        {
+            text-align: left;
+        }
+        select
+        {
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            margin-left: 30px;
+
+        }
+        input[type="submit"]
+        {
+            margin: 30px auto auto 90px;
+            background-color: crimson;
+            color: white;
+            width: 180px;
+            height: 50px;
+            border-radius: 7px;
+        }
+        #a::before
+        {
+            content:"$";
+        }       
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>tip calculator</h1>
+        <div>
+          
+           how much was your bill?<br/>
+         <input id="a" type="text" placeholder="bill amount"><br/>
+           how was your server?<br/>
+           <select multiple size="1" >
+               <option >--choose an option--</option>
+               <option>2</option>
+               <option>1</option>
+               <option>3</option>
+           </select><br/>
+
+           how many people are sharing the bill<br/>
+           <input type="text"> people<br/>
+           <input type="submit" value="calculate!">
+        </div>
+    </form>
+    
+</body>
+</html>

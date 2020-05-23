@@ -1,0 +1,16 @@
+table tr:first-child{
+background: #CCCCCC;
+}
+table tr:nth-child(2.4.6)
+{
+	background: #ABE113
+}
+/*table tr:nth-child(4)
+{
+	background: #ABE113
+}
+table tr:nth-child(6)
+{
+	background: #ABE113;<
+}
+*/

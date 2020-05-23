@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>bài 12</title>
+    <style>
+        tr td
+        {
+            padding: 0px 40px 0px 0px;
+            border: solid 1px black ;
+         
+        }
+        tr th
+        {
+            padding: 0px 20px 0px 20px;
+            border: solid 1px ;
+        }
+        tr td:nth-child(1)
+        {
+            color: blue;
+        }
+        #a,#b
+        {
+            color: lightblue;
+        }
+        #a1:nth-child(n+1)
+        {
+          color: lightblue;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <table  cellspacing=0>
+        <tr>
+            <th>course number</th>
+            <th>course title</th>
+            <th>semester taken</th>
+        </tr>
+        <tr>
+            <th colspan="3">for credit</th>
+            
+        </tr>
+        <tr id="a1">
+            <td>6.813</td>
+            <td>user interface design</td>
+            <td>spring 2014</td>
+        </tr>
+        <tr>
+            <td>6.813</td>
+            <td>user interface design</td>
+            <td>spring 2014</td>
+        </tr>
+        <tr>
+            <td>6.813</td>
+            <td>user interface design</td>
+            <td>spring 2014</td>
+        </tr>
+        <tr>
+            <th colspan="3">listerner</th>
+            
+        </tr>
+        <tr>
+            <td id="a">6.813</td>
+            <td>user interface design</td>
+            <td>spring 2014</td>
+        </tr>
+        <tr>
+            <td id="b">6.813</td>
+            <td>user interface design</td>
+            <td>spring 2014</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

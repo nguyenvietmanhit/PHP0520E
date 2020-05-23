@@ -1,0 +1,5 @@
+table{
+	line-height: 20px;
+	overflow: auto;
+	text-overflow: 5px;
+}

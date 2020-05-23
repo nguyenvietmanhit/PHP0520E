@@ -1,0 +1,12 @@
+body{
+	background: #008000;
+}
+ul{
+	background: #FF0000;
+}
+#first{
+	padding-top: 10px;
+}
+#last{
+	padding-bottom: 10px;
+}

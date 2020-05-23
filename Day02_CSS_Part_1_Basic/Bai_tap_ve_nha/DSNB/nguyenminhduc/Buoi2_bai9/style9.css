@@ -1,0 +1,36 @@
+body{
+	background: #CCCCFF;
+}
+span.p-title{
+	font-weight: bold;
+}
+.p-text{
+	padding-left: 30px; 
+	margin-top: 0;
+}
+#p-border{
+	border: 2px;
+	border-style: dashed;
+	border-color: black;
+}
+p.other{
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#p-first{
+	font-weight: bold;
+	font-size: 40px;
+}
+#one{
+	color: #6D0107;
+}
+#p-border{
+	color:#6D0107;
+}
+#two{
+	color: #050A60;
+}
+#four{
+	color: #050A60;
+}
