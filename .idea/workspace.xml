@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +127,40 @@
             <path>
               <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="nguyenduccanh_day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="nguyenduccanh_day2" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day02_CSS_Part_1_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="nguyenduccanh_day2" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
               <item name="Day03_CSS_Part_2_Layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -147,8 +179,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\PHP0520E\Day02_CSS_Part_1_Basic\Bai_tap_ve_nha" />
       <recent name="C:\xampp\htdocs\PHP0520E\Day02_CSS_Part_1_Basic\Bai_tap_ve_nha\DSNB" />
+      <recent name="C:\xampp\htdocs\PHP0520E\Day02_CSS_Part_1_Basic\Bai_tap_ve_nha" />
       <recent name="C:\xampp\htdocs\php0520e\Day02_CSS_Part_1_Basic\Bai_tap_ve_nha\DSNB\duongtung\bài tập ngày 2" />
       <recent name="C:\xampp\htdocs\php0520e\Day02_CSS_Part_1_Basic\Bai_tap_ve_nha" />
       <recent name="C:\xampp\htdocs\php0520e\Day02_CSS_Part_1_Basic\Bai_tap_ve_nha\DSNB" />
@@ -183,12 +215,12 @@
       <workItem from="1589642753547" duration="1983000" />
       <workItem from="1589900530198" duration="2145000" />
       <workItem from="1590075598875" duration="599000" />
-      <workItem from="1590204393701" duration="788000" />
+      <workItem from="1590204393701" duration="1557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20054000" />
+    <option name="totallyTimeSpent" value="20823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
