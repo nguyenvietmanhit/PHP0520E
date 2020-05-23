@@ -1,0 +1,97 @@
+/* nhúng các font lấy đc từ photoshop
+sử dụng thuộc tính css là @font-face
+*/
+@font-face {
+	font-family: 'Pacifico';
+	src:  url('../fonts/Pacifico.ttf');
+}
+
+.logo-text {
+    font-family: 'Pacifico';
+    font-size: 22px;
+    color: #fff;
+}
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+.header {
+    background: #2f2f2f;
+}
+/* cách style cho nhiều selector cùng 1 lúc,
+các selector sẽ cách nhau bởi dấu ,
+ */
+.header-content, .feature-content, .main-content {
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.row {
+    display: flex;
+}
+
+.header-item {
+    width: 50%;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Myriad Pro;
+}
+
+body {
+	margin:  0;
+	font-family: Myriad Pro;
+}
+
+.feature {
+    background: #f1f1f1;
+    padding: 30px 0;
+}
+
+.feature-left {
+    margin-right: 15px;
+}
+
+.feature-heading {
+    margin-top: 0;
+}
+
+.des-content {
+    color: #565656;
+}
+
+.learmore {
+	margin-top:  10px;
+}
+.learmore a {
+	text-decoration: none;
+    color: #fff;
+    background: #F99640;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.main-item {
+    width: 33.33%;
+}
+
+.main-item:nth-child(2) {
+	margin: 0 15px;
+}
+
+.main-image {
+    background: #000;
+    min-height: 150px;
+}
