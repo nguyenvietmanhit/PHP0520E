@@ -1,0 +1,117 @@
+<!-- demo_responsive.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8" />
+	<title>Demo Responsive Web</title>
+	<!-- Bắt buộc phải thêm dòng sau để có thể responsive đc -->
+	<!-- Thẻ meta này có tác dụng luôn đảm bảo khung nhìn = 1, để trình duyejt có thể hiểu được đâu là pc, ipad, mobile -->
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body>
+	<style type="text/css">
+		/* 1 trang đc gọi là responsive
+		khi trang đó hiển thị tương thích với tất cả các thiết bị như pc, ipad, mobile và ko xuất hiện thành cuộn ngang
+		 */
+		 /* cách viết css như ban đầu thì thẻ h1 luôn có màu đỏ trên tất cả thiết bị */
+		 h1 {
+		 	color:  red;
+		 }
+
+		 /* Sử dụng thuộc tính css3 là @media để quy định kích thước của các thiết bị */
+		 @media(max-width: 767px) {
+		 	/* các thiết bị mà có width <= 767px sẽ bị ăn css */
+		 	h1 {
+		 		color:  blue;
+		 	}
+		 }
+		 /* các chuẩn kích thước của các thiết bị như sau */
+		 /* với pc: min-width: 1024px; */
+		 /* với ipad: min-width: 768px, max-width: 1023px; */
+		 /* với mobile: max-width: 767px; */
+		 /* css cho pc */
+		 @media(min-width: 1024px) {
+		 	#p-responsive {
+		 		background: red;
+		 	}
+		 }
+		 /* css cho ipad */
+		 @media(min-width: 768px) and (max-width: 1023px) {
+		 	#p-responsive {
+		 		background: blue;
+		 	}
+		 }
+
+		 /* css cho mobile */
+		 @media(max-width: 767px) {
+		 	#p-responsive {
+		 		background: yellow;
+		 	}
+		 }
+
+		 .col1 {
+		 	background: red;
+		 }
+		 .col2 {
+		 	background: blue;
+		 }
+		 .col3 {
+		 	background: green;
+		 }
+		 .col4 {
+		 	background: pink;
+		 }
+
+		 .row {
+		 	display: flex;
+		 }
+		 .col {
+		 	width: 25%;
+		 }
+		 /* thông thường chỉ viết @media cho ipad và mobile, còn pc thì viết ở phía trên như bình thường */
+		 /* trên ipad thì 1 hàng chỉ hiển 2 cột, và mỗi cột có width = 50% */
+		 @media(min-width: 768px) and (max-width: 1023px) {
+		 	.row {
+		 		/* khi trên các thiết bị muốn hiển thi cấu truc row-col khác với pc, thì cần bỏ đi cơ chế giữ các cột luôn nằm trên 1 hàng của flex */
+		 		flex-wrap: wrap;
+		 	}
+		 	.col {
+		 		width: 50%;
+		 	}
+		 }
+
+		 /* css cho 1 mobile, 1 hàng 1 cột */
+		 @media(max-width: 767px) {
+		 	.row {
+		 		flex-wrap: wrap;
+		 	}
+		 	.col {
+		 		width: 100%;
+		 	}
+		 }
+
+		 /* File reset.css */
+		 /* nó sẽ reset hết tất cả các css chung của các thành phần cơ bản, ko phân biệt các trình duyệt */
+		 /* ko nên dùng cú pháp sau để reset css */
+		 /*    * {
+		 	margin:  0;
+		 	padding:  0;
+		 } */
+		 /* thông thường sẽ dùng các file reset css viết sẵn trên mạng */
+		 /* File reset rất thông dụng: Normalize.css */
+	</style>
+	<div class="row">
+		<div class="col1 col">Cột 1</div>
+		<div class="col2 col">Cột 2</div>
+		<div class="col3 col">Cột 3</div>
+		<div class="col4 col">Cột 4</div>
+	</div>
+
+	<p id="p-responsive">
+		Thẻ p responsive
+	</p>
+	<h1>
+	Màu của thẻ h1 sẽ thay đổi theo từng thiết bị
+	</h1>
+</body>
+</html>

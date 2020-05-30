@@ -1,0 +1,47 @@
+<!-- thuc_hanh_bootstrap_form.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo Form Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- tích hợp bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+	<!-- đúng chuẩn bootstrap class bao ngoài luôn có tên là container -->
+	<div class="container">
+		<h1>Job Application</h1>
+		<h2>Contact Information</h2>
+		<form action="" method="post">
+			<div class="form-group">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-12">
+						<!-- Với các input form, thường sẽ dùng thẻ <label> và khai báo thuộc tính for cho thẻ này, giá trị của thuộc tính for sẽ trùng với id của input tương ứng, để tạo ra hiệu ứng click Title sẽ nhảy vào ô input -->
+						<label for="first-name">
+							First name <span class="red">*</span>
+						</label>
+						<input type="text" id="first-name" class="form-control"  />
+					</div>
+					<div class="col-md-6 col-sm-12 col-12">
+						<label for="last-name">
+							Last name
+							<span class="red">
+								*
+							</span>
+						</label>
+						<input type="text" id="last-name" class="form-control" />
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="email">
+					Email <span class="red">*</span>
+				</label>
+				<input type="email" id="email" class="form-control" />
+			</div>
+		</form>
+	</div>
+</body>
+</html>
