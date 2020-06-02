@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Freaking Math</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/background.css">
+    <link type="text/css" rel="stylesheet" href="css/all.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="questions.js"></script>
+</head>
+<body onkeypress="check(event)">
+<div id="stars"></div>
+<div id="main">
+    <div class="content">
+        <div class="main-play">
+            <div class="run-time" id="run-time"></div>
+            <div class="">Point: <span id="point">0</span></div>
+            <br>
+            <div class="question" id="question"></div>
+            <div class="check-point">
+                <form class="form-check-point">
+                    <input type="button" value="Đúng(1)" name="right" class="button-check check-right" id="right" onclick="check(event)">
+                    <input type="button" value="Sai(2)" name="wrong" class="button-check check-wrong" id="wrong" onclick="check(event)">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    var runtime = $("#run-time").hide(1500);
+    var randomCheck = questions[Math.floor(Math.random() * questions.length)];
+    //do biến questions đã được chuyển thành object, nên cách xử lý cũng sẽ khác mảng thông thường ban đầu của e 1 chút
+    //mặc định sẽ tạo 1 biến giữ giá trị có key là right của đối tượng questions ban đầu
+    var randomCheckValue = randomCheck.right;
+    //do biến questions sinh ra ngẫu nhiên, nên check nếu biến này sinh ra có chứa key wrong thì set biến randomCheckValue cho key này
+    if (randomCheck.hasOwnProperty('wrong'))  {
+        randomCheckValue = randomCheck.wrong;
+    }
+    //lấy ra mảng các phép tính dựa vào key wrong/right dựa vào logic xử lý ở trên
+    var randomQuestion = randomCheckValue[Math.floor(Math.random() * randomCheckValue.length)];
+    document.getElementById("question").innerHTML = randomQuestion;
+    var point = 0;
+    document.getElementById("point").innerHTML = point;
+    document.cookie = "point = 0";
+
+    function check(event) {
+        var result = event.which;
+        // console.log(event);
+        //a ko rõ ban đầu tại sao e lại check result = 49 ,50 ..., vì a debug thì bao giờ cũng thấy nó có giá trị bằng 1 nên a tạo if như này luôn
+        if(result == 1){
+            //nếu như biến question mà có thuộc tính right, nghĩa là phép tính đúng
+            if(randomCheck.hasOwnProperty('right')){
+                // location.reload();
+                console.log("right");
+            }
+            //ngược lại nếu như biến question mà có thuộc tính wrong, nghĩa là phép tính sai
+            else if(randomCheck.hasOwnProperty('wrong')){
+                // document.getElementById("main").innerHTML = "http://localhost/freakingMath/index.html";
+                console.log("wrong");
+
+            }
+        }
+
+        // if(result == 50){
+        //     if(randomCheck.find('wrong')){
+        //         location.reload();
+        //     }
+        //     else if(randomCheck.find("right")){
+        //         document.getElementById("main").innerHTML = "http://localhost/freakingMath/index.html";
+        //     }
+        // }
+    }
+
+
+
+</script>
+</html>
