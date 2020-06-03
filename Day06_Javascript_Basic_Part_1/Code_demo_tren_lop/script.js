@@ -1,0 +1,1 @@
+// script.js , ngang hàng với file demo_js.html

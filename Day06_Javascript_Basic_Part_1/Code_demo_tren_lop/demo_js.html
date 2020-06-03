@@ -1,0 +1,297 @@
+<!-- demo_js.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8" />
+	<title>Demo Javacsript cơ bản phần 1</title>
+	<!-- Nhúng file .js từ bên ngoài thông qua thuộc tính src của thẻ <script>-->
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<!-- Với lập trình Web, thì sẽ học Javascript theo 2 hướng tiếp cận sau:
+	1 - Học Javascript để biết các khái niệm và tư duy về lập trình
+	2 - Học Javascript để biết cách tương tác với HTML -->
+	<!-- I - Các cách khai báo vùng làm việc với Javascript
+	- Nhúng inline trong thẻ HMTL thông qua tên sự kiện của Javascript như sự kiện onclick, onmouseenter ...
+	-->
+	<p onclick="alert('Hello Js');">
+		Click thẻ p để hiển thị popup
+	</p>
+	<p onmouseenter="this.style.backgroundColor='red'">
+		Hover qua thẻ p để đổi màu nền sang đỏ
+	</p>
+
+
+	 <!-- - Nhúng inline trong file .html, nhúng thông qua cặp thẻ <script> -->
+	 	<script type="text/javascript">
+	 		// code JS của bạn
+	 		console.log("Bật tab console của trình duyệt để thấy message này");
+	 	</script>
+
+	 	<!-- Nhúng từ file .js bên ngoài -->
+
+	 	<!-- II - 
+	 	Hiệu suất tải trang khi có file js
+	 	Tốt nhất là để các code javascript ở cuối trang, cụ thể là trước thẻ đóng </body>
+	 	Ngoài ra Javascript chỉ thao tác đc với HMTL khi mà HTML đã hiển thị xong r, nếu code JS chạy trc khi HTML hiển thị xong thì JS sẽ ko chạy, báo lỗi
+	 	-->
+
+	 	<!-- III - Chương trình Javascript đầu tiên -->
+	 	<script type="text/javascript">
+	 		console.log('Hello World');
+
+	 		// IV - Các kiến thức chung của lập trình thông qua việc học Javascript
+	 		// 1 - Biến - biến đổi
+	 		//khai báo 1 cái hộp có tên = name, và để 1 đoạn text = Mạnh vào trong cái hộp đó
+	 		var name = 'Mạnh';
+	 		var age = 19;
+	 		//trong javasript còn có 1 kiểu khai báo biến khác là let, khai báo biến kiểu chặt chẽ
+	 		// let address = 'Ha Noi';
+	 		// 2 - Quy tắc khai báo biến trong Javascript
+	 		// - Tên biến phải bắt đầu bằng ký tự chữ hoặc gạch dưới _
+	 		// - Tên biến ko đc chứa các ký tự đặc biệt (ký tự đặc biệt là các ký tự sử dụng phím Shift + `123567890-=), trừ ký tự $
+	 		// - Tên biến ko đc trùng với các từ khóa của Javascript
+	 		// 1 số biến ko hợp lệ
+	 		// var 1name = 'Manh';
+	 		// var %age = 5;
+	 		// var var = 'Variable';
+	 		// 1 số khai báo hợp lệ
+	 		var $name = 'Manh';
+	 		// Thực hành theo ví dụ trong slide
+	 		var username = 'nvmanh';
+	 		var password = 123456;
+	 		var undefined = null;
+
+			//khai báo 3 biến
+	 		var name = 'Mạnh';
+	 		var age = 30;
+	 		var address = 'Hoài Đức - Hà Nội';
+	 		//hiển thị thông tin dựa vào các biến đã khai báo
+	 		//trong JS sử dụng toán tử + để nối chuỗi
+	 		document.write("Tên của bạn là: " + name);
+	 		document.write("<br />");
+	 		document.write("Tuổi của bạn: " + age);
+	 		document.write("<br />");
+	 		document.write("Địa chỉ: " + address);
+
+	 		// 2 - Hằng trong Javascript - constant
+	 		// HẰng cũng là 1 loại biến, nhưng ko thể thay đổi đc giá trị sau khi đã gán
+	 		//tên hằng thường sẽ viết hoa
+	 		const PI = 3.14;
+	 		//code sau sẽ báo lỗi do cố tình gán giá trị khác cho hằng
+	 		// PI = 1;
+	 		console.log("Hằng PI = " + PI);
+
+	 		// 3  - Kiểu dữ liệu trong Javascript
+	 		 // - Kiểu number - Kiểu số, bao gồm cả số nguyên và số thực
+	 		 var number1 = 1; //biến number1 có kiểu dữ liệu là number
+	 		 var number2 = 1.5;
+	 		 var number3  = -1;
+	 		 //dùng hàm typeof <tên-biên> để kiểm tra kiểu dữ liệu của biến
+	 		 console.log(typeof number2); //number
+	 		 // - Kiểu string - Kiểu chuỗi, giá trị của biến sẽ bao bởi dấu nháy đơn '' hoặc nháy kép ""
+	 		 var string1 = 'Mạnh';
+	 		 var string2 = "Mạnh";
+	 		 var string3 = "Hello 'Mạnh'"; //Hello 'Mạnh'
+	 		 console.log(typeof string1); //string
+	 		 // Kiểu boolean - Kiểu true/false, giá trị của kiểu này chỉ có 2 giá trị đó là: true, false viết thường hết
+	 		 // var name = 1; var Name = 2;
+	 		 var is_true = true; // True là sai
+	 		 var is_false = false;
+	 		 console.log(typeof is_true);//bool - boolean
+	 		 // 3 kiểu dữ liệu là number, string, boolean gọi là kiểu dữ liệu nguyên thủy
+	 		 // - Kiểu undefined - Kiểu dữ liệu ko xác định, chỉ xảy ra khi khai báo biến mà ko gán giá trị
+	 		 var x1;
+	 		 console.log(typeof x1); //undefined
+
+	 		 //Kiểu null - có 1 giá trị duy nhất là null
+	 		 var x = null;
+	 		 console.log(typeof x); //null
+
+	 		 //Kiểu array - Kiểu mảng - chứa đc nhiều giá trị tại 1 thời điểm
+	 		 var arr = [1, 'string', false, null, [1, 2, 3]];
+	 		 console.log(typeof arr); //object, do Javascript coi mảng là 1 object
+
+	 		 //Kiểu object - đối tượng
+	 		 var person = {
+	 		 	name: 'Mạnh',
+	 		 	age: 30,
+	 		 	getName: function() {
+	 		 		console.log(this.name);
+	 		 	}
+	 		 };
+
+	 		 // 4 - Hàm trong Javascript
+	 		 // Là 1 tập các dòng code có mục đích xử lý 1 logic gì đó, và tính quan trong nhất là tính sử dụng lại
+	 		 // Phân loại hàm:
+	 		 // - Hàm có sẵn của ngôn ngữ đó: alert, document.write, console.log, typeof
+	 		  // - Hàm tự định nghĩa bởi chính bạn
+	 		  // Cú pháp khai báo hàm trong Js
+	 		  // var show_info;
+	 		  function showInfo() {
+	 		  	//code bên trong hàm
+	 		  	console.log('code bên trong hàm');
+	 		  }
+	 		  //khi khai báo hàm phải có bước gọi hàm
+	 		  showInfo();
+
+	 		  // Các loại hàm tự định nghĩa
+	 		  // Hàm có tham số
+	 		  function displayName(name) {
+	 		  	console.log('Tên của bạn: ' + name);
+	 		  }
+	 		  displayName('Mạnh'); //Tên của bạn: Mạnh
+	 		  displayName('Mạnh1'); //Tên của bạn: Mạnh1
+	 		  displayName('Mạnh2'); //Tên của bạn: Mạnh2
+	 		  function displayNameAge(name, age) {
+	 		  	console.log("Tên: " + name + ", Age: " + age);
+	 		  }
+	 		  displayNameAge('Mạnh', 30);//Tên: Mạnh, Tuổi: 30
+	 		  //Hàm có giá trị trả về, sử dụng từ khóa return bên trong hàm
+	 		  //viết hàm tính tổng 2 số
+	 		  //với các bạn mới sẽ hay viết như sau:
+	 		  function sum(number1, number2) {
+	 		  	var sum = number1 + number2;
+	 		  	console.log("Tổng = " + sum);
+	 		  }
+	 		  sum(2, 3); //Tổng = 5
+
+	 		  //viết lại hàm trên sử dụng từ khóa return như sau
+	 		  function sumTest(number1, number) {
+	 		  	var sum = number1 + number2;
+	 		  	//từ khóa return sẽ có tác dụng làm cho hàm của bạn mang 1 giá trị đó
+	 		  	return sum;
+	 		  	//ngoài ra nó còn kết thúc hàm, tất cả các code phía sau từ khóa return sẽ ko bao giờ đc thực thi
+	 		  	console.log("Đoạn này có đc chạy ko?");
+	 		  }
+	 		  //khi gọi hàm mà hàm có sử dụng return, thì có thể gán việc gọi hàm cho 1 biến, điều này là rất linh hoạt
+	 		  var sum = sumTest(3, 4); //7
+	 		  //luôn cố gắng xác định giá trị trả về của hàm là gì để sử dụng từ khóa return cho phù hợp
+
+	 		  //viết hàm hiển thị thông tin tên, tuổi
+	 		  function display(name, age) {
+	 		  	var str = "Tên: " + name;
+	 		  	str += "Age: " + age;
+	 		  	// console.log(str);
+	 		  	return str;
+	 		  }
+	 		  var info = display('Manh', 30);
+	 		  console.log(info); //Tên: Manh, Tuổi: 30
+
+	 		  // 5 - Hàm căn bản trong Javascript
+	 		  //hiển thị ra màn hình, hàm này thường dùng để test, ko có ý nghĩa trong thực tế
+	 		  document.write('Document.write');
+	 		  //hiển thị log vào tab console của trình duyệt, rất hay đc dùng khi debug
+	 		  console.log('Hàm console.log');
+	 		  //hiển thi 1 popup dưới dạng cảnh báo
+	 		  // alert('Hàm alert');
+	 		  //lấy thông tin từ người dùng dưới dạng popup nhập liệu
+	 		  // var number1 = prompt('Nhập vào số thứ nhất');
+	 		  // console.log(number1);
+	 		  // hiển thị nội dung dưới xác nhận, thường hay dùng cho chức năng xóa
+	 		  // var is_confirm =
+	 		  // confirm('Bạn có muốn xóa hay ko');
+	 		  // console.log(is_confirm);
+	 	</script>
+	 	<a href="#" id="a-id" title="Thẻ a">
+	 		Nội dung thẻ a
+	 	</a>
+	 	<script type="text/javascript">
+	 		//lấy thông tin của 1 phần tử HTML dựa vào id của nó
+	 		//để cho đơn giản, luôn dùng JS tương tác với HTML thông qua id
+	 		var a_obj = document.getElementById('a-id');
+	 		console.log(a_obj);
+	 		//sau khi lấy ra được đối tượng dựa theo id rồi, thì có thế lấy ra đc bất cứ 1 thông tin gì liên quan đến thuộc tính hoặc giá trị của đối tượng đó
+	 		//lấy giá trị của thuộc tính title
+	 		var title = a_obj.title;
+	 		console.log(title);// Thẻ a
+	 		var href = a_obj.href; //#
+	 		var id = a_obj.id; //a-id
+	 		//get/set nội dung cho đối tượng đó, sử dụng innerHTML hoặc innerText
+	 		//set nội dung
+	 		// a_obj.innerHTML = '<b>Thẻ a đc bôi đậm</b>';
+	 		a_obj.innerText = '<b>Thẻ a đc bôi đậm</b>';
+	 		//get nội dung
+	 		var html = a_obj.innerHTML; //<b>Thẻ a đc bôi đậm</b>
+	 		//chuyển hướng trang bằng javascript
+	 		// window.location = 'https://google.vn';
+
+	 		// II - CÁc sự kiện trong Javascript
+	 	</script>
+
+	 	<form id="form">
+	 		Name:
+	 		<input type="text" id="name" value="" />
+	 		<br />
+	 		Age:
+	 		<input type="number" id="age" value="" />
+	 		<br />
+	 		Country:
+	 		<select id="country">
+	 			<option value="vn">VN</option>
+	 			<option value="jp">Japan</option>
+	 			<option value="usa">USA</option>
+	 		</select>
+	 		<br />
+	 		<input type="submit" value="Show info" />
+	 	</form>
+	 	<!-- khai báo thẻ rỗng, chờ để đổ dữ liệu vào -->
+	 	<h3 id="result" style="color: green"></h3>
+	 	<script type="text/javascript">
+	 		//demo sự kiện onchange với thẻ <select>
+	 		//muốn js thao tác đc html thì việc đầu tiên cần phải lấy ra đc đối tượng tương ứng, thông qua id của nó
+	 		var obj_country = document.getElementById('country');
+
+	 		//khi submit form sẽ hiển thị thông tin tên và tuổi vừa nhập, áp dụng sự kiện onsubmit  của Javascript trên thẻ <form>
+	 		//lấy ra đối tượng form
+	 		var obj_form = document.getElementById('form');
+	 		//gắn sự kiện submit cho đói tượng vừa tìm đc
+	 		obj_form.addEventListener('submit', function(){
+	 			//code bên trong hàm callback
+	 			console.log('Đã chạy vào sự kiện submit');
+	 			//lấy các thông tin liên quan đến name và age
+	 			var obj_name = document.getElementById('name');
+	 			var name = obj_name.value;
+	 			var obj_age = document.getElementById('age');
+	 			var age = obj_age.value;
+	 			//hiển thị ra màn hình
+	 			var result = "Name: " + name + " Age: " + age;
+	 			//hiển thị biến result vào thẻ h3 đang có id = result
+	 			var obj_result = document.getElementById('result');
+	 			obj_result.innerHTML = result;
+	 			//nếu muốn giữ lại kết quả mà ko bị mất đi
+	 			//thì cần phải can thiệp vào hành vi mặc định của sự kiện
+	 			//với sự kiện submit, mặc định sẽ tải lại trang
+	 			//với sự kiện click url, mặc định sẽ chuyển hướng trang
+	 			//sử dụng 1 biến có tên là event để ngăn ngừa hành vi mặc định của sự kiện - biến này là do JS đã tự động tạo ra trong hàm callback của bạn
+	 			event.preventDefault();
+	 		});
+
+
+
+	 		//gắn sự kiện onchange cho đối tượng vừa tìm đc thông qua hàm addEventListner của JS
+	 		function handleCountry() {
+	 			//lấy ra giá trị vừa select
+	 			var value = this.value;
+	 			alert(value);
+	 		}
+	 		//hàm addEventListener sẽ có 2 tham só, tham số đầu tiên là tên sự kiện (bỏ từ on), tham số thứ 2 là 1 hàm callback - là hàm đc chạy sau khi sự kiện trc nó đã xảy ra xong
+	 		obj_country.addEventListener('change', handleCountry);
+	 	</script>
+
+	 	<a href="http://google.vn" id="a-click">
+	 		CLick thẻ a để tới trang google
+	 	</a>
+	 	<script type="text/javascript">
+	 		var obj_a = document.getElementById('a-click');
+	 		//gắn sự kiện click vào đối tượng vừa lấy đc
+	 		obj_a.addEventListener('click', function(){
+	 			//viết code hàm callback
+	 			//ngăn ngừa sự kiện click  chuyển hướng trang mặc định của thẻ a
+	 			event.preventDefault();
+	 			console.log(this.href);
+	 			// console.log(obj_a.href);
+	 		});
+	 	</script>
+</body>
+</html>
