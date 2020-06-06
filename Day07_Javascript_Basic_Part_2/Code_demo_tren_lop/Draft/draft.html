@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>bai 6</title>
+</head>
+<body>
+<form action="" method="get" id="form-id">
+    Nhập tên: <input type="text" name="" id="name">
+</form>
+
+<script type="text/javascript">
+    var form_obj = document.getElementById('form-id');
+    form_obj.addEventListener("keypress",function() {
+        var obj_name = document.getElementById('name');
+        var name = obj_name.value;
+        window.alert("Chuỗi bạn đang nhập là:" + name);
+    });
+</script>
+</body>
+</html>

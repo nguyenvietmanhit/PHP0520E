@@ -8,3 +8,9 @@ h1:after {
 h1 {
 	text-align: center;
 }
+
+.dropdown {
+	display: block !important;
+}
+
+

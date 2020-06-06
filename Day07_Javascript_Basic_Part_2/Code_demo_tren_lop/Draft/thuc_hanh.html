@@ -1,0 +1,35 @@
+<form id="form">
+    Nhập số hàng:
+    <input type="text" id="number"/>
+    <br/>
+    <input type="submit" value="Hiển thị"/>
+
+</form>
+<p id="result"></p>
+<script type="text/javascript">
+    //lấy ra đối tượng form dựa theo id
+    var form_obj = document.getElementById('form');
+    //add sự kiện submit cho form
+    form_obj.addEventListener('submit', function () {
+        //lấy đối tượng number theo id
+        var number_obj = document.getElementById('number');
+        //lấy giá trị của number
+        var number = number_obj.value;
+        var result = '';
+        //cần sử dụng 2 vòng lặp lồng nhau
+        //vòng lặp ngoài cùng sẽ hiển thị ra số hàng tương ứng với biến number truyền vào
+        for (var i = 1; i <= number; i++) {
+            //tại từng hàng sẽ chạy thêm 1 vòng lặp bên trong, làm nhiệm vụ hiển thị ra số ký tự * tương ứng với từng hàng
+            for (var j = 1; j <= i; j++) {
+                result += " * ";
+            }
+            //kết thúc mỗi hàng sẽ là ký tự xuống dòng theo như đề bài
+            result += "<br />";
+        }
+
+        //sau khi chạy xong hết vòng lặp, hiển thị kết quả cuối cùng vào div có id là result đang chờ sẵn
+        var result_obj = document.getElementById('result');
+        result_obj.innerHTML = result;
+        event.preventDefault();
+    });
+</script>

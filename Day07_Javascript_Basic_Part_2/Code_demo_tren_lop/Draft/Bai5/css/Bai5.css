@@ -1,0 +1,22 @@
+.content {
+    width: 80%;
+    margin: auto;
+}
+h5 {
+    border-bottom: 1px solid #eae4e4;
+    padding: 20px;
+    text-align: center;
+    background: #fffff3;
+}
+.content {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #eae4e4;
+}
+.wrap-form {
+    width: 80%;
+    margin: auto;
+}
+input.btn.btn-primary {
+    margin-top: 20px;
+}

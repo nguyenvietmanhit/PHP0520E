@@ -1,0 +1,103 @@
+<!-- demo_responsive.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Để trang web có thể repsonsive đc, bắt buộc p hải có thẻ meta sau -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="utf-8" />
+	<title>Demo Responsive</title>
+	<!-- Responsive thể hiện cho sự tương thích của website trên các thiết bị như pc, ipad, mobile. Ngoài ra các trang responsive thì sẽ ko xuất hiện thanh cuộn ngang -->
+</head>
+<body>
+	<style>
+		/* Liệt kê các kích thước tương ứng với các thiết bị pc, ipad, mobile:
+		- Với PC, min-width: 1024px;
+		- Với ipad, min-width: 768px và max-width: 1023px;
+		- Với mobile: max-width: 767px;
+		Tuy nhiên thường chỉ cần responsive thêm cho ipad và mobile, còn mặc định là sẽ thiết kế cho pc trước
+		*/
+		@media(min-width: 1024px) {
+			/* code css bên trong sẽ ăn với pc */
+			.h1-res {
+				color: red;
+			}
+		}
+		@media(min-width: 768px) and (max-width: 1023px) {
+			/* code css bên trong sẽ ăn với ipad */
+			.h1-res {
+				color: green;
+			}
+		}
+		@media(max-width: 767px) {
+			/* code css bên trong sẽ ăn với mobile */
+			.h1-res {
+				color:  yellow;
+			}
+		}
+	</style>
+	<style type="text/css">
+		.col1 {
+			background: red;
+		}
+		.col2 {
+			background: blue;
+		}
+		.col3 {
+			background: yellow
+		}
+		.col4 {
+			background: pink;
+		}
+		/* pc */
+		@media(min-width: 1024px) {
+			.row {
+				display: flex;
+			}
+			/* css cho nhiều selector cùng 1 lúc */
+			.col1, .col2, .col3, .col4 {
+				width: 25%;
+			}
+		}
+		/* ipad */
+		/* chia 1 hàng chỉ có 2 cột */
+		/* ->có 2 hàng */
+		@media(min-width: 768px) and (max-width: 1023px) {
+			.row {
+				display: flex;
+				/* do cơ chê mặc định của flex nên các column ko bao giờ bị xuống dòng cho dù có set width của các column bằng bao nhiêu đi chăng nữa */
+				/* thay đổi lại cơ chế này bằng cú pháp sau */
+				flex-wrap: wrap; /* nowrap */
+			}
+			.col1, .col2, .col3, .col4 {
+				width: 50%;
+			}
+		}
+
+		/* mobile */
+		/* hiển thị 1 hàng 1 cột -> 4 hàng */
+		@media(max-width: 767px) {
+			.row {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.col1, .col2, .col3, .col4 {
+				width: 100%;
+			}
+		}
+
+	</style>
+	<div class="row">
+		<div class="col1">Nội dung 1</div>
+		<div class="col2">Nội dung 2</div>
+		<div class="col3">Nội dung 3</div>
+		<div class="col4">Nội dung 4</div>
+	</div>
+
+
+	<h1 class="h1-res">
+		Màu của thẻ h1 sẽ thay đổi theo từng thiết bị pc, ipad, mobile
+	</h1>
+
+
+</body>
+</html>
