@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo JS cơ bản phần 2</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// I - Toán tử
+		// 1 - Toán tử số học: cộng, trừ, nhân, chia, chia lấy dư, tăng giảm tích lũy
+		var number1 = 3;
+		var number2 = 8;
+		var cal1 = number1 + number2; //11
+		var cal2 = number1 - number2; //-5
+		var cal3 = number1 * number2; //24
+		var cal4 = number1 / number2; //0.375
+		var cal5 = number2 % number1; //2
+		number1++; //tăng giá trị lên 1, number1 = number1 + 1
+		console.log(number1); //4
+		number2--; //giảm giá trị đi 1, number2 = number2 -1
+		var number3 = 6;
+		++number3; //7
+		number3++;
+
+		var a = 5;
+		var sum = a++ - 2 + ++a;
+				// 5  - 2 + 7 = 10
+		var x = 5;
+		var sum = x++ * ++x + 2 * --x % 2;
+		//         5  *  7  + 2 *  6 % 2
+		//35
+
+		var x = 5;
+		var sum = 3;
+		var z = sum++ - 2 * x++ + ++x * sum--;
+				//3	  - 2 *  5  +  7 *   4
+		//21
+		// 2 - Toán tử so sánh
+		var number1 = 1;
+		var number2 = 5;
+		var is_greater = number1 > number2; //false
+		var is_greater_or_equal = number1 >= number2; //false
+		var is_less = number1 < number2; //true
+		var is_less_or_equal = number1 <= number2; //true
+		var is_equal = number1 == number2; //false
+		var is_not_equal = number1 != number2; //true
+		// 3 - Toán tử logic
+		// KẾt hợp các biểu thức so sánh với nhau
+		// Có 3 toán tử logic: AND - &&, OR - ||, NOT - !
+		var number1 = 5;
+		var number2 = 1;
+		// AND trả về true khi các biểu thức đều là true, và trả về fasle trong trường hợp còn lại
+		var operator_and = (number1 > 0) && (number2 < 0); //false
+		// OR trả về true khi chỉ cần 1 trong 2 true
+		var operator_true = (number1 > 0) || (number2 < 0);
+		//true
+		// NOT - phủ định của true sẽ là false, và ngược lại
+		var oeprator_not = !(number1 > 0);//false
+
+		// 4 - Toán tử gán
+		//phép gán
+		var name = 'Mạnh';
+		//gán kiểu cộng tích lũy +=
+		var number = 5;
+		number += 2; //7, number = number + 2 
+		//gán kiểu - tích lũy -=
+		number -= 1;//6
+		number *= 2; //12
+		number /= 4; //3
+		number %= 2; //1
+
+		// II - Câu lệnh điều kiện
+		// If, if...else, if...elseif...else, switch...case,
+		// biểu thức so sánh trong câu lệnh điều kiện luôn trả về true/false
+		// If:
+		// chỉ dùng khi có 1 trường hợp duy nhất xảy ra
+		var number = 4;
+		if (number > 0) {
+			//xử lý khi điều kiện trên trả về true
+			console.log("Biến number > 0");
+		}
+		// If...esle: dùng cho 2 trường hợp, nếu đúng thì làm gì, và sai thì làm gì
+		var number = 5;
+		if (number > 0) {
+			console.log('Biến number > 0');
+		} else {
+			console.log("Biến number <= 0");
+		}
+		// If...else...if: dùng cho từ 3 trường hợp trở lên
+		var number = 5;
+		if (number >= 8 && number <= 10) {
+			console.log("HS giỏi");
+		} else if(number >= 6.5) {
+			console.log("HS khá");
+		} else if (number > 5) {
+			console.log('HS Trung bình');
+		} else {
+			console.log('HS kém');
+		}
+
+		// Biểu thức switch case, được dùng thay thế cho if...elseif về mặt dễ đọc code hơn, tuy nhiên pham vi hoạt động của switch case là chỉ áp dụng đc với so sánh bằng
+		var day = 4;
+		// day == 4;//true
+		// day === 4; //false
+		if (day == 2) {
+			console.log('thứ 2');
+		} else if (day == 3) {
+			console.log('thứ 3')
+		} else if (day == 4) {
+			console.log('thứ 4'); //case này
+		} else {
+			console.log('ko phải thứ 2, 3, 4');
+		}
+		//chuyển sang switch..case
+		var day = 2;
+		switch(day) {
+			case 2:
+				console.log('thứ 2');
+				break;
+			case 3:
+				console.log('thứ 3');
+				break;
+			case 4:
+				console.log('thứ 4');
+				break;
+			default:
+				console.log('ko phải thứ 2, 3, 4');
+		}
+		// thứ 2 thứ 3
+
+		// III - Vòng lặp - lặp đi lặp lại 1 hành động gì đó
+		// For, while, do...while
+		//đối với vòng lặp, luôn luôn phải xác định điều kiện để dừng vòng lặp, nếu ko sẽ bị rơi vào vòng lặp vô hạn -> máy tính của bạn sẽ bị treo
+		// For - vòng lặp xác định trc số lần lặp
+		for(var i = 1; i <= 10; i++) {
+			console.log(i);//12345678910
+		}
+		//12345678910
+
+		// while - vòng lặp ko xác định trc số lần lặp
+		//tuy nhiên có thể hoán đổi các vòng lặp for, while, do...while đc
+		var i = 1;
+		while(i <= 10) {
+			console.log(i);
+			i++;
+		}
+		//12345678910
+		// do...while: giống while, tuy nhiên luôn thực thi code ít nhất cho dù điều kiện trong while bị sai ngay từ đầu
+		var j = 5;
+		do {
+			console.log(j);
+			j++;
+		} while(j < 0);
+		//5
+
+		// IV - Từ khóa break - continue trong vòng lặp: thay đổi luồng của vòng lặp, vòng lặp sẽ ko lặp 1 cách tuần tự nữa
+		// Break: khi gặp từ khóa này, sẽ thoát khỏi vòng lặp, ko chạy code bên dưới nó nữa
+		for(var i = 1; i <= 10; i++) {
+			if(i == 5) {
+				break;
+			}
+			console.log(i);
+		}
+		//1234
+	</script>
+</body>
+</html>

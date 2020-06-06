@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo hiển thị form</title>
+</head>
+<body>
+	<form action="" method="post" id="form">
+		Name:
+		<input type="text" id="name" value="" />
+		<br />
+		Email:
+		<input type="email" id="email" value="" />
+		<br />
+		<!-- thẻ select sẽ dựa vào value của các option để biết đc đang select vào option nào -->
+		Country:
+		<select id="country">
+			<option value="none">--Chọn quốc gia--</option>
+			<option value="VN">VN</option>
+			<option value="Japan">Japan</option>
+			<option value="Korea">Korea</option>
+		</select>
+		<br />
+		Gender:
+		<input type="radio" id="gender-male" value="Male" name="gender" checked /> Male
+		<input type="radio" name="gender" id="gender-female" value="Female" /> Female
+		<br />
+		<input type="submit" value="Send info" />
+	</form>
+	<h3 id="error" style="color: red"></h3>
+	<h3 id="result" style="color: green"></h3>
+	<script type="text/javascript">
+		//lấy ra đối tượng form
+		var obj_form = document.getElementById('form');
+		//gắn sự kiện submit cho đối tượng form trên
+		obj_form.addEventListener('submit', function() {
+			//lấy ra các giá trị của input
+			var name = document.getElementById('name').value;
+			var email = document.getElementById('email').value;
+			var country = document.getElementById('country').value;
+			var male = document.getElementById('gender-male').value;
+			var female = document.getElementById('gender-female').value;
+			var error = '';
+			var result = '';
+			//xử lý validate form
+			//bắt buộc phải nhập name, email, country
+			if (name == '') {
+				error = 'Ko đc để trống name';
+				//trỏ con trỏ chuột vào input đang bị lỗi để cho phép user nhập lại  luôn, sử dụng hàm focus()
+				document.getElementById('name').focus();
+			} else if (email == '') {
+				error = 'ko để để trống email';
+				document.getElementById('email').focus();
+			} else if (country == 'none') {
+				error = 'Phải chọn quốc gia';
+				document.getElementById('country').focus();
+			}
+			//xử lý logic hiển thị chỉ khi ko có lỗi xảy ra
+			if (error == '') {
+				result += "Name: " + name + "<br />";
+				result += "Email" + email + "<br />";
+				result += "Country: " + country + "<br />";
+				//hiển thị radio thì sẽ cần dựa vào thuộc tính checked của đối tượng radio tương ứng
+				if (document.getElementById('gender-male').checked) {
+					result += "Gender: " + male;
+				} else if (document.getElementById('gender-female').checked) {
+					result += "Gender: " + female;
+				}
+			}
+			//hiển thị lỗi và kết quả ra 2 thẻ h3
+			document.getElementById('error').innerHTML = error;
+			document.getElementById('result').innerHTML = result;
+			//ngăn ngừa hành vi submit form sẽ tải lại trang
+			event.preventDefault();
+		});
+	</script>
+</body>
+</html>

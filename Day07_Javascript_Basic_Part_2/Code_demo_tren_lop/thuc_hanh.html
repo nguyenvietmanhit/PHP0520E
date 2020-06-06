@@ -1,0 +1,65 @@
+<!-- thuc_hanh.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo cộng 2 số với Javascript</title>
+</head>
+<body>
+	<!-- khi dùng javascript thì sẽ tương tác với html thông qua thuộc tính id của thẻ để cho đơn giản -->
+	<form action="" method="post" id="form">
+		Number1:
+		<input type="text" id="number1" value="" />
+		<br />
+		Number2:
+		<input type="text" id="number2" value="" />
+		<br />
+		<input type="submit" value="Add" />
+	</form>
+	<!-- khai báo nơi chứa thông báo lỗi -->
+	<h3 id="error" style="color: red" ></h3>
+	<!-- khai báo nơi chứa thông báo kết quả -->
+	<h3 id="result" style="color: green"></h3>
+	<script type="text/javascript">
+		//lấy ra đối tượng form muốn gắn sự kiện submit
+		var obj_form = document.getElementById('form');
+		//gắn sự kiện submit vào đối tượng form trên
+		obj_form.addEventListener('submit', function() {
+			//code bên trong hàm callback, hàm callback là hàm chạy sau khi sự kiện trc đó đã xảy ra xong
+			//lấy giá trị của 2 input
+			var number1 = document.getElementById('number1').value;
+			var number2 = document.getElementById('number2').value;
+			// console.log(typeof number1);
+			// console.log(typeof number2);
+			//xử lý validate form, validate dữ liệu nhập từ người dùng
+			// ko đc để trống cả 2 trường, và phải nhập số
+			//khởi tạo biến chứa thông tin lỗi
+			var error = '';
+			//khởi tạo biến chưa thông tin kết quả
+			var result = '';
+			if (number1 == '' || number2 == '') {
+				error = 'Không đc để trống';
+			}
+			//sử dụng hàm isNaN để kiểm tra 1 giá trị có ko phải là số hay ko, nếu ko phải số -> true, là số -> false
+			else if (isNaN(number1) || isNaN(number2)) {
+				error = 'Phải nhập số';
+			}
+
+			//xử lý logic form chỉ khi ko có lỗi nào xảy ra
+			if (error == '') {
+				//xử lý cộng hai số
+				var sum = number1 + number2;
+				result = 'Tổng 2 số = ' + sum;
+			}
+
+			//hiển thị lỗi và kết quả ra 2 thẻ h3 đang chờ
+			var obj_error = document.getElementById('error');
+			obj_error.innerHTML = error;
+			var obj_result = document.getElementById('result')
+			obj_result.innerHTML = result;
+			//xử lý ngăn hành vi submit form sẽ tải lại trang bằng cách sau
+			event.preventDefault();
+		});
+	</script>
+</body>
+</html>
