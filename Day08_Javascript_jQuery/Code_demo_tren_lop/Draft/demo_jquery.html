@@ -1,0 +1,9 @@
+<script type="text/javascript">
+    var regex = /^(?=.*[A-Z]{1})[0-9a-zA-Z]{6,}$/;
+
+    document.write(regex.test("abcdefght")); //false
+    document.write(regex.test("A12345")); //true
+    document.write(regex.test("a12345")); //false/
+    document.write(regex.test("AA12345")); //true
+    document.write(regex.test("B1341156")); //true
+</script>

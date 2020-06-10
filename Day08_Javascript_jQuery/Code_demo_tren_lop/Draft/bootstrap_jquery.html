@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>bài 1</title>
+    <!--<link rel="stylesheet" href="css/01.css">-->
+</head>
+<body>
+<div class="conterner">
+    <div class="head">
+        <div class="header">
+            <h1>Thực hành toán tử số học</h1>
+        </div>
+    </div>
+    <div class="center">
+        <div class="main">
+            <form id="form" action="" method="">
+                <table>
+                    <tr>
+                        <td>Nhập vào số a :</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="number1"> </td>
+                    </tr>
+                    <tr>
+                        <td>Nhập vào số b :</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="number2"> </td>
+                    </tr>
+
+                </table>
+                <div class="right">
+                    <input type="submit" value="a + b" id="one">
+                    <input type="submit" value="a - b" id="two">
+                    <input type="submit" value="a * b" id="three">
+                    <input type="submit" value="a / b" id="four">
+                    <input type="submit" value="a % b" id="five">
+                    <input type="submit" value="a++" id="six">
+                </div>
+                <div class="left">
+                    <input type="submit" name="btnsubmit" value="++a" id="seven">
+                    <input type="submit" name="btnsubmit" value="a--" id="eight">
+                    <input type="submit" name="btnsubmit" value="--a" id="nine">
+                </div>
+                <input type="reset" name="" value="reset">
+
+
+            </form>
+            <h3 id="error" style="color: red"></h3>
+            <h3 id="result" style="color: green"></h3>
+        </div>
+
+    </div>
+
+</div>
+<script type="text/javascript">
+    var form_obj = document.getElementById('form');
+
+    form_obj.addEventListener('submit', function(){
+
+        var number1_obj = document.getElementById('number1');
+        var number1 = number1_obj.value;
+
+        var number2_obj = document.getElementById('number2');
+        var number2 = number2_obj.value;
+
+        var error = '';
+        var result = '';
+
+        if (number1 == '' || number2 == '') {
+            error = 'Không được để trống 1 trong 2 số';
+        }
+
+        else if(isNaN(number1) == true || isNaN(number2) == true) {
+            error = 'Bắt buộc phải nhập số';
+        }else {
+
+            console.log(typeof number1);
+            console.log(typeof number2);
+
+            number1 = parseInt(number1);
+            number2 = parseInt(number2);
+            result =(" a + b =" + (number1 + number2) );
+
+            number1 = parseInt(number1);
+            number2 = parseInt(number2);
+            result =(" a - b =" + (number1 - number2) );
+
+            number1 = parseInt(number1);
+            number2 = parseInt(number2);
+            result =(" a b =" + (number1 + number2) );
+
+            number1 = parseInt(number1);
+            number2 = parseInt(number2);
+            result =(" a / b =" + (number1 / number2) );
+
+            number1 = parseInt(number1);
+            number2 = parseInt(number2);
+            result =(" a++ =" + (number1++) );
+
+            number1 = parseInt(number1);
+            number2 = parseInt(number2);
+            result =(" ++a =" + (++number1) );
+
+            number1 = parseInt(number1);
+            number2 = parseInt(number2);
+            result =(" a-- =" + (number1--) );
+
+            number1 = parseInt(number1);
+            number2 = parseInt(number2);
+            result =(" --a=" + (--number1) );
+
+            number1 = parseInt(number1);
+            number2 = parseInt(number2);
+            result =(" a % b =" + (number1 % number2) );
+
+        }
+
+        var error_obj = document.getElementById('error');
+        error_obj.innerHTML = error;
+
+        var result_obj = document.getElementById('result');
+        result_obj.innerHTML = result;
+
+        console.log(number1);
+        console.log(number2);
+
+        event.preventDefault();
+    });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<h1>
+	Nội dung sẽ được thêm sử dụng jquery ajax
+</h1>
+<html>
+<head>
+	<title>Demo</title>
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+<div id="find">
+	<a href="#" id="link1">Link 1</a>
+	<a href="#" id="link2">Link 2</a>
+	<a href="#" id="link3">Link 3</a>
+	<div>
+		<a href="#" id="link-child">Link child</a>
+	</div>
+</div>
+<a href="" id="next1">ABCDEF</a>
+<a href="" id="next2">ABCDEF</a>
+<div id="div-next">Div next</div>
+<script>
+    $(document).ready(function () {
+        console.log($('#find').nextAll());
+        console.log($('#find').prev('a'));
+    });
+</script>
+</body>
+
+</html>
