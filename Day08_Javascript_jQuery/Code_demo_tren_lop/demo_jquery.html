@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo jQuery</title>
+	<!-- Tích hợp jQuery vào hệ thống -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		// 1 - Khái niệm
+		 // jQuery - javascript Query - là 1 thư viên
+		// đc xây dựng sẵn, giúp cho việc thao tác với Javascript đc dễ dàng hơn, có thể so sánh jquery giống như thư viên Bootstrap của CSS
+		// Hầu hết các trang web PHP đều tích hợp jQuery
+		// 2  - Cài đặt 
+		// - Nhúng link online
+		// - Tải về, nhúng file jquery-<version>.min.js
+		// 3 - Code Jquery nhìn sẽ thế nào
+		// jQuery luôn bắt đầu với ký tự $ , hoặc jQuery(ít gặp)
+		//luôn viết code JS của bản trong cú pháp $(document).ready để đảm bảo code js của bạn đặt ở vị trí nào cũng ko báo lỗi
+		//javascript có 1 hàm tương tự, đó là sự kiện onload
+		$(document).ready(function() {
+			console.log('Hello jQuery');
+		});
+
+		// 4 - DOM - Document Object Model - nó chính là cây thư mục HTML của bạn, chia theo phả hệ
+		// vd: to nhất là html -> head, body -> h1...
+
+		// II - Các module chính của jQuery
+		// 1 - Module jQuery Selector
+		// Đây là module quan trọng nhất, cho phép lấy ra đối tượng (selector) sẽ bị tác động
+		// - jQuery sử dụng cú pháp để xác định selector giống hệt như khi các bạn dùng CSS
+		// + Selector theo tên thẻ
+		//+ Selector theo id, class
+		// + thuộc tính thẻ
+		// + trạng thái thẻ: first-child, last-child... 
+		// + theo cấp
+		//dùng javascript để lấy đối tượng theo id
+		//trong javascript thuần có sự kiện onload để đảm bảo đặt code js trc hoặc sau HTML đều ko lỗi
+		// window.onload = function() {
+		// 	var obj_h1 = document.getElementById('h1-click');
+		// 	obj_h1.addEventListener('click', function() {
+		// 		alert('hello');
+		// 	});
+		// }
+
+		//dụng jquery để thao tác
+		$(document).ready(function(){
+			//cú pháp lấy ra selector theo id trong jquery
+			$('#h1-click').click(function() {
+				alert('hello');
+			})
+			//lấy selector theo class
+			//đổi màu cho text của thẻ h3 đang có class=h3-class
+			$('.h3-class').css('color', 'red');
+			//theo tên thẻ, đổi màu nền cho thẻ h1
+			$('h1').css('background', 'yellow');
+			//đổi màu nền đồng thời cho thẻ h1, h3
+			$('h1, h3').css('background', 'yellow');
+			//ngoài ra có thể lấy selector theo cấp, theo thuộc tính, theo trạng thái, giống hệt với CSS
+			//Jquery cung cấp 1 số hàm để lấy selector 1 cách linh hoạt
+			// hàm find(): tìm 1 selector là con/cháu trong thành phần cha
+			$('#parent').find('a').css('color', 'green');
+			//hàm parent(): lấy ra đối tượng cha gần nhất của selector hiện tại
+			$('#a-child').parent().css('background', 'red');
+			//hàm parents(): lấy ra tất cả đối tượng là cha/ông/cụ ... của selector hiện tại
+			var parents = $('#a-child').parents();
+
+			//hàm children: lấy ra tất cả các con(ko phải cháu/chắt) của selector hiện tại
+			var childrens = $('#parent1').children();
+			//trả về 3 thẻ p,
+			//Hàm next, trả về đối tượng ngay phía sau, và ngang hàng với selector hiện tại
+			var next = $('#parent1').next();
+			//trả về <a href="#">Thẻ a bên ngoài</a>
+			//Hàm prev, trả về đối tượng ngay phía trước, và ngang hàng với selector hiện tại
+			var prev = $('#parent1').prev();
+			//trả về <b>Thẻ b</b>
+			// Tất cả các hàm trên đều có thể truyền vào 1 tham số là selector cụ thể muốn tim
+			//ví dụ thêm về selector theo thuộc tính thẻ
+			$('input[type=number]').css('background', 'red');
+
+			// 2 - Module jQuery Attribute
+			// Cung cấp các hàm để thao tác với các thuộc tính của DOM
+			// Thuộc tính của DOM có thể là: id, class, title, src, href, type, name ....
+			// Hàm attr('tên-thuộc-tính') - lấy giá trị của thuộc tính
+			var type = $('input[type=text]').attr('type');
+			console.log(type);//text
+			//hàm attr('tên-thuộc-tính', 'giá-trị'): set giá trị mới cho thuộc tính
+			//set thuộc tính value cho input, với giá trị = 123
+			$('input[type=text]').attr('value', 123);
+			//removeAttr('tên-thuộc-tinh'): xóa thuộc tính
+			$('#a-remove').removeAttr('title');
+			//hasClass('tên-class'): kiểm tra xem selector có class tên-class hay ko
+			var has_class =
+			$('#p-id').hasClass('class123'); //false
+			//Hàm css('thuộc-tính-css', 'giá-trị'): set css cho selector
+			$('#p-id').css('font-size', '30px');
+			//Hàm removeClass('tên-class'): xóa class = tên-class
+			$('#p-id').removeClass('class3');
+			//Hàm html(): get/set giá trị của selector hiện tại theo kiểu html
+			//get:
+			var h2_html = $('#h2-html').html();//
+			//set
+			$('#h2-html').html('<i>Nội dung in nghiêng</i>');
+			//hàm text() thì tương tự, get/set giá trị theo kiểu text
+			//với các input, select, textarea có 1 hàm riêng để get/set giá trị cho input, val()
+			//get giá trị
+			var value = $('input[type=password]').val(); 
+			//123
+			//set giá trị
+			$('input[type=password]').val('abcdef');
+			// 3 - Module jQuery DOM
+			// THao tác với cây DOM như thêm, xóa phần tử
+			//Hàm remove(); xóa đối tượng chứa selector hiện tại
+			// $('#h2-remove').remove();
+			//Hàm after: thêm phần tử HTML vào sau selector hiện tại, ngang hàng với selector đó, giống hệt css :after
+			$('#h2-remove').after('<b>Thẻ b thêm vào sau</b>');
+			//Hàm before: thêm phần tử HTML vào trước selector hiện tại, ngang hàng với selector đó, giống hệt css :before
+			$('#h2-remove').before('<b>Thẻ b thêm vào trước</b>');
+			//Hàm append: thêm phần tử HTML vào cuối nội dung bên trong của selector hiện tại
+			$('#h2-remove').append('<u>Nội dung đc thêm vào cuối nội dung hiện tại</u>');
+			//Hàm prepend: thêm phần tử HTML vào đầu nội dung có sẵn bên trong của selector hiện tại
+			$('#h2-remove').prepend('<u>Nội dung đc thêm vào đầu nội dung hiện tại</u>');
+
+			// 4 - MOdule jQuery Event
+			//viết lại các sự kiện của javascript
+			//tên sự kiện trong javascript -> tên hàm
+			$('#h2-remove').click(function() {
+				console.log('clicked');
+				event.preventDefault();
+			});
+
+			// 5  - Module jQuery Effect
+			// Cung cấp 1 số hiệu ứng
+			// - Hàm show('thời-gian'): hiển thị 1 selector theo thời gian đã set, tính bằng ms
+			$('#a-show').click(function(){
+				// $('#show-hide').show(3000);//hiển thị trong 3s
+				//show theo cơ chế fade
+				$('#show-hide').fadeIn(3000);
+			});
+			// - Hàm hide('thời-gian'): ẩn selector theo thời gian đã set, tính bằng ms
+			$('#a-hide').click(function() {
+				// $('#show-hide').hide(5000); //ẩn trong 5s
+				//ẩn theo cơ chế fade
+				$('#show-hide').fadeOut(3000);
+			})
+
+			// Hàm toggle - chuyển đổi hiệu ứng ẩn/hiện tự động dựa vào trạng thái hiện tại
+			$('#toggle').click(function(){
+				// $('#show-hide').toggle(3000); //
+				//ẩn/hiện theo hiệu ứng slideshow
+				$('#show-hide').toggle('slide');
+			});
+
+			//Hàm animate: tạo ra các hiệu ứng phức tạp, nhớ rất khó, tham khảo google
+			var obj = {
+				width: '70%',
+				opacity: 0.5,
+				marginLeft: '100px',
+				fontSize:  '40px',
+				border: '4px solid red'
+			};
+			$('#click-animate').click(function() {
+				$('#show-hide').animate(obj);
+			});
+		});
+	</script>
+	<a href="#" id="click-animate">Click để chuyển động thẻ h1</a>
+	<a id="a-show">Click thẻ a để hiện h1</a>
+	<a id="a-hide">Click thẻ a để ẩn h1</a>
+	<a href="#" id="toggle">
+		Click để ẩn/hiện thẻ h1 tự động
+	</a>
+	<h1 id="show-hide">Thẻ h1 test hiệu ứng ẩn/hiện</h1>
+
+
+	<h2 id="h2-remove">Thẻ h2 này sẽ bị xóa bởi jquery</h2>
+	<input type="password" value="123" />
+	<h2 id="h2-html">Thẻ h2 với jquery html()</h2>
+	<p id="p-id" class="class1 class2 class3">
+		Thẻ p có 3 class
+	</p>
+	<a href="#" id="a-remove" title="Title">Thẻ a xóa thuộc tính title bằng jquery</a>
+	<input type="text" />
+	<input type="number" />
+	<b>Thẻ b</b>
+	<div id="parent1">
+		<p>Thẻ p thứ nhất</p>
+		<p>Thẻ p thứ 2</p>
+		<p>
+			<a href="#" id="a-child">Thẻ a con</a>
+		</p>
+	</div>
+	<a href="#">Thẻ a bên ngoài</a>
+	<div id="parent">
+		<a href="#">Thẻ a thứ nhất</a>
+		<a href="#">Thẻ a thứ 2</a>
+	</div>
+	<h3 class="h3-class">Thẻ h3</h3>
+	<h1 id="h1-click">CLick thẻ h1 để show alert bằng jQuery</h1>
+</body>
+</html>

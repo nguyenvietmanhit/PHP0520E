@@ -156,12 +156,21 @@
 		// IV - Từ khóa break - continue trong vòng lặp: thay đổi luồng của vòng lặp, vòng lặp sẽ ko lặp 1 cách tuần tự nữa
 		// Break: khi gặp từ khóa này, sẽ thoát khỏi vòng lặp, ko chạy code bên dưới nó nữa
 		for(var i = 1; i <= 10; i++) {
-			if(i == 5) {
+			console.log(i);
+			if (i == 4) {
 				break;
 			}
-			console.log(i);
 		}
 		//1234
+
+		//continue - bỏ qua lần lặp hiện tại, đi tới vòng lặp kế tiếp
+		for(var i = 1; i <= 10; i++) {
+			console.log(i);
+			if (i >= 3) {
+				continue;
+			}
+		}
+		//12345678910
 	</script>
 </body>
 </html>

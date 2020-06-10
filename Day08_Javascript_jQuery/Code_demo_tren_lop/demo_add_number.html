@@ -1,0 +1,54 @@
+<!-- demo_add_number.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Cộng 2 số sử dụng jQuery</title>
+	<!-- Nhúng jQuery -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<form id="form" action="" method="post">
+		Number 1: <input type="text" id="number1" />
+		<br />
+		Number 2: <input type="text" id="number2" />
+		<br />
+		<input type="submit" value="Add" />
+	</form>
+	<h3 id="error" style="color: red"></h3>
+	<h3 id="result" style="color: green"></h3>
+
+	<script type="text/javascript">
+		//code sử dụng jquery
+		$(document).ready(function() {
+			//lấy ra đối tượng form để gắn sự kiện submit
+			$('#form').submit(function() {
+				//lấy ra đối tượng và giá trị của 2 input tương ứng
+				var number1 = $('#number1').val();
+				var number2 = $('#number2').val();
+				var error = '';
+				var result = '';
+				//validate form, nếu để trống hoặc nhập ko phải số thì báo lỗi
+				if (number1 == '' || number2 == '') {
+					error = 'Ko đc để trống';
+				} else if (isNaN(number1) || isNaN(number2)) {
+					error = 'Phải nhập số';
+				}
+				//xử lý cộng 2 số chỉ khi nào ko có lỗi, tương đương với biến error đang rỗng
+				if (error == '') {
+					//ép kiểu về number
+					number1 = parseInt(number1);
+					number2 = parseInt(number2);
+					var sum = number1 + number2;
+					result += 'Tổng 2 số: ' + sum;
+				}
+				//hiển thị các biến error và result ra các thẻ h3 đang chờ
+				$('#error').html(error);
+				$('#result').html(result);
+				//ngăn ngừa hành vi submit form
+				event.preventDefault();
+			});
+		});
+	</script>
+</body>
+</html>

@@ -47,7 +47,14 @@
 
 			//xử lý logic form chỉ khi ko có lỗi nào xảy ra
 			if (error == '') {
+				//do trong javascript sử dụng toán tử + cho cả trường hợp nối chuỗi
+				//mà giá trị của các input lấy đc từ form mặc định đang có kiểu dữ liệu là string
+				//dẫn đến việc cộng 2 số -> nối chuỗi
 				//xử lý cộng hai số
+				//phải ép kiểu về kiểu số thì mới cộng
+				// đc như bình thường
+				number1 = parseInt(number1);
+				number2 = parseInt(number2);
 				var sum = number1 + number2;
 				result = 'Tổng 2 số = ' + sum;
 			}
