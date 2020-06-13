@@ -1,0 +1,145 @@
+<!-- demo_regular_expression.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Demo Regular Expression</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// 1 - Khái niêm: biểu thức chính quy hiểu như là 1 mẫu, vd như kiểm tra email, mật khẩu có độ phức tạp có khớp với mẫu mà bạn đưa ra hay ko
+		// Regex rất khó học, nên chỉ cần học ở khái niệm cơ bản, còn các regex phức tạp thì sẽ tham khảo trên google
+		//ví du: kiểm tra xem 1 chuỗi có kết thúc bằng từ .com hay ko
+		var regex = /\.com$/; //abc.com, googl.com
+		//.com123 -> ko hợp lệ
+		var is_check = regex.test('abc.com1');
+		console.log(is_check);
+
+		// 2 - Khởi tạo regex
+		// Có 2 cách khởi tạo regex 
+		// C1: sử dụng cặp ký tự /<nội-dung-regex>/
+		var regex = /\.com/;//cách hay dùng
+		//C2: tạo 1 đối tượng từ class RegExp('<nội-dung-regex>');
+		var pattern = /\.com/;;
+		var regex = new RegExp(pattern);
+
+		// 3 - Hàm để test biểu thức regex, sử dụng hàm test('<chuỗi-test>'), trả về true/false
+		// - Hàm trả về giá trị phù hợp với biểu thức regex. sử dụng hàm exec('<chuỗi-test>')
+		// 4 - Các điều kiện hay sử dụng
+		// + PHải xuất hiện ở đầu chuỗi: ^
+		// vd: kiểm tra 1 chuỗi mà bắt đầu chuỗi phải là text: nvmanh
+		var regex = /^nvmanh/;
+		var check = regex.test('nvmanh is me');
+		//true
+		//nvmanh -> true
+		// manhnv -> fals
+		// + Phải xuất hiện ở cuối chuỗi: $
+		// vd: kiểm tra 1 chuỗi xem kết thúc có phải là nvmanh ?
+		var regex = /nvmanh$/;
+		//nvmanh is nvmanh -> true
+		//nvmanh -> true
+		//nvmanhi -> false
+
+		// + So sánh tuyệt đối, kết hợp cả 2 ký tự ^ và $, tương đương với toán tử == 
+		// vd: kiểm tra xem 1 chuỗi có đúng bằng itplus hay ko
+		var regex = /^itplus$/;
+		//itplus.vn -> fasel
+		//inplus -> true
+		// + PHải bắt đầu và kết thúc bằng chuỗi nào đó, nội dung ở giữa thì tùy ý: .*
+		// vd: kiểm tra chuỗi bắt đầu phải là nvmanh, kết thúc phải là me, ở giữa thì tùy ý
+		var regex = /^nvmanh.*me$/;
+		// me is nvmanh -> false
+		//nvmanh is me -> true
+		//nvmanhme -> true
+		// console.log(regex.test('nvmanhme'));
+		// + Ký tự phải nằm trong khoảng nào đó: [<ký-tự-bắt-đầu>-<ký-tự-kết-thúc>]
+		// [0-9]: các ký tự số từ 0 -> 9
+		// [0-4]: các ký tự số từ 0 -> 4
+		// [a-z]: các ký tự chữ từ a->z
+		// [b-e]: các ký tự chứ từ b -> e, b c d e
+		// [0-9a-zA-Z_-]: các ký tự cho phép có thể là  từ 0 -9, từ a-z, từ A-Z, _,-
+		// VD: Kiểm tra xem chuỗi có chứa ký tự số nào hay ko
+		var regex = /[0-9]/;
+		//var regex = /\d/;
+		//pham vi là số có 1 cú pháp viết tắt là \d
+		// abcxyz -> false
+		//abc1xyz -> true
+		//123456 -> true
+		//vd:kiểm tra xem chuỗi có chứa ký tự chữ hay ko
+		var regex = /[a-zA-Z]/;
+		// 123456a -> true
+		//123456 -> false
+		//kiểm tra xem chuỗi có chữ hoặc số hay ko
+		var regex = /[0-9a-zA-Z]/;
+		//var regex = /\w/;
+		//cú pháp viết tắt: \w - word
+		//12345 abc -> true
+		//    -> false
+
+		// + Đảo ngược kết quả của miền phạm vi: ^
+		// vd: kiểm tra 1 chuỗi có chứa ký tự ko phải số 
+		var regex = /[^0-9]/;
+		//nvmanh is me ->  true
+		//nvmanh123 -> true
+		//123456 => false
+		console.log(regex.test('123456'));
+		// [^a-zA-Z]: chứa ký tự ko phải chữ
+		// + Điều kiện hoặc: |
+		// vd: kiểm tra xem 1 chuỗi có chứa text là nvmanh hoặc me ko
+		var regex = /nvmanh|me/;
+		// nvmanh123 is me -> true
+		//nvmanhme -> true
+		//nvman h -> false
+		// + Ký tự phải xuất hiện bao nhiêu lần: {<độ-dài-tối-thiểu>,<độ-dài-tối-đa>}
+		//vd: kiểm tra xem chuỗi sau có độ dài từ 3 - 5 ký tự hay ko
+		var regex = /[0-9a-zA-Z -_]{3,5}/;
+		//abc123 -> false
+		//abc -> true
+		//xuất hiện từ 3 lần trở lên
+		var regex = /[0-9a-zA-Z -_]{3,}/;
+		// + Điều kiện ko bắt buộc: ?
+		// cho phép 1 ký tự bất kỳ có thể xuất hiện hay ko cũng đc
+		var regex = /[0-9a-zA-Z -_]?/;
+		//hầu hết trả về true
+		// + Hiển thị ký tự đặc biệt: \
+		// Trong regex có các ký tự đặc biệt sau:
+		// {}[]/\+.$^ \\ -> hiển thi dấu \
+		// \$ -> hiển thị ký tự $
+		// + Nhóm điều kiện: ()
+		// vd: kiểm tra xem 1 chuỗi có thỏa mãn điều kiện sau hay ko: phải gồm đúng 2 ký tự số, và cặp 2 ký tự đó phải xuất hiện ít nhất 1 lần
+		var regex = /^([0-9]{2}){1,}$/;
+		//12 -> true
+		//1234 -> true
+		//123 -> false
+
+		// 4 - Biểu thức regex nâng cao 
+		// + Lookahead: kiểm tra xem phía sau 1 chuỗi có tuân theo quy tắc regex của bạn ko: (?=)
+		//vd: kiểm tra 1 chuỗi xem đi ngay sau text = nvmanh có phải là text = 123 hay ko
+		var regex = /nvmanh(?=123)/;
+		var check = regex.test('nvmanh123 abcdef');
+		console.log(check);//false
+
+		// + Lookbehind: kiểm tra 1 chuỗi ngay phía trc có thỏa mãn biểu thức regex hay ko: (?<=)
+		// vd: kiểm tra xem ngay phía trước text = nvmanh có phải là text = 123 hay ko
+		var regex = /(?<=123)nvmanh/;
+		// nvmanh123 -> false
+		//123nvmanh 1212121 -> true
+
+		// Bài tập
+		//bt1
+		var regex = /nvmanh/;
+		//bt2: kiểm tra 1 chuỗi xem có chứa ít nhất 1 chữ m hay ko
+		var regex = /m{1,}/;
+		//bt3: kiểm tra 1 chuỗi có chứa ký tự số hay ko
+		var regex = /[0-9]/;
+		// bt4: kiểm tra 1 mật khẩu có đáp ứng đc đk sau hay ko: phải có đúng 6 ký tự chỉ bao gồm chữ vào số, phải chứa ít nhất 1 ký tự hoa
+		var regex = /(?=[A-Z]{1,})[0-9a-zA-Z]{6}/;
+		console.log(regex.test('123456')); //false
+		// bt5: kiểm tra định dạng email
+		var regex = /^[0-9a-zA-Z_\.]{1,}@([0-9a-zA-z]{1,}\.{1,}[0-9a-zA-Z]{1,}){1,}$/;
+		console.log(regex.test('nvmanh@gmail.com.'));//false
+
+
+	</script>
+</body>
+</html>

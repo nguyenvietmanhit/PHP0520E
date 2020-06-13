@@ -1,0 +1,70 @@
+<!-- demo_jquery_validate.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo jQuery validate</title>
+	<!-- jQuery Validate là 1 thư viện miễn phí, đc viết dựa jquery, thường  dùng để xử lý validate form theo kiểu realtime - validate form mà chưa cần user submit form -->
+	<!-- Donwload thư viên của nó về, có 1 đúng 1 file: jquery.validate.min.js, vẫn phải nhúng file jquery trước -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+</head>
+<body>
+	<!-- jquery validate sẽ validate dựa vào thuộc tính name của input -->
+	<form id="form" action="" method="post">
+		Tên:
+		<input type="text" name="name" id="name" />
+		<br />
+		Tuổi:
+		<input type="text" name="age" id="age" />
+		<br />
+		<input type="submit" value="Show" />
+	</form>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			//khai báo obj validate
+			var obj_validate = {
+				//khai báo 1 đối tượng rules, chứa các rule validate dựa theo name của input
+				rules: {
+					//khai báo thuộc tính name của input
+					name: {
+						//rule ko đc để trống = required
+						required: true
+					},
+					age: {
+						required: true, //ko đc để trống
+						number: true, //phải là số
+						min: 10, //giá trị nhỏ nhất = 10
+						max: 130  // giá trị lớn nhất = 130
+					}
+				},
+				//khai báo 1 đối tượng messages, để format lại hiển thị message lỗi
+				messages: {
+					name: {
+						required: 'Ko đc để trống name'
+					},
+					age: {
+						required: 'Ko để để trống tuổi',
+						number: 'Phải nhập số',
+						min: 'Nhỏ nhất phải = 10',
+						max: 'Lớn nhất chỉ = 130'
+					}
+				},
+				//khai báo 1 phương thức = errorPlacement để quy định vị trí hiển thị lỗi
+				//tham số error: là đối tượng lỗi
+				//tham số element: đối tương input chứa lỗi đó
+				errorPlacement: function(error, element) {
+					//hiển thị error phía sau element
+					error.insertAfter(element);
+					//hiển thị error phía trước element
+					// error.insertBefore(element);
+					//bao error bởi 1 thẻ p, và style màu đỏ cho thẻ p này
+					error.wrap('<p style="color: red"></p>');
+				}
+			};
+			//sử dụng jquery validate để validate form trên
+			//bằng cách gọi hàm validate trên đối tượng form
+			$('#form').validate(obj_validate);
+		});
+	</script>
+</body>
+</html>

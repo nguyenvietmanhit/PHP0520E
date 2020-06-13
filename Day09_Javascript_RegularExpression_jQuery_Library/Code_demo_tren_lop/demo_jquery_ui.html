@@ -1,0 +1,41 @@
+<!-- demo_jquery_ui.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo jQuery UI</title>
+	<!-- 
+	jQuery UI là 1 thư viện miễn phí đc xây dựng dựa trên jQuery, cung cấp các component về giao diện cũng như bổ sung thêm các hiệu ứng so với jQuery
+	 -->
+	 <!-- Cần nhúng 3 file sau để tích hợp jquery UI
+	 jquery-ui.min.css 
+	 jquery-3.4.1.min.js
+	 jquery-ui.min.js -->
+	 <link rel="stylesheet" href="css/jquery-ui.min.css" />
+	 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+	DATE PICKER
+	<!-- Copy đoạn js và đoạn HTML -->
+<script>
+	//$(function() {}) tương đương document.ready
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+  <p>Date: <input type="text" id="datepicker"></p>
+
+  DRAGGABLE
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+  <div id="draggable" class="ui-widget-content">
+  <p>Drag me around</p>
+</div>
+</body>
+</html>
