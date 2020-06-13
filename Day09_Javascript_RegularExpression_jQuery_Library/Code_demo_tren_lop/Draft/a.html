@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Demo css</title>
+    <style type="text/css">
+        span {
+            color: red;
+        }
+        /*SELECTOR*/
+        /*1 - selector theo thuộc tính id và class của thẻ HTML*/
+        /*p {
+           color: red;
+        }*/
+        #p-paragraph {
+            color: red;
+        }
+        .a-link {
+            color: yellow;
+        }
+
+        /*2 - CSs theo cấp cha con*/
+        #personal a {
+            color: #000;
+        }
+
+        .abc p {
+
+        }
+
+        /*3 - Selector theo thuộc tính của thẻ*/
+        input[type="text"], input[type="password"] {
+            background: #000;
+        }
+        /*4 - Selector theo trạng thái selector*/
+        #a-hover:hover {
+            color: red;
+        }
+        #div-child p:first-child{
+            background: green;
+        }
+
+        #div-child p:last-child {
+            background: yellow;
+        }
+
+        #div-child p:nth-child(2) {
+            background: blue;
+        }
+    </style>
+    <style type="text/css">
+
+    </style>
+    <!-- 3 - Nhúng từ file .css bên ngoài -->
+    <!--<link rel="stylesheet" href="demo.css" />-->
+</head>
+<body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+<div style="color: red" id="error">
+
+</div>
+<form id="form" action="" method="">
+    Username: <input type="text" name="username" /> <br />
+    Age: <input type="number" name="age" /> <br />
+    Gender: <input type="radio" name="gender" value="1" /> Name
+    <input type="radio" name="gender" value="0" /> Nữ
+    <input type="radio" name="gender" value="2" /> Khác <br />
+    Job
+    <input type="checkbox" name="jobs[]" value="0" /> Job 0
+    <input type="checkbox" name="jobs[]" value="1" /> Job 1
+    <input type="checkbox" name="jobs[]" value="2" /> Job 2
+    <br />
+    <input type="submit" name="Submit">
+</form>
+<script type="text/javascript">
+    $(document).ready(function () {
+        jQuery.validator.addMethod('usernameCheck', function (value, element) {
+            console.log("value = " + value)
+            if (value == 'nvmanh') return false;
+            return true;
+        }, 'Username khong hopwj le');
+        //sự kiện này xảy ra ngay khi nhấn ký tự tại từng input
+        var object = {
+            errorPlacement: function(error, element) {
+                error.insertAfter(element);
+                error.wrap("<span class='l-error-text'>");
+
+            },
+            rules: {
+                username: {
+                    required: true,
+                    usernameCheck: true
+                },
+                age: {
+                    required: true
+                },
+                gender: {
+                    required: true
+                },
+                'jobs[]': {
+                    required: true
+                },
+            },
+            messages: {
+                username: {
+                    required: "vui long nhập tên"
+                },
+                age: 'Vui lòng nhập tuổi',
+                usernameCheck: "abn"
+            }
+        }
+        $('#form').validate(object);
+    });
+</script>
+</body>
+
+
+</html>

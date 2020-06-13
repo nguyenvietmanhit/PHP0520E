@@ -1,0 +1,52 @@
+#logo,#sneaker,#deal{
+	color: white;
+}
+.header-top{
+	background: #020202;
+}
+#signin,#deal{
+	text-decoration: none;
+	color: white;
+}
+.row-header-top{
+	display: flex;
+	align-items: center;
+
+}
+.col-md-6{
+	text-align: center;
+}
+#col-md-3{
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+}
+.search {
+    margin: 0 15px 0 0;
+}
+.header-bot {
+    background: #DCDCDC;
+}
+ul.navbar-list {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+li.navbar-item {
+    margin: 0 20px;
+}
+a#home-page {
+    color: black;
+    text-decoration: none;
+}
+.navbar-item:hover .dropdown-menu{
+	display: block;
+}
+.dropdown-menu {
+    margin: 0px 375px;
+}
+
+#dropdown-item{
+	margin: 0px 460px;
+
+}
