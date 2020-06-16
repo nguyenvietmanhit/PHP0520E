@@ -1,0 +1,17 @@
+/* css/style.css */
+ul {
+	list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li a {
+	text-decoration: none;
+}
+
+.active a {
+	color:  red;
+}
