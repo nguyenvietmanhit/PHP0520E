@@ -1,0 +1,47 @@
+ul {
+    list-style: none;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+    max-width: 60%;
+    margin: auto;
+    border: 1px solid #000;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+}
+
+.active {
+    color: red;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.news-avatar {
+    width: 30%;
+    margin-right: 25px;
+}
+
+.news-content {
+	width: 70%;
+}
+
+.news-img {
+    max-width: 100%;
+}
+
+.news-title {
+    margin: 0;
+}

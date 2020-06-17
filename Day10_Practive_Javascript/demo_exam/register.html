@@ -1,0 +1,185 @@
+<!-- 
+demo_exam/
+		 /home.html
+		 /category.html
+		 /login.html
+		 /register.html
+		 /css
+		 	/style.css
+		 /images/
+		 		avatar.JPEG
+ -->
+ <!-- home.html -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8" />
+ 	<title>Trang register</title>
+ 	<link href="css/style.css" rel="stylesheet" />
+ </head>
+ <body>
+ 	<div class="container">
+ 		<div class="header">
+ 			<ul>
+ 				<li>
+ 					<a href="home.html">Trang chủ
+ 					</a>
+ 				</li>
+ 				<li>
+ 					<a href="category.html">
+ 						Danh mục
+ 					</a>
+ 				</li>
+ 				<li>
+ 					<a href="login.html">
+ 						Login
+ 					</a>
+ 				</li>
+ 				<li>
+ 					<a class="active" href="register.html">
+ 						Register
+ 					</a>
+ 				</li>
+ 			</ul>
+ 		</div>
+ 		<div class="main">
+ 			<h1>Form đăng ký tài khoản</h1>
+ 			<!-- Với Javascript thì sẽ khai báo id cho thẻ muốn xử lý -->
+ 			<form action="" method="post" id="form">
+ 				Họ tên *:
+ 				<input type="text" id="fullname" />
+ 				<br />
+ 				Tuổi *:
+ 				<input type="text" id="age" />
+ 				<br />
+ 				Email *:
+ 				<input type="text" id="email" />
+ 				<br />
+ 				Giới tính *:
+ 				<input type="radio" name="gender" id="male" value="male"> Nam
+ 				<input type="radio" name="gender" id="female" value="female"> Nữ
+ 				<br />
+ 				Nghề nghiệp *:
+ 				<input type="checkbox" id="dev" value="dev" /> Dev
+ 				<input type="checkbox" id="tester" value="tester" /> Tester
+ 				<br />
+ 				Chọn khóa học *:
+ 				<select id="course">
+ 					<option value="none">
+ 						--Vui lòng chọn--
+ 					</option>
+ 					<option value="php">PHP</option>
+ 					<option value="java">Java</option>
+ 				</select>
+ 				<br />
+ 				Mật khẩu *:
+ 				<input type="password" id="password" />
+ 				<br />
+ 				Nhập lại mật khẩu *:
+ 				<input type="password" id="confirm-password"/>
+ 				<br />
+ 				Ghi chú thêm:
+ 				<textarea rows="10" id="note"></textarea>
+ 				<br />
+ 				<input type="submit" value="Gửi thông tin" />
+ 				<input type="reset" value="Xóa thông tin" />
+ 			</form>
+ 		<!-- vùng hiển thị lỗi validate form -->
+ 			<h3 id="error" style="color: red"></h3>
+ 			<script type="text/javascript">
+ 				//xử lý bắt lỗi validate khi submit form
+ 				var obj_form = document.getElementById('form');
+ 				obj_form.addEventListener('submit', function(){
+ 					//có 1 bước là nếu như input nhập lỗi thì sẽ trỏ con trỏ chuột vào đúng input đó, để tiện cho user
+ 					//lấy đối tượng và giá trị của fullname
+ 					var obj_fullname = document.getElementById('fullname');
+ 					var fullname = obj_fullname.value;
+ 					//lấy obj và value của age
+ 					var obj_age = document.getElementById('age');
+ 					var age = obj_age.value;
+ 					//lấy obj và value của email
+ 					var obj_email = document.getElementById('email');
+ 					var email = obj_email.value;
+ 					//lấy obj và value của gender
+ 					//với radio, thì cần kiểm tra nếu radio đó được tích thì mới lấy đc giá trị, sử dụng thuộc tính checked để kiểm tra
+ 					var count_not_checked = 0;
+ 					var obj_male = document.getElementById('male');
+ 					//nếu như input radio male ko đc check, thì tăng biến count lên 1
+ 					if (!obj_male.checked) {
+ 						count_not_checked++;
+ 					}
+ 					var obj_female = document.getElementById('female');
+ 					if (!obj_female.checked) {
+ 						count_not_checked++;
+ 					}
+ 					//nếu như biến count = 2 thì chắc chắn ko có radio nào đc chọn
+ 					//xử lý nghề nghiệp, xử lý checkbox thì sẽ giống với radio
+ 					var count_job_not_checked = 0;
+ 					if (document.getElementById('dev').checked == false) {
+ 						count_job_not_checked++;
+ 					}
+ 					if (document.getElementById('tester').checked == false) {
+ 						count_job_not_checked++;
+ 					}
+ 					//lấy obj và value của Chọn khóa học
+ 					var obj_course = document.getElementById('course');
+ 					var course = obj_course.value;
+ 					//lấy obj và value của mật khẩu
+ 					var obj_password = document.getElementById('password');
+ 					var password = obj_password.value;
+ 					//lấy obj và value của Confirm password
+ 					var obj_confirm_password = document.getElementById('confirm-password');
+ 					var confirm_password = obj_confirm_password.value;
+ 					//xử lý validate
+ 					var error = '';
+
+ 					//khai báo chuỗi regex đơn giản kiểm tra
+ 					//định dạng email: trc ký tự @ thì có ít nhất 1 ký tự trở lên, sau ký tự @ thì phải chứa dấu . và có ít nhất 1 ký tự chữ trở lên
+ 					var regex_email = /^[0-9a-zA-Z-_]{1,}@([0-9a-zA-Z]{1,}\.[0-9a-zA-Z]{1,}){1,}$/;
+
+ 					if (fullname == '') {
+ 						error = 'Name ko đc để trống';
+ 						//gọi hàm focus trên đối tượng input lỗi để trỏ con trỏ chuột vào luôn input đó
+ 						obj_fullname.focus();
+ 					} else if (age == '' || isNaN(age)) {
+ 						error = 'Age ko đc để trống hoặc phải nhập số';
+ 						obj_age.focus();
+ 					} else if (!regex_email.test(email)) {
+ 						error = 'Email chưa đúng định dạng';
+ 						obj_email.focus();
+ 					} else if (count_not_checked == 2) {
+ 						error = 'Phải chọn giới tính';
+ 						obj_male.focus();
+ 					} else if (count_job_not_checked == 2) {
+ 						error = 'Phải chọn nghề nghiệp';
+ 						document.getElementById('dev').focus();
+ 					} else if (course == 'none') {
+ 						error = 'PHải chọn khóa học';
+ 						obj_course.focus();
+ 					} else if (password == '' || confirm_password == '') {
+ 						error = 'Phải nhập password hoặc confirm password';
+ 						obj_password.focus();
+ 					} else if (password != confirm_password) {
+ 						error = 'Password confirm chưa đúng';
+ 						obj_confirm_password.focus();
+ 					}
+ 					//hiển thị lỗi validate ra màn hình, thông qua thẻ h3 đang có id = error chờ sẵn
+ 					//lấy ra đối tượng hiển thị lỗi
+ 					var obj_error = document.getElementById('error');
+ 					//set nội dung cho obj vừa lấy đc
+ 					obj_error.innerHTML = error;
+ 					//ngăn ngừa submit form sẽ tải lại trang
+ 					event.preventDefault();
+ 					//trường hợp ko có lỗi thì sẽ hiển thị 1 popup dạng cảnh báo với nội dung: Đăng ký thành công
+ 					if (error == '') {
+ 						alert('Đăng ký thành công');
+ 					}
+ 				});
+ 			</script>
+ 		</div>
+ 		<div class="footer">
+ 			Footer
+ 		</div>
+ 	</div>
+ </body>
+ </html>
