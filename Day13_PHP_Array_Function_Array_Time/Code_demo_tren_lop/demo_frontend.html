@@ -1,0 +1,64 @@
+<!--demo_frontend.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Ôn lại Javascript chuẩn bị cho thi Frontend</h1>
+    <h2>Tham khảo lại ngày 10 để ôn kỹ hơn</h2>
+    <!--
+    Khi thao tác với HTML bằng JAvascript
+    thì nên khai báo id để thao tác cho đơn giản
+    -->
+    <form action="" method="post" id="form">
+        Name:
+        <input type="text" id="name" />
+        <br />
+        Age:
+        <input type="text" id="age" />
+        <br />
+        <input type="submit" value="Show alert" />
+    </form>
+    <!--Khai báo vùng chờ hiển thị lỗi validate form-->
+    <h3 id="error" style="color: red"></h3>
+    <!--Khai báo vùng lam việc của JS phía sau code HTML-->
+    <script type="text/javascript">
+        //lấy ra đối tượng form để gắn sự submit cho nó
+        var obj_form = document.getElementById('form');
+        //gọi sự kiện submit thông qua hàm addEventListener
+        obj_form.addEventListener('submit', function() {
+            //lấy ra đối tượng và giá trị tương ứng của input name
+            var obj_name = document.getElementById('name');
+            var name = obj_name.value;
+            //lấy đối tượng và giá trị tương ứng của input age
+            var obj_age = document.getElementById('age');
+            var age = obj_age.value;
+            //xử lý validate form:
+        //    - Không được để trống các trường name và age
+            //- Age phải nhập số
+            var error = '';
+            var result = '';
+            if (name == '' || age == '') {
+                error = 'Ko đc để trống các trường';
+            } else if(isNaN(age)) {
+                error = 'Age phải nhập số';
+                //khi có lỗi thì focus chuột vào input đó để
+                //tiện cho người dùng
+                obj_age.focus();
+            }
+            //xử lý logic submit form khi ko có lỗi nào xảy ra
+            if (error == '') {
+                result = 'Name:' + name + ', Age:' + age;
+                alert(result);
+            }
+
+            //hiển thị lỗi ra form
+            document.getElementById('error').innerHTML = error;
+            //ngăn ngừa form tải lại khi submit trang
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>
