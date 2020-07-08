@@ -1,0 +1,7 @@
+read.txt
+File này được dùng để đọc dữ liệu ra
+Tên 1
+Tên 2
+Tên 3
+Tên 4
+Tên 5
