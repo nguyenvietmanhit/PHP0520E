@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/read.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Slides/2_Form_Upload_File.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Slides/2_Form_Upload_File.ppt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +14,16 @@
     <session id="-1190563024">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -88,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day14_PHP_Form/Code_demo/thuc_hanh_form_1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="2080">
               <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
               <folding>
                 <element signature="e#6#28#0#PHP" expanded="true" />
@@ -100,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day14_PHP_Form/Code_demo/thuc_hanh_form_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1720">
               <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
               <folding>
                 <element signature="e#6#28#0#PHP" expanded="true" />
@@ -112,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day14_PHP_Form/Code_demo/thuc_hanh_form_3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="4920">
               <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="127" selection-end-column="2" />
               <folding>
                 <element signature="e#6#28#0#PHP" expanded="true" />
@@ -124,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/read_write_file.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
+            <state relative-caret-position="2760">
               <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
               <folding>
                 <element signature="e#6#27#0#PHP" expanded="true" />
@@ -137,12 +136,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/form_upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="4680">
               <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
               <folding>
                 <element signature="e#6#23#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,8 +148,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/demo_xss.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="187">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#6#20#0#PHP" expanded="true" />
               </folding>
@@ -171,9 +168,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/bt6.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -188,7 +183,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day11_PHP_Setup_Enviroment_And_Basic/Code_demo_tren_lop/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="80">
               <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
             </state>
           </provider>
@@ -424,18 +419,18 @@
       <workItem from="1593313600384" duration="173000" />
       <workItem from="1593861069634" duration="10397000" />
       <workItem from="1593874978471" duration="660000" />
-      <workItem from="1594208518549" duration="9945000" />
+      <workItem from="1594208518549" duration="10114000" />
+      <workItem from="1594436323505" duration="627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76986000" />
+    <option name="totallyTimeSpent" value="77782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3441755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -538,9 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="212" column="8" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="8" />
-          <folding>
-            <element signature="e#28#47#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,9 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,9 +560,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/read.php" />
+    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/write.txt" />
     <entry file="file://$PROJECT_DIR$/Day14_PHP_Form/Code_demo/thuc_hanh_form_1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="2080">
           <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
           <folding>
             <element signature="e#6#28#0#PHP" expanded="true" />
@@ -583,7 +574,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day14_PHP_Form/Code_demo/thuc_hanh_form_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="1720">
           <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
           <folding>
             <element signature="e#6#28#0#PHP" expanded="true" />
@@ -591,19 +582,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Setup_Enviroment_And_Basic/Code_demo_tren_lop/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/read.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day14_PHP_Form/Code_demo/thuc_hanh_form_3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="4920">
           <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="127" selection-end-column="2" />
           <folding>
             <element signature="e#6#28#0#PHP" expanded="true" />
@@ -611,35 +592,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/bt6.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Bai_tap_ve_nha/bt6.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/write.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/read_write_file.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
+        <state relative-caret-position="2760">
           <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
           <folding>
             <element signature="e#6#27#0#PHP" expanded="true" />
@@ -650,20 +605,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/form_upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="4680">
           <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
           <folding>
             <element signature="e#6#23#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Bai_tap_ve_nha/bt6.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/bt6.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Setup_Enviroment_And_Basic/Code_demo_tren_lop/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/demo_xss.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="187">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#6#20#0#PHP" expanded="true" />
           </folding>
