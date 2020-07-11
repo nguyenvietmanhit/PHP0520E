@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/demo_xss.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/demo_xss.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,16 +15,17 @@
     <session id="-1190563024">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,7 +35,7 @@
           <entry key="gitignore" value="1" />
           <entry key="htm" value="1" />
           <entry key="html" value="77" />
-          <entry key="php" value="14" />
+          <entry key="php" value="21" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -41,7 +43,7 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="78" />
-          <entry key="PHP" value="14" />
+          <entry key="PHP" value="21" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -49,14 +51,14 @@
         <counts>
           <entry key="gitignore" value="3" />
           <entry key="html" value="2569" />
-          <entry key="php" value="52494" />
+          <entry key="php" value="65857" />
           <entry key="txt" value="149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2572" />
-          <entry key="PHP" value="52491" />
+          <entry key="HTML" value="2573" />
+          <entry key="PHP" value="65853" />
           <entry key="PLAIN_TEXT" value="152" />
         </counts>
       </usages-collector>
@@ -85,59 +87,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day14_PHP_Form/Code_demo/thuc_hanh_form_1.php">
+        <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/bai4.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2080">
-              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+            <state relative-caret-position="800">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
-                <element signature="e#6#28#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day14_PHP_Form/Code_demo/thuc_hanh_form_2.php">
+        <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_session.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1720">
-              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
-              <folding>
-                <element signature="e#6#28#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="363">
+              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day14_PHP_Form/Code_demo/thuc_hanh_form_3.php">
+        <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_cookie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4920">
-              <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="127" selection-end-column="2" />
-              <folding>
-                <element signature="e#6#28#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/read_write_file.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2760">
-              <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
-              <folding>
-                <element signature="e#6#27#0#PHP" expanded="true" />
-                <element signature="e#2079#2104#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/form_upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4680">
-              <caret line="130" column="21" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+            <state relative-caret-position="443">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#6#23#0#PHP" expanded="true" />
               </folding>
@@ -145,23 +120,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/demo_xss.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="62" />
               <folding>
-                <element signature="e#6#20#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Bai_tap_ve_nha/bt6.csv">
+        <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/success.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="280">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/test_session.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -230,6 +226,14 @@
         <option value="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/read_write_file.php" />
         <option value="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/form_upload.php" />
         <option value="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/demo_xss.php" />
+        <option value="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/bai4.php" />
+        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/test_session.php" />
+        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_session.php" />
+        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_cookie.php" />
+        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/login.php" />
+        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/success.php" />
+        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/login.php" />
+        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/logout.php" />
       </list>
     </option>
   </component>
@@ -253,85 +257,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_Practive_Javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Slides" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day12_PHP_Operator_Condition_Loop_Function_String_Number_Time" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day13_PHP_Array_Function_Array_Time" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day13_PHP_Array_Function_Array_Time" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha_PHP_Array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day13_PHP_Array_Function_Array_Time" type="462c0819:PsiDirectoryNode" />
-              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day13_PHP_Array_Function_Array_Time" type="462c0819:PsiDirectoryNode" />
-              <item name="Slides" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day14_PHP_Form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day14_PHP_Form" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha_Form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day14_PHP_Form" type="462c0819:PsiDirectoryNode" />
-              <item name="Code_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day14_PHP_Form" type="462c0819:PsiDirectoryNode" />
-              <item name="Slides" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
@@ -347,20 +279,31 @@
             <path>
               <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day15_Process_File_Form_Upload" type="462c0819:PsiDirectoryNode" />
+              <item name="Day16_PHP_Session_Cookie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day16_PHP_Session_Cookie" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="Day16_PHP_Session_Cookie" type="462c0819:PsiDirectoryNode" />
               <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day15_Process_File_Form_Upload" type="462c0819:PsiDirectoryNode" />
-              <item name="Slides" type="462c0819:PsiDirectoryNode" />
+              <item name="Day16_PHP_Session_Cookie" type="462c0819:PsiDirectoryNode" />
+              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,6 +315,9 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHP0520E\Day16_PHP_Session_Cookie\Codes_demo\demo_login" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\PHP0520E\Day15_Process_File_Form_Upload\Codes_demo" />
       <recent name="C:\xampp\htdocs\PHP0520E\Day02_CSS_Part_1_Basic\Bai_tap_ve_nha\DSNB" />
@@ -420,17 +366,19 @@
       <workItem from="1593861069634" duration="10397000" />
       <workItem from="1593874978471" duration="660000" />
       <workItem from="1594208518549" duration="10114000" />
-      <workItem from="1594436323505" duration="627000" />
+      <workItem from="1594436323505" duration="1497000" />
+      <workItem from="1594465381696" duration="10383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77782000" />
+    <option name="totallyTimeSpent" value="89035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3441755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -458,13 +406,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/nguyenminhduc/Buoi2_bai14/index14.html" />
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/nguyenminhduc/Buoi2_bai15/index15.html" />
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/nguyenminhduc/Buoi2_bai16/index16.html" />
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/nguyenminhduc/Buoi2_bai17/index17.html" />
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/nguyenminhduc/Buoi2_bai18/index18.html" />
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/nguyenquyngocday2/baitap_d2/bai1.html" />
-    <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/nguyenquyngocday2/baitap_d2/b7.html" />
     <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/nguyenquyngocday2/baitap_d2/b18.html" />
     <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/nguyenthanhtrung/BTVNbai1/BTVNbai1.html" />
     <entry file="file://$PROJECT_DIR$/Day02_CSS_Part_1_Basic/Bai_tap_ve_nha/DSNB/nguyenthanhtrung/bai2/bai2.html" />
@@ -540,9 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
-          <folding>
-            <element signature="e#6#36#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,9 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2080">
           <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding>
-            <element signature="e#6#28#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,6 +548,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/demo_xss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#20#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Bai_tap_ve_nha/bt6.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -637,13 +582,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/demo_xss.php">
+    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/bai4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="800">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
-            <element signature="e#6#20#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/test_session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_cookie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#6#23#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>

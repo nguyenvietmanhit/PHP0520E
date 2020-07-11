@@ -15,6 +15,7 @@ if (isset($_POST['name'])) {
   //các ký tự đặc biệt như < > .....
   $name = htmlspecialchars($name);
   echo "Tên của bạn: $name";
+  echo "<script type='text/javascript'>alert('123')</script>";
 }
 ?>
 <form action="" method="post">
