@@ -1,0 +1,48 @@
+<!--
+note_database.html
+1 - Khái niệm về CSDL - Database
++ Từ các buổi trc đến giờ là dang xây dựng các trang web tĩnh,
+là các trang web mà ko hề có tính tương tác với user
++ Làm web là phải tạo ra các trang web động,
++ Về thuật ngữ lập trình, web động là web có sử dụng Cơ sở dữ liệu
+để lưu các thông tin
++ Có rất nhiều CSDL khác nhau, vd: MySQL, SQL Server, Oracle, SQLite,
+NoSQL ...
++ Với PHP, hầu như sẽ kết hợp với CSDL tên là MySQL để lưu trữ
+2 - Tìm hiểu về CSDL MySQL
++ MySQL hoàn toàn miễn phí
++ Khi cài XAMPP, đã tự dộng cài đặt luôn CSDL MySQL
++ Có 2 cách để quản trị 1 CSDL: giao diện đồ họa hoặc sử dụng
+dòng lệnh
++ Với MYSQL sử dụng 1 công cụ quản trị = giao diện đồ họa, có tên
+PHPMyadmin, có sẵn khi cài XAMPP
++ Học CSDL là sẽ học cú pháp truy vấn của nó, để có thể dùng PHP
+tương tác với CSDL được
+3 - Thuật ngữ trong CSDL
++ CSDL có thuật ngữ là database
++ Trong database sẽ có các table - là các bảng - là nơi lưu các
+thông tin liên quan đến đối tương của bạn. VD: bảng categories lưu
+các thông tin về danh mục như id, tên, trạng thái, ngày tạo ...
++ Trong table sẽ có:
+- Các records: các bản ghi, là 1 dữ liệu cụ thể của đối tượng.vd:
+bảng categories: id = 1, tên = Thể thao, trạng thái = hiển thị,
+ngày tạo =22/2/2022
+- Các column: tên trường/cột của bảng, vd: bảng categories có các
+trường như id, name, status, created_at ....
+- Khóa chính - primary key: là trường dùng để phân biệt
+các bản ghi với nhau
+- Khóa ngoại - foreign key: liên kết các bảng với nhau, là khóa chính của bảng
+liên kết
+
+4 - Thực hành với CSDL MySQL thông qua giao diện đồ họa PHPMyamin
++ Tao CSDL tên là php0520e
++ Trong CSDL này sẽ tạo 1 bảng là categories, gồm các trường sau:
+i, name, status, created_at
++ Thêm 1 vài bản ghi cho bảng này
++ Export - xuất ra 1 file .sql để có thể sử dụng ở máy khác
++ Import - import file .sql
+
+5 - Các câu truy vấn căn bản trong MySQL
+Sử dụng tab SQL - Structure Query Language
+ của PHPMyadmin để demo các lệnh liên quan đến truy vấn
+-->
