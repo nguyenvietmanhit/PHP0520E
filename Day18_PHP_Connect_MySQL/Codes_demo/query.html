@@ -1,0 +1,146 @@
+# 1 - Tạo CSDL
+#CREATE DATABASE test1;
+#đây là cú pháp tạo CSDL đầy đủ nhất
+CREATE DATABASE IF NOT EXISTS php_day17 CHARACTER SET utf8 COLLATE utf8_general_ci;
+# 2 - Xóa CSDL
+#DROP DATABASE test1;
+# 3 - Chọn CSDL, chỉ có thể thao tác tạo bảng, tạo trường của bảng, thêm dữ liệu cho bảng ... khi đang đứng ở trong CSDL đó, cần phải chọn CSDL muốn thao tác, với phpmyadmin thì lệnh này ko có tác dụng, chỉ có tác dụng khi thao tác với csdl sử dụng command line
+USE php_day17;
+# 4 - Các kiểu dữ liệu trong MySQL: có 3 kiểu dữ liệu chính: kiểu số, kiểu chuỗi, kiểu ngày tháng
+# + Kiểu số: lưu giá trị là số trong CSDL
+# thực tế thường sẽ chỉ dùng 2 kiểu sau:
+# TINYINT - miền phạm vi từ số -128 đến 127
+# INT - miền phạm vi từ ~-2 tỷ đến 2 tỷ
+# FLOAT - số thực, ít dùng
+# + Kiểu chuỗi: lưu các giá trị là chuỗi, thực tế sẽ hay gặp các kiểu chuỗi sau:
+# VARCHAR: độ dài tối đa của kiểu này là 255 ký tự
+# TEXT: độ dài tối đa 65k ký tự
+# + Kiểu ngày tháng: lưu các giá trị là định dạng ngày tháng, luôn phải lưu dưới định dạng sau: YYYY-MM-DD HH:MM:SS,
+#Năm-tháng-ngày Giờ:phút:giây, thực tế sẽ hay lưu ngày tháng dưới các kiểu sau:
+# DATETIME: lưu ngày giờ 1 cách thủ công
+# TIMESTAMP: lưu ngày giờ, thường dc sinh ra tự động, lưu ngày tháng đúng theo múi giờ hiện tại của máy chủ hiện tại, sinh tự động bằng cách gọi hàm CURRENT_TIMESTAMP của MySQL
+# 5 Tạo bảng:
+# Với CSDL php_day17 đã tạo, tạo bảng categories có các trường sau:
+# id: khóa chính, kiểu số, độ dài tối đa 11 ký tự, tự động tăng
+# name: tên danh mục, kiểu chuỗi, độ dài tối đa 255 ký tự
+# status: trạng thái danh mục, chỉ có 2 giá trị duy nhất
+# 0 - ẩn, 1 - hiện
+# created_at: ngày tạo danh mục, kiểu ngày tháng, sinh tự động dựa vào thời gian hiện tại
+CREATE TABLE IF NOT EXISTS categories(
+id INT(11) AUTO_INCREMENT NOT NULL,
+name VARCHAR(255) DEFAULT NULL,
+status TINYINT(1) DEFAULT 0,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+#khai báo khóa chính, khóa ngoại sau khi khai báo hết các 	trường
+PRIMARY KEY (id)
+);
+
+# Tạo bảng products, bảng này sẽ liên kết với bảng categories vừa tạo. Bảng products này sẽ có các trường sau:
+# id: khóa chính, kiểu số, tự động tăng
+# category_id: kiểu số, liên kết với bảng categories
+# name: kiểu chuỗi
+CREATE TABLE IF NOT EXISTS products(
+id INT(11) AUTO_INCREMENT NOT NULL,
+category_id INT(11) NOT NULL,
+name VARCHAR(255) DEFAULT NULL,
+#khai báo khóa chính, khóa ngoại nếu có
+PRIMARY KEY (id),
+FOREIGN KEY (category_id) REFERENCES categories(id)
+);
+
+#6 - Xóa bảng:
+#DROP TABLE abc;
+# 7 - Thêm dữ liệu vào bảng, thêm vào bảng categories 2 bản ghi, bảng products 2 bản ghi
+# Chú ý: khi thêm dữ liệu vào bảng, chỉ thêm dữ liệu cho các trường ko sinh tự động, sử dụng cặp ký tự `` để bao lấy tên trường, để tránh trường hợp tên trường trùng với từ khóa của MySQL
+# Chú ý: các giá trị tương ứng với trường sẽ thêm phải có kiểu dữ liệu tương ứng
+INSERT INTO categories(`name`, `status`) VALUES ('Danh mục 1', 3), ('Danh mục 2', 1);
+# Chú ý: khi thêm dữ liệu cho các bảng mà đang có mỗi quan hệ, thì cần phải thêm chính xác khóa ngoại tương ứng
+INSERT INTO products(`category_id`, `name`) VALUES (1, 'Sản phẩm 1'), (2, 'Sản phẩm');
+
+# 8 - Truy vấn lấy dữ liệu - SELECT
+# Lấy tất cả các trường, và tất cả bản ghi trong bảng categories
+SELECT * FROM categories;
+# Lấy trường id, name, lấy tất cả bản ghi từ bảng categories
+SELECT id, name FROM categories;
+# Lấy các bản ghi theo điều kiện id < 5 từ bảng categories, sử dụng từ khóa WHERE
+SELECT * FROM categories WHERE id < 5;
+# Lấy các bản ghi với điều kiện id > 1 và i < 5, sử dụng các từ khóa AND hoặc OR cho phù hợp
+SELECT * FROM categories WHERE id > 1 AND id < 5;
+# Chỉ lấy 5 bản ghi đầu tiên từ bảng categories, sử dụng từ khóa LIMIT
+SELECT * FROM categories LIMIT 5;
+# LẤy từ bản ghi thứ 2, và lấy  5 bản ghi tính từ bản ghi thứ 2 đó, vẫn dùng từ khoá LIMIT, nhưng sẽ truyền 2 giá trị tương ứng theo dạng LIMIT begin,limit, đây là cú pháp dùng thay thế cho LIMIT OFFSET
+SELECT * FROM categories LIMIT 2,5;
+
+# 9 - Update dữ liệu - UPDATE
+# cập nhật trường name = New name cho danh mục đang có id = 1
+# Chú ý: với truy vấn UPDATE, luôn luôn phải xác định điều kiện update, nếu ko update toàn bộ bảng!
+UPDATE categories SET `name` = 'New name' WHERE id = 1;
+
+#10 - Xóa dữ liệu - DELETE
+# Xóa bản ghi có id > 8
+# Chú ý: với truy vấn DELETE, luôn luôn phải xác định điều kiện sẽ xóa, nếu ko xóa toàn bộ bảng!
+DELETE FROM categories WHERE id > 8;
+
+#11 - Từ khóa LIKE: so sánh tương đối
+# Lấy các bản ghi nào mà có name chứa chuỗi da
+# ký tự % sẽ hay sử dụng với từ khóa, là đại diện cho ký tự bất kỳ, vd: các name sau là hợp lệ: abcda123, da123, 123da
+SELECT * FROM categories WHERE name LIKE '%da%';
+
+#12 - Từ khóa ORDER BY: sắp xếp bản ghi theo chiều nào đó
+# Lấy các bản ghi theo chiều giảm dần của id
+# DESC: descending - sắp xếp giảm dần theo giá trị
+# ASC : ascending - sắp xếp tăng dần theo giá trị
+SELECT * FROM categories ORDER BY id DESC;
+SELECT * FROM categories ORDER BY created_at ASC;
+#13 - Join bảng
+# Thực tế 1 hệ thống web sẽ bao gồm rất nhiều bảng có mối quan hệ với nhau, nảy sinh nhu cầu join vào các bảng để lấy ra thông tin cần thiết
+# Có các cơ chế join sau:
+# INNER JOIN: đảm bảo về mặt chặt chẽ và toàn vẹn dữ liệu, các bảng liên quan phải có dữ liệu thì mới lấy ra đc
+# LEFT JOIN, RIGHT JOIN, FULL JOIN: ko đảm bảo về mặt toàn vẹn, tự tìm hiểu
+# vd: lấy ra tất cả sản phẩm từ bảng products, và lấy ra tên danh mục tương ứng mà sản phẩm đó đang có
+# khi sử dụng join, luôn phải viết tên bảng trước tên trường theo cú pháp tên-bảng.tên-trường
+# có thể sử dụng từ khóa AS để đặt tên có ngữ nghĩa hơn cho các trường khi join bảng
+SELECT products.*, categories.name AS category_name
+FROM products
+INNER JOIN categories
+ON products.category_id = categories.id
+#14 - Từ khóa IN: dùng thay thế cho các điều kiện OR
+#vD: lấy các danh mục có id = 1 hoặc i = 2
+#viết sử dụng IN sẽ ngắn gọn hơn dùng OR
+SELECT * FROM categories WHERE id = 1 OR id = 2;
+SELECT * FROM categories WHERE id IN (1, 2);
+#15 - Từ khóa BETWEEN: dùng thay thế cho điều kiện >= AND <=
+#VD: lấy các danh mục mà có id nằm trong khoảng từ 1 -> 5
+SELECT * FROM categories WHERE id >= 1 AND id <= 5;
+SELECT * FROM categories WHERE id BETWEEN 1 AND 5;
+#16 - Hàm COUNT: đếm kết quả trả về theo trường nào đó
+#vd: đếm tất cả bản ghi đang có trong bảng categories
+SELECT COUNT(id) AS count_id FROM categories;
+#17 - Hàm MAX: lấy giá trị lớn nhất của các bản ghi theo trường nào đó
+#vd: lấy id lớn nhất trong bảng categories
+SELECT MAX(id) AS max_id FROM categories;
+#18 - Hàm MIN: lấy giá trị nhỏ nhất của các bản ghi theo trường nào đó
+#vd: lấy id nhỏ nhất trong bảng categories
+SELECT MIN(id) AS min_id FROM categories;
+#19 - Hàm AVG: tính giá trị trung bình theo cột nào đó
+#vd: tính avg của trường id trong bảng categories
+SELECT AVG(id) AS avg_id FROM categories;
+#20 - Hàm SUM: tính tổng giá trị theo cột
+#vd: tính tổng các id của bảng categories
+SELECT SUM(id) AS sum_id FROM categories;
+#21 - Từ khóa GROUP BY: nhóm các giá trị theo trường nào đó,
+#để sử dụng các hàm(COUNT, SUM, AVG ...) trên các nhóm đó
+#vd: đếm số lần xuất hiên của các danh mục theo status
+SELECT COUNT(id) AS count_id, status
+FROM categories
+GROUP BY status;
+
+
+
+
+
+
+
+
+
+
