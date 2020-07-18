@@ -1,0 +1,19 @@
+# 3 - Hàm COUNT: đếm số bản ghi trả về từ câu lệnh select
+#vd: đếm tổng số bản ghi hiện tại của bảng categories
+#thông thường hay đặt định danh cho hàm count để có ý nghĩa hơn
+SELECT COUNT(*) AS total FROM categories
+# 4 - Hàm MAX: lấy giá trị lớn nhất theo cột của bảng
+#vd: lấy giá trị lớn nhất của id trong bảng categories
+SELECT MAX(id) AS max_id FROM categories;
+# 5 - Hàm MIN: lấy giá trị nhỏ nhất theo cột của bảng
+SELECT MIN(id) AS min_id FROM categories
+# 6 - Hàm AVG: lấy giá trị trung bình theo cột của bảng
+SELECT AVG(id) AS avg_id FROM categories
+# 7 - Hàm SUM: lấy giá trị tổng theo cột của bảng
+SELECT SUM(id) AS sum_id FROM categories
+# 8 - Từ khóa GROUP BY: nhóm các giá trị theo cột của bảng, hay kết hợp
+# với các hàm tính toán của mysql
+#vd: đếm số lần xuất hiện theo trường name của bảng categories
+SELECT name, COUNT(name) AS count_name
+FROM categories
+GROUP BY name;
