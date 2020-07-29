@@ -4,6 +4,40 @@
 //sau cùng (chờ HTML tải xong hết r JS mới chạy)
 $(document).ready(function() {
     //code JS
+    //Code xử lý click link thì gọi ajax để lấy danh sách category
+    //Các trình duyệt có cơ chế lưu cache CSS và JS, cần có bước
+    //cache trình duyệt để nó hiểu đc các thay đổi của bạn, có 1
+    // phím tắt trong Chrome: Ctrl + Shift + R
+    $('#ajax-link').click(function() {
+       // alert('clicked!');
+        //khai báo 1 đối tượng chứa các thông tin về ajax
+        var obj_ajax = {
+          url: 'get_category_ajax.php',
+          method: 'get',
+            //kiểu dữ liệu mong muốn sẽ trả về từ PHP: text, json
+          dataType: 'text',
+          data: {
+              //với chức năng liệt kê thì ko cần gửi dữ liệu gì lên,
+              //với chức năng như cập nhật/xóa cần phải id nên sẽ
+              //phải truyền tham số lên
+          },
+            //tham số data trong hàm chính là dữ liệu trả về
+            //từ PHP
+          success: function(data) {
+              //biến data chính là kết quả trả về trong tab Response
+              //của tab Network
+              // console.log(data);
+              //hiển thị data ngay phía sau của link hiện tại
+              // $('#ajax-link').after(data);
+
+              $('#result-ajax').html(data);
+          }
+        };
+        //gọi ajax
+        $.ajax(obj_ajax);
+    });
+
+
     //xử lý lưu dữ liệu khi user submit form
     $('#form').submit(function () {
         //ngăn ngừa hành vi submit form
