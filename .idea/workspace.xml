@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/configs/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/configs/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/update.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +21,7 @@
         <counts>
           <entry key="project.closed" value="36" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="4" />
@@ -32,7 +37,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,7 +49,7 @@
           <entry key="htm" value="1" />
           <entry key="html" value="77" />
           <entry key="js" value="4" />
-          <entry key="php" value="63" />
+          <entry key="php" value="72" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -53,7 +58,7 @@
           <entry key="CSS" value="4" />
           <entry key="HTML" value="78" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="63" />
+          <entry key="PHP" value="72" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="htaccess" value="1" />
         </counts>
@@ -65,7 +70,7 @@
           <entry key="htaccess" value="43" />
           <entry key="html" value="2569" />
           <entry key="js" value="2944" />
-          <entry key="php" value="115606" />
+          <entry key="php" value="124694" />
           <entry key="txt" value="149" />
         </counts>
       </usages-collector>
@@ -74,9 +79,9 @@
           <entry key="CSS" value="72" />
           <entry key="HTML" value="2574" />
           <entry key="JavaScript" value="2944" />
-          <entry key="PHP" value="115591" />
+          <entry key="PHP" value="124677" />
           <entry key="PLAIN_TEXT" value="152" />
-          <entry key="SQL" value="10" />
+          <entry key="SQL" value="12" />
           <entry key="htaccess" value="43" />
         </counts>
       </usages-collector>
@@ -105,33 +110,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day22_OOP_PDO_And_MVC/Codes_demo/mvc_demo/views/layouts/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day22_OOP_PDO_And_MVC/Codes_demo/demo_pdo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/controllers/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -144,55 +122,100 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/models/Category.php">
+        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            <state relative-caret-position="160">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/configs/Database.php">
+        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/configs/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            <state relative-caret-position="320">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/views/layouts/main.php">
+        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/controllers/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="269">
+              <caret line="175" column="57" selection-start-line="175" selection-start-column="57" selection-end-line="175" selection-end-column="57" />
+              <folding>
+                <element signature="e#375#425#0#PHP" />
+                <element signature="n#create#0;n#CategoryController#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/practice_wpm1/practice_1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+              <folding>
+                <element signature="e#6#36#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/views/layouts/header.php">
+        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="413">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/views/layouts/footer.php">
+        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="320">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="n#form#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/views/categories/create.php">
+        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/detail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="360">
+              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding>
+                <element signature="e#277#408#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/models/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+              <folding>
+                <element signature="n#insert#0;n#Category#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -219,13 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/read_write_file.php" />
-        <option value="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/form_upload.php" />
-        <option value="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/demo_xss.php" />
-        <option value="$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/bai4.php" />
-        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/test_session.php" />
-        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_session.php" />
-        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_cookie.php" />
         <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/login.php" />
         <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/success.php" />
         <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/login.php" />
@@ -270,6 +286,13 @@
         <option value="$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/configs/Database.php" />
         <option value="$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/models/Category.php" />
         <option value="$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/controllers/CategoryController.php" />
+        <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/configs/Database.php" />
+        <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/index.php" />
+        <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/detail.php" />
+        <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/update.php" />
+        <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/models/Category.php" />
+        <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/controllers/CategoryController.php" />
+        <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/practice_wpm1/practice_1.php" />
       </list>
     </option>
   </component>
@@ -303,70 +326,26 @@
             <path>
               <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day23_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
+              <item name="Day24_MVC_CRUD_Category_Continue_Pratice_WPM1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day23_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
+              <item name="Day24_MVC_CRUD_Category_Continue_Pratice_WPM1" type="462c0819:PsiDirectoryNode" />
               <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day23_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
+              <item name="Day24_MVC_CRUD_Category_Continue_Pratice_WPM1" type="462c0819:PsiDirectoryNode" />
               <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_wpm1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day23_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day23_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day23_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day23_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day23_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="categories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day23_OOP_PDO_And_MVC_CRUD_Category" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="Day24_MVC_CRUD_Category_Continue_Pratice_WPM1" type="462c0819:PsiDirectoryNode" />
+              <item name="Slides" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -455,17 +434,18 @@
       <workItem from="1596626060292" duration="11255000" />
       <workItem from="1596641447433" duration="682000" />
       <workItem from="1596799332012" duration="11000" />
+      <workItem from="1596884995643" duration="10242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146323000" />
+    <option name="totallyTimeSpent" value="156565000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29449838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -493,59 +473,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day19_PHP_CRUD_Ajax/Codes_demo/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/Day19_PHP_CRUD/Codes_demo/crud/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day19_PHP_CRUD/Codes_demo/crud/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day19_PHP_CRUD/Codes_demo/crud/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day19_PHP_CRUD/Codes_demo/crud/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/test_session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/bt6.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day15_Process_File_Form_Upload/Codes_demo/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Setup_Enviroment_And_Basic/Code_demo_tren_lop/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day19_PHP_CRUD/Codes_demo/crud/update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -756,63 +683,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day22_OOP_PDO_And_MVC/Codes_demo/mvc_demo/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="920">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day22_OOP_PDO_And_MVC/Codes_demo/demo_pdo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="1520">
           <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
+        <state relative-caret-position="3040">
           <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/models/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
+        <state relative-caret-position="1760">
           <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/configs/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="200">
           <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="760">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/views/layouts/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="200">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/views/layouts/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="200">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/views/categories/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="640">
           <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
@@ -823,6 +750,87 @@
           <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
           <folding>
             <element signature="n#render#0;n#CategoryController#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/configs/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#277#408#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="n#form#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+          <folding>
+            <element signature="n#insert#0;n#Category#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="175" column="57" selection-start-line="175" selection-start-column="57" selection-end-line="175" selection-end-column="57" />
+          <folding>
+            <element signature="e#375#425#0#PHP" />
+            <element signature="n#create#0;n#CategoryController#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/practice_wpm1/practice_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+          <folding>
+            <element signature="e#6#36#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
