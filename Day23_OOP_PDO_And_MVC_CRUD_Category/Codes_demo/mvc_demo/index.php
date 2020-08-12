@@ -75,3 +75,13 @@ if (!method_exists($obj, $action)) {
 $obj->$action();
 //index.php?controlle
 //r=category&action=create
+$_COOKIE['cart'] = [
+  'nvmanh' => [
+    1 => [
+      'name' => 'SP1',
+      'price' => 123456,
+      'avatar' => 'avatar.jpg',
+      'quantity' => 4
+    ]
+  ]
+];
