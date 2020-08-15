@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/product.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
         <counts>
           <entry key="project.closed" value="39" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="4" />
@@ -32,7 +32,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,18 +42,18 @@
           <entry key="gitignore" value="1" />
           <entry key="htaccess" value="1" />
           <entry key="htm" value="1" />
-          <entry key="html" value="78" />
+          <entry key="html" value="95" />
           <entry key="js" value="5" />
-          <entry key="php" value="72" />
+          <entry key="php" value="75" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="79" />
+          <entry key="HTML" value="96" />
           <entry key="JavaScript" value="5" />
-          <entry key="PHP" value="72" />
+          <entry key="PHP" value="75" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="htaccess" value="1" />
         </counts>
@@ -63,18 +63,18 @@
           <entry key="css" value="72" />
           <entry key="gitignore" value="3" />
           <entry key="htaccess" value="43" />
-          <entry key="html" value="2575" />
+          <entry key="html" value="2578" />
           <entry key="js" value="2944" />
-          <entry key="php" value="124694" />
+          <entry key="php" value="133261" />
           <entry key="txt" value="149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="72" />
-          <entry key="HTML" value="2580" />
+          <entry key="HTML" value="2583" />
           <entry key="JavaScript" value="2944" />
-          <entry key="PHP" value="124677" />
+          <entry key="PHP" value="133244" />
           <entry key="PLAIN_TEXT" value="152" />
           <entry key="SQL" value="12" />
           <entry key="htaccess" value="43" />
@@ -105,94 +105,89 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/index.php">
+        <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="129">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/configs/Database.php">
+        <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/file_create_db.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="215">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/controllers/CategoryController.php">
+        <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2176">
-              <caret line="178" column="1" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
+            <state relative-caret-position="172">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/payment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/Codes_demo/cac_buoc_dung_web_mvc_tu_dau.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
               <folding>
-                <element signature="e#375#425#0#PHP" />
-                <element signature="n#create#0;n#CategoryController#0;n#!!top" />
+                <element signature="e#6#1221#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fotorama-4.6.4/fotorama.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fotorama-4.6.4/example.html">
+        <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/gui_mail_voi_php.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="129" selection-start-line="21" selection-start-column="129" selection-end-line="21" selection-end-column="129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/create.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/detail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/models/Category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
               <folding>
-                <element signature="n#insert#0;n#Category#0;n#!!top" />
+                <element signature="e#6#703#0#PHP" expanded="true" />
+                <element signature="e#833#867#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/product.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="243" column="28" selection-start-line="243" selection-start-column="28" selection-end-line="243" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/product_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-172">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -202,15 +197,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>149</find>
+      <find>Sản phẩm mới</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -219,11 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/success.php" />
-        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/login.php" />
-        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/logout.php" />
-        <option value="$PROJECT_DIR$/Day19_PHP_CRUD/Codes_demo/crud/database.php" />
-        <option value="$PROJECT_DIR$/Day19_PHP_CRUD/Codes_demo/crud/create.php" />
         <option value="$PROJECT_DIR$/Day19_PHP_CRUD/Codes_demo/crud/index.php" />
         <option value="$PROJECT_DIR$/Day19_PHP_CRUD/Codes_demo/crud/delete.php" />
         <option value="$PROJECT_DIR$/Day19_PHP_CRUD/Codes_demo/crud/update.php" />
@@ -270,6 +261,11 @@
         <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/practice_wpm1/practice_1.php" />
         <option value="$PROJECT_DIR$/fotorama-4.6.4/example.html" />
+        <option value="$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/Codes_demo/cac_buoc_dung_web_mvc_tu_dau.html" />
+        <option value="$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/product.html" />
+        <option value="$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/Codes_demo/cac_buoc_dung_web_mvc_tu_dau.php" />
+        <option value="$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/Codes_demo/gui_mail_voi_php.php" />
+        <option value="$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/gui_mail_voi_php.php" />
       </list>
     </option>
   </component>
@@ -292,7 +288,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,36 +298,13 @@
             <path>
               <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day24_MVC_CRUD_Category_Continue_Pratice_WPM1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day24_MVC_CRUD_Category_Continue_Pratice_WPM1" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day24_MVC_CRUD_Category_Continue_Pratice_WPM1" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_wpm1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day24_MVC_CRUD_Category_Continue_Pratice_WPM1" type="462c0819:PsiDirectoryNode" />
-              <item name="Slides" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="fotorama-4.6.4" type="462c0819:PsiDirectoryNode" />
+              <item name="Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,15 +317,15 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHP0520E\Day16_PHP_Session_Cookie\Codes_demo\demo_login" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHP0520E\Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail" />
       <recent name="C:\xampp\htdocs\PHP0520E" />
       <recent name="C:\xampp\htdocs\PHP0520E\Day22_OOP_PDO_And_MVC\Slides" />
       <recent name="C:\xampp\htdocs\PHP0520E\Day20_PHP_CRUD_Ajax\Codes_demo\curd_ajax" />
       <recent name="C:\xampp\htdocs\PHP0520E\Day20_PHP_CRUD_Ajax\Codes_demo" />
-      <recent name="C:\xampp\htdocs\PHP0520E\Day19_PHP_CRUD_Ajax\Codes_demo" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\PHP0520E\Day16_PHP_Session_Cookie\Codes_demo\demo_login" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,16 +391,18 @@
       <workItem from="1596884995643" duration="10242000" />
       <workItem from="1597035020290" duration="1016000" />
       <workItem from="1597469414827" duration="10000" />
+      <workItem from="1597489755241" duration="10255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158700000" />
+    <option name="totallyTimeSpent" value="168955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -456,109 +430,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/crud/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4760">
-          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/crud/demo_sql_injection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/curd_ajax/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/curd_ajax/delete.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/curd_ajax/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/curd_ajax/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/curd_ajax/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day21_PHP_Ajax_OOP_Basic/Codes_demo/curd_ajax/database.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day21_PHP_Ajax_OOP_Basic/Codes_demo/curd_ajax/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day21_PHP_Ajax_OOP_Basic/Codes_demo/curd_ajax/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day21_PHP_Ajax_OOP_Basic/Codes_demo/curd_ajax/get_category_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/curd_ajax/ajax_create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/curd_ajax/update.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/crud/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" selection-start-line="11" selection-end-line="88" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day21_PHP_Ajax_OOP_Basic/Codes_demo/demo_oop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="268" column="3" selection-start-line="268" selection-start-column="3" selection-end-line="268" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day22_OOP_PDO_And_MVC/Codes_demo/4_tinh_chat_oop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day22_OOP_PDO_And_MVC/Codes_demo/mvc_demo/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day22_OOP_PDO_And_MVC/Slides/mvc_demo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1283">
@@ -721,23 +592,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/practice_wpm1/practice_1.php" />
+    <entry file="file://$PROJECT_DIR$/fotorama-4.6.4/fotorama.js" />
+    <entry file="file://$PROJECT_DIR$/fotorama-4.6.4/example.html" />
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="-7">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/configs/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state>
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
+        <state>
           <caret line="178" column="1" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
           <folding>
             <element signature="e#375#425#0#PHP" />
@@ -746,40 +619,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fotorama-4.6.4/fotorama.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state>
           <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state>
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/detail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state>
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state>
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/models/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
+        <state>
           <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
           <folding>
             <element signature="n#insert#0;n#Category#0;n#!!top" />
@@ -787,10 +657,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fotorama-4.6.4/example.html">
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/backend/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="129" selection-start-line="21" selection-start-column="129" selection-end-line="21" selection-end-column="129" />
+        <state relative-caret-position="344">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/news_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/template_mail_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/thank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="243" column="28" selection-start-line="243" selection-start-column="28" selection-end-line="243" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/product_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/mockup_html/frontend/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/file_create_db.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/Codes_demo/cac_buoc_dung_web_mvc_tu_dau.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="e#6#1221#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/Codes_demo/gui_mail_voi_php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_Demo_Project_Part_1_Analyze_Database_Build_Layout_Send_Mail/gui_mail_voi_php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#703#0#PHP" expanded="true" />
+            <element signature="e#833#867#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
