@@ -1,0 +1,87 @@
+
+#categories
+CREATE TABLE IF NOT EXISTS categories (
+id INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL COMMENT "Tên danh mục",
+type TINYINT(3) DEFAULT 0 COMMENT "Loại danh mục: 0 - Product, 1 - News",
+avatar VARCHAR(100) COMMENT "Tên file ảnh danh mục",
+description TEXT COMMENT "Mô tả chi tiết cho danh mục",
+status TINYINT(3) DEFAULT 0 COMMENT "Trạng thái danh mục: 0 - Inactive, 1 - Active",
+created_at TIMESTAMP DEFAULT  CURRENT_TIMESTAMP COMMENT "Ngày tạo danh mục",
+updated_at DATETIME COMMENT "Ngày cập nhật cuối"
+);
+
+
+#products
+CREATE TABLE IF NOT EXISTS products(
+id INT(11) PRIMARY KEY AUTO_INCREMENT,
+category_id INT(11) COMMENT "Id của danh mục mà sản phẩm thuộc về, là khóa ngoại liên kết với bảng categories",
+title VARCHAR(100) COMMENT "Tên sản phẩm",
+avatar VARCHAR(100) COMMENT "Tên file ảnh sản phẩm",
+price INT(11) COMMENT "Giá sản phẩm",
+amount INT(11) COMMENT "Số lượng sản phẩm trong kho",
+summary VARCHAR(100) COMMENT "Mô tả ngắn cho sản phẩm",
+content TEXT COMMENT "Mô tả chi tiết cho sản phẩm",
+status TINYINT(3) DEFAULT 0 COMMENT "Trạng thái danh mục: 0 - Inactive, 1 - Active",
+seo_title VARCHAR(100) COMMENT "Từ khóa seo cho title",
+seo_description VARCHAR(100) COMMENT "Từ khóa seo cho phần mô tả",
+seo_keywords VARCHAR(100) COMMENT "Các từ khóa seo",
+created_at TIMESTAMP DEFAULT  CURRENT_TIMESTAMP COMMENT "Ngày tạo",
+updated_at DATETIME COMMENT "Ngày cập nhật cuối"
+);
+
+#news
+CREATE TABLE IF NOT EXISTS news(
+id INT(11) PRIMARY KEY AUTO_INCREMENT,
+category_id INT(11) COMMENT "Id của danh mục mà tin tức thuộc về, là khóa ngoại liên kết với bảng categories",
+title VARCHAR(100) NOT NULL COMMENT "Tiêu đề tin tức",
+summary VARCHAR(100) COMMENT "Mô tả ngắn cho tin tức",
+avatar VARCHAR(100) COMMENT "Tên file ảnh tin tức",
+content TEXT COMMENT "Mô tả chi tiết cho sản phẩm",
+status TINYINT(3) DEFAULT 0 COMMENT "Trạng thái danh mục: 0 - Inactive, 1 - Active",
+seo_title VARCHAR(100) COMMENT "Từ khóa seo cho title",
+seo_description VARCHAR(100) COMMENT "Từ khóa seo cho phần mô tả",
+seo_keywords VARCHAR(100) COMMENT "Các từ khóa seo",
+created_at TIMESTAMP DEFAULT  CURRENT_TIMESTAMP COMMENT "Ngày tạo",
+updated_at DATETIME COMMENT "Ngày cập nhật cuối"
+);
+
+#orders
+CREATE TABLE IF NOT EXISTS orders(
+id INT(11) PRIMARY KEY AUTO_INCREMENT,
+user_id INT(11) COMMENT "Id của user trong trường hợp đã login và đặt hàng, là khóa ngoại liên kết với bảng users",
+fullname VARCHAR(100) COMMENT "Tên khách hàng",
+address VARCHAR(100) COMMENT "Địa chỉ khách hàng",
+mobile INT(11) COMMENT "SĐT khách hàng",
+email VARCHAR(100) COMMENT "Email khách hàng",
+note TEXT COMMENT "Ghi chú từ khách hàng",
+price_total INT(11) COMMENT "Tổng giá trị đơn hàng",
+payment_status TINYINT(2) COMMENT "Trạng thái đơn hàng: 0 - Chưa thành toán, 1 - Đã thành toán",
+created_at TIMESTAMP DEFAULT  CURRENT_TIMESTAMP COMMENT "Ngày tạo đơn",
+updated_at DATETIME COMMENT "Ngày cập nhật cuối"
+);
+
+#order_details
+CREATE TABLE IF NOT EXISTS order_details(
+order_id INT(11) COMMENT "Id của order tương ứng, là khóa ngoại liên kết với bảng orders",
+product_id INT(11) COMMENT "Id của product tương ứng, là khóa ngoại liên kết với bảng products",
+quantity INT(11) COMMENT "Số sản phẩm đã đặt"
+);
+#users
+CREATE TABLE IF NOT EXISTS users (
+id INT(11) PRIMARY KEY AUTO_INCREMENT,
+username VARCHAR(100) COMMENT "Tên đăng nhập",
+password VARCHAR(100) COMMENT "Mật khẩu đăng nhập",
+first_name VARCHAR(100)  COMMENT "Fist name",
+last_name VARCHAR(100)  COMMENT "Last name",
+phone  int(11) COMMENT 'SĐT user' ,
+address  varchar(100) COMMENT 'Địa chỉ user' ,
+email  varchar(100)   COMMENT 'Email của user' ,
+avatar VARCHAR(100)  COMMENT "File ảnh đại diện",
+jobs VARCHAR(100)  COMMENT "Nghề nghiệp",
+last_login DATETIME COMMENT "Lần đăng nhập gần đây nhất",
+facebook VARCHAR(100) COMMENT "Link facebook",
+status TINYINT(3) DEFAULT 0 COMMENT "Trạng thái danh mục: 0 - Inactive, 1 - Active",
+created_at TIMESTAMP DEFAULT  CURRENT_TIMESTAMP COMMENT "Ngày tạo",
+updated_at DATETIME COMMENT "Ngày cập nhật cuối"
+);

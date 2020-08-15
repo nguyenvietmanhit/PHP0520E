@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/Bai_tap_ve_nha.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day11_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/Bai_tap_ve_nha_PHP_1.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day12_PHP_Operator_Condition_Loop_Function_String_Number_Time/Bai_tap_ve_nha/Bai_tap_ve_nha.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day12_PHP_Operator_Condition_Loop_Function_String_Number_Time/Bai_tap_ve_nha/Bai_tap_ve_nha_PHP_2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +14,7 @@
     <session id="-1190563024">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="39" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.11" value="2" />
@@ -27,7 +24,7 @@
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -35,7 +32,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,8 +42,8 @@
           <entry key="gitignore" value="1" />
           <entry key="htaccess" value="1" />
           <entry key="htm" value="1" />
-          <entry key="html" value="77" />
-          <entry key="js" value="4" />
+          <entry key="html" value="78" />
+          <entry key="js" value="5" />
           <entry key="php" value="72" />
           <entry key="txt" value="2" />
         </counts>
@@ -54,8 +51,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="78" />
-          <entry key="JavaScript" value="4" />
+          <entry key="HTML" value="79" />
+          <entry key="JavaScript" value="5" />
           <entry key="PHP" value="72" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="htaccess" value="1" />
@@ -66,7 +63,7 @@
           <entry key="css" value="72" />
           <entry key="gitignore" value="3" />
           <entry key="htaccess" value="43" />
-          <entry key="html" value="2569" />
+          <entry key="html" value="2575" />
           <entry key="js" value="2944" />
           <entry key="php" value="124694" />
           <entry key="txt" value="149" />
@@ -75,7 +72,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="72" />
-          <entry key="HTML" value="2574" />
+          <entry key="HTML" value="2580" />
           <entry key="JavaScript" value="2944" />
           <entry key="PHP" value="124677" />
           <entry key="PLAIN_TEXT" value="152" />
@@ -108,18 +105,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/controllers/CategoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-              <folding>
-                <element signature="n#render#0;n#CategoryController#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -140,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/controllers/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2125">
-              <caret line="175" column="57" selection-start-line="175" selection-start-column="57" selection-end-line="175" selection-end-column="57" />
+            <state relative-caret-position="2176">
+              <caret line="178" column="1" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
               <folding>
                 <element signature="e#375#425#0#PHP" />
                 <element signature="n#create#0;n#CategoryController#0;n#!!top" />
@@ -150,14 +135,16 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fotorama-4.6.4/fotorama.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/practice_wpm1/practice_1.php">
+        <entry file="file://$PROJECT_DIR$/fotorama-4.6.4/example.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
-              <folding>
-                <element signature="e#6#36#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="21" column="129" selection-start-line="21" selection-start-column="129" selection-end-line="21" selection-end-column="129" />
             </state>
           </provider>
         </entry>
@@ -232,7 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/login.php" />
         <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/success.php" />
         <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/login.php" />
         <option value="$PROJECT_DIR$/Day16_PHP_Session_Cookie/Codes_demo/demo_login/logout.php" />
@@ -283,6 +269,7 @@
         <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/models/Category.php" />
         <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/practice_wpm1/practice_1.php" />
+        <option value="$PROJECT_DIR$/fotorama-4.6.4/example.html" />
       </list>
     </option>
   </component>
@@ -316,28 +303,6 @@
             <path>
               <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day12_PHP_Operator_Condition_Loop_Function_String_Number_Time" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
-              <item name="Day12_PHP_Operator_Condition_Loop_Function_String_Number_Time" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
               <item name="Day24_MVC_CRUD_Category_Continue_Pratice_WPM1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -359,6 +324,11 @@
               <item name="Day24_MVC_CRUD_Category_Continue_Pratice_WPM1" type="462c0819:PsiDirectoryNode" />
               <item name="Slides" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PHP0520E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP0520E" type="462c0819:PsiDirectoryNode" />
+              <item name="fotorama-4.6.4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -375,15 +345,15 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\PHP0520E\Day16_PHP_Session_Cookie\Codes_demo\demo_login" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHP0520E" />
       <recent name="C:\xampp\htdocs\PHP0520E\Day22_OOP_PDO_And_MVC\Slides" />
       <recent name="C:\xampp\htdocs\PHP0520E\Day20_PHP_CRUD_Ajax\Codes_demo\curd_ajax" />
       <recent name="C:\xampp\htdocs\PHP0520E\Day20_PHP_CRUD_Ajax\Codes_demo" />
       <recent name="C:\xampp\htdocs\PHP0520E\Day19_PHP_CRUD_Ajax\Codes_demo" />
-      <recent name="C:\xampp\htdocs\PHP0520E" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHP0520E\Day16_PHP_Session_Cookie\Codes_demo\demo_login" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -448,17 +418,17 @@
       <workItem from="1596799332012" duration="11000" />
       <workItem from="1596884995643" duration="10242000" />
       <workItem from="1597035020290" duration="1016000" />
+      <workItem from="1597469414827" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157581000" />
+    <option name="totallyTimeSpent" value="158700000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3336887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -486,20 +456,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day19_PHP_CRUD/Codes_demo/crud/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/crud/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day20_PHP_CRUD_Ajax/Codes_demo/crud/update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4760">
@@ -759,14 +715,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day23_OOP_PDO_And_MVC_CRUD_Category/Codes_demo/mvc_demo/controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
+        <state relative-caret-position="2120">
           <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-          <folding>
-            <element signature="n#render#0;n#CategoryController#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/practice_wpm1/practice_1.php" />
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -783,14 +737,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="175" column="57" selection-start-line="175" selection-start-column="57" selection-end-line="175" selection-end-column="57" />
+        <state relative-caret-position="2176">
+          <caret line="178" column="1" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
           <folding>
             <element signature="e#375#425#0#PHP" />
             <element signature="n#create#0;n#CategoryController#0;n#!!top" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fotorama-4.6.4/fotorama.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/mvc_demo/views/categories/update.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -830,13 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day24_MVC_CRUD_Category_Continue_Pratice_WPM1/Codes_demo/practice_wpm1/practice_1.php">
+    <entry file="file://$PROJECT_DIR$/fotorama-4.6.4/example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
-          <folding>
-            <element signature="e#6#36#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="21" column="129" selection-start-line="21" selection-start-column="129" selection-end-line="21" selection-end-column="129" />
         </state>
       </provider>
     </entry>
