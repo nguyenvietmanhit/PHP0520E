@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="dist/css/slider-pro.min.css"/>
+    <script src="dist/js/jquery-1.11.0.min.js"></script>
+    <script src="dist/js/jquery.sliderPro.min.js"></script>
+</head>
+<body>
+<div class="slider-pro" id="my-slider">
+    <div class="sp-slides">
+        <!-- Slide 1 -->
+        <div class="sp-slide">
+            <img class="sp-image" src="images/partner-1.jpg"/>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="sp-slide">
+            <img class="sp-image" src="images/customer-2.png"/>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="sp-slide">
+            <img class="sp-image" src="images/customer-4.png"/>
+        </div>
+    </div>
+    <div class="sp-thumbnails">
+        <img class="sp-thumbnail" src="images/partner-1.jpg" data-src="images/partner-1.jpg"/>
+        <img class="sp-thumbnail" src="images/customer-2.png" data-src="images/customer-2.png"/>
+        <img class="sp-thumbnail" src="images/customer-4.png" data-src="images/customer-4.png"/>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery( document ).ready(function( $ ) {
+        $( '#my-slider' ).sliderPro({
+            fullScreen: true,
+            arrows: true,
+            buttons: false,
+            autoplay: true,
+            thumbnailWidth: 50,
+            thumbnailHeight: 50,
+            thumbnailPointer: true,
+            thumbnailArrows: true,
+            width: 'auto',
+            // height: 300,
+        });
+
+        $( '.sp-slide' ).click(function(){
+            if( ! $('.slider-pro').hasClass('sp-swiping') ) {
+                $( '.sp-full-screen-button' ).trigger( 'click' );
+            }
+        });
+    });
+</script>
+</body>
+</html>
