@@ -1,2 +1,8 @@
-/*mvc_demo/assets/css/style.css*/
-/*File css chính của ứng dụng*/
+.main-header .sidebar-toggle:before {
+  content: "";
+}
+
+.content-wrap {
+  min-height: 0 !important;
+  overflow: auto;
+}

@@ -46,4 +46,20 @@
  * đc product và news -> chặn ở controller producr và news tương
  * ứng
  * + Tìm kiếm, phân trang: demo trên lớp
+ *
+ * 2 - Cách ghép giao diện (template) vào mô hình MVC
+ * + Copy toàn bộ mã HTML vào file layout chính của mô hình MVC,
+ * với MVC hiện tại -> copy vào views/layouts/main.php
+ * + Chuyển toàn bộ cấu trúc các file css,js, images nếu có
+ * từ template đó -> assets của mô hình MVC
+ * + Trong file layout main.php cần kiểm tra lại đường dẫn
+ * của các file .css, .js, các images xem đã nhúng đúng
+ * đường dẫn chưa
+ * + Phân tích layout để tách bố cục thành các phần header,
+ * footer, main nếu cần
+ * + Sau khi kiểm tra giao diện đã hiển thị đúng, ghép nội dung
+ * động vào file layout main.php này: content, title_page,
+ * seo_title, seo_description, seo_keyword
+ * + Luôn hiển thị các thông báo lỗi, thành công, session liên
+ * quan đến lỗi/thành công tại file layout này
  */
