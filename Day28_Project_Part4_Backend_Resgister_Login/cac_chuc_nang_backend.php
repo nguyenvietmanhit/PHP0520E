@@ -62,4 +62,20 @@
  * seo_title, seo_description, seo_keyword
  * + Luôn hiển thị các thông báo lỗi, thành công, session liên
  * quan đến lỗi/thành công tại file layout này
+ *
+ *
+ * - DEMO chức năng đăng ký, đăng nhập, đăng xuất bên backend
+ * + Chức năng đăng ký:
+ * - Về cơ bản form đăng ký bao gồm các input
+ * nhập username, nhập password và confirm password
+ * - Mật khẩu khi lưu vào CSDL bắt buộc phải mã hóa, có rất nhiều
+ * cơ chế mã hóa như AES .... Khi demo sử dụng cơ chế mã hóa
+ * md5 - là cơ chế mã hóa chỉ dùng để demo , ko áp dụng trong
+ * thực tế
+ * - Khi xử lý đăng ký, cần phải check xem username đã tồn tại
+ * chưa
+ * - Giao diện của form đăng ký đang hoàn toàn khác so với giao
+ * diện chính của backend -> tạo ra 1 file layout mới chỉ dùng
+ * cho các chức năng mà user chưa đăng nhập, còn nếu đăng nhập
+ * r thì sẽ dùng layout main.php chính của ứng dụng
  */

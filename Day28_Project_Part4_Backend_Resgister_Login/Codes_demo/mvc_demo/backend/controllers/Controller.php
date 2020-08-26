@@ -8,7 +8,29 @@
 
 class Controller
 {
-    //chứa nội dung view
+    // + Sau khi xây dựng chức năng login, cần phải check các lỗi
+    //bảo mật với chức năng login, vd:
+    // - Nếu chưa login thì ko cho phép truy cập backend
+    // - Nếu login rồi thì ko cho truy cập lại form login
+    // + Việc check bảo mật về login sẽ check tại phương thức
+    //khởi tạo của class cha
+    // Phương thức khởi tạo là phương thức đc chạy đầu tiên khi
+    //khởi tạo đối tượng
+    //
+    public function __construct() {
+      //+ Với điều kiện hiện tại sẽ bị lỗi Chuyển hướng quá nhiều
+      //lần
+      // + Để fix trường hợp này, loại trừ controller=user
+      if (!isset($_SESSION['user'])
+          && $_GET['controller'] != 'user') {
+        $_SESSION['error'] = 'Bạn chưa đăng nhập';
+        header
+        ('Location: index.php?controller=user&action=login');
+        exit();
+      }
+    }
+
+  //chứa nội dung view
     public $content;
     //chứa nội dung lỗi validate
     public $error;
