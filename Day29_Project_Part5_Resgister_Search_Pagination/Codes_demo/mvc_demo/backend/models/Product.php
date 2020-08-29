@@ -161,4 +161,58 @@ class Product extends Model
             ->prepare("DELETE FROM products WHERE id = $id");
         return $obj_delete->execute();
     }
+
+    // Lấy danh sách tất cả sản phẩm đang có trong bảng products
+    //Tham số params là 1 mảng chứa dữ liệu search nếu có
+    public function getList($params = []) {
+      // + Tạo câu truy vấn, do cần hiển thị cả tên danh mục, mà
+      //tên danh mục ko đc lưu trong bảng products, mà đang lưu
+      //tại bảng categories. Vì 2 bảng này có liên kết với nhau
+      //nên phải sử dụng cơ chế JOIN (INNER, LEFT, RIGHT, OUTER)
+      //, sẽ dùng INNER JOIN để đảm bảo sự toàn vẹn về mặt dữ
+      //liệu
+      // Khi sử dụng cơ chế JOIN, luôn phải có tên bảng trước
+      //tên trường để đảm bảo thao tác với đúng trường của bảng
+      //mong muốn
+
+      // + Thử viết truy vấn với điều kiện: category_id = 1, title
+      // chứa chuỗi samsung, giá chứa chuỗi 50
+      // WHERE category_id = 1 AND title LIKE '%samsung%'
+      // AND price LIKE '%50%'
+
+      $str_search = '';
+      // với truy vấn LIKE, chỉ hoạt động khi dữ liệu khác rỗng
+      //kiểm tra nếu có search theo danh mục
+      if (isset($params['category_id']) &&
+          $params['category_id'] != -1) {
+        $category_id = $params['category_id'];
+        $str_search .= " AND products.category_id = $category_id";
+      }
+      //Kiểm tra nếu có search theo title sp, lưu ý do dùng LIKE
+      //nên bắt buộc giá trị phải khác rỗng
+      if (isset($params['title']) && !empty($params['title'])) {
+        $title = $params['title'];
+        $str_search .= " AND products.title LIKE '%$title%'";
+      }
+      // Kiếm tra nếu có search theo price
+      if (isset($params['price']) && $params['price'] >= 0) {
+        $price = $params['price'];
+        $str_search .= " AND products.price LIKE '%$price%'";
+      }
+      $sql_select_all =
+      "SELECT products.*, categories.name AS category_name 
+       FROM products
+       INNER JOIN categories 
+       ON products.category_id = categories.id
+       WHERE TRUE $str_search";
+      // + Tạo đối tượng truy vấn
+      $obj_select_all = $this->connection
+          ->prepare($sql_select_all);
+      // + Thực thi đối tượng truy vấn, execute
+      $obj_select_all->execute();
+      // + Lấy mảng các product: fetchAll()
+      $products =
+          $obj_select_all->fetchAll(PDO::FETCH_ASSOC);
+      return $products;
+    }
 }

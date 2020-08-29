@@ -6,19 +6,44 @@ require_once 'models/Pagination.php';
 
 class ProductController extends Controller
 {
-  public function index()
-  {
+  public function index() {
+    // Xử lý khi submit form search
+//    echo "<pre>";
+//    print_r($_GET);
+//    echo "</pre>";
+    // Với chức năng search, vẫn chỉ sử dụng 1 phương thức lấy
+    //dữ liệu getList(), nhưng cần xác định 1 tham số cho phương
+    //thức này, để truyền vào các giá trị search nếu có
+    // Tạo 1 mảng, khởi tạo giá trị ban đầu bằng rỗng, tương
+    //đương với trường hợp ko search
+    $params = [];
+    if (isset($_GET['search'])) {
+      // + Tạo biến và gán giá trị
+      $category_id = $_GET['category_id'];
+      $title = $_GET['title'];
+      $price = $_GET['price'];
+      $params['category_id'] = $category_id;
+      $params['title'] = $title;
+      $params['price'] = $price;
+    }
+    //Lấy ra toàn bộ sản phẩm đang có trong CSDL
     $product_model = new Product();
-    $products = $product_model->getAll();
+    //truyền mảng params vào làm tham số cho phương thức
+    //getList
+    $products = $product_model->getList($params);
 
-    //lấy danh sách category đang có trên hệ thống để phục vụ cho search
+    //Lấy toàn bộ danh mục trong CSDL để hiển thị vào
+    // phần tìm kiếm theo danh mục
     $category_model = new Category();
     $categories = $category_model->getAll();
 
-    $this->content = $this->render('views/products/index.php', [
-        'products' => $products,
-        'categories' => $categories,
-    ]);
+    // + Lấy nội dung view tương ứng:
+    $this->content =
+        $this->render('views/products/index.php', [
+            'products' => $products,
+            'categories' => $categories
+        ]);
+    // + Gọi layout để hiển thị ra nội dung view vừa lấy đc
     require_once 'views/layouts/main.php';
   }
 

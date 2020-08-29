@@ -78,4 +78,21 @@
  * diện chính của backend -> tạo ra 1 file layout mới chỉ dùng
  * cho các chức năng mà user chưa đăng nhập, còn nếu đăng nhập
  * r thì sẽ dùng layout main.php chính của ứng dụng
+ *
+ * + Chức năng Đăng xuất/Logout: logout tài khoản hiện tại
+ * Cơ chế: xóa các session mà khi đăng nhập thành công đã tạo ra
+ * , ko nên sử dụng session_destroy vì hàm này chỉ hoạt động
+ * tại thời điểm thứ 2
+ * + Chức năng tìm kiếm sản phẩm: giúp tìm kiếm sản phẩm theo
+ * thông tin mà user mong muốn
+ * - Về mặt truy vấn: sử dụng truy vấn SELECT, chia làm 2 cơ chế
+ * tìm kiếm:
+ * + Tìm kiếm tương đối: cứ chứa chuỗi tìm kiếm là đc,
+ * sử dụng LIKE, áp dụng cho dữ liệu mà user có thể nhập đc:
+  tên sp, giá sp
+ * + Tìm kiếm tuyệt đối: sử dụng điều kiện =, áp dụng với các
+ *dữ liệu mà hệ thống đã tạo ra từ trước, vd: tìm kiếm theo tên
+ *danh mục mà sản phẩm đó đang thuộc về
+ * - Với backend, thông thường chức năng tìm kiếm sản phẩm,
+ * sẽ để tại màn hình danh sách sản phẩm
  */

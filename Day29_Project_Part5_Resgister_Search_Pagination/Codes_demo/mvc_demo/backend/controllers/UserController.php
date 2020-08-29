@@ -119,4 +119,19 @@ class UserController extends Controller {
     // + Gọi layout để hiển thị nội dung vừa lấy đc
     require_once 'views/layouts/main_login.php';
   }
+
+  //Phương thức để logout khỏi hệ thống
+  //index.php?controller=user&action=logout
+  public function logout() {
+    // Chức này sẽ ko có view, sau khi logout thành công ->
+    //chuyển hướng về trang login
+    unset($_SESSION['user']);
+    //ko nên sử dụng session_destroy nếu
+    // muốn hiển thị 1 thông báo bằng session
+    // vì sẽ xóa mọi session đang tồn tại trên hệ thống
+//    session_destroy();
+    $_SESSION['success'] = 'Đăng xuất thành công';
+    header('Location: index.php?controller=user&action=login');
+    exit();
+  }
 }
