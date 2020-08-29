@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>so nguyen to</title>
+	<!--<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=LfAYm3wJ5lEn_lQNBvWslPy8_SM-mk5BBb_H-Tci1Z8oJMRSdlree5fGSga1Tvm3SNw03_SwtqDRTIeVA7-PqMhbhY8MRZagdnvMeMDJciPCGmiH11DR27YcyhndZCxqtcS0g2YA9GYR6KfsTfOrOijPm4TIoPJi44e1dI-2zAx-FQpcryLC_53jRgY7lu6dlfABhjUyEUZjz5ZbrNfpcfI8_V8Y6PhG6MKGyt_EZdMccrobGeI3ZiQY2Sxr9iY1cxf4DF2dVOQ_q8cV7ez5QtkOQ2twvDliUmLE3cQ5_TlFMCOV6dyMLmvY7Kc6onLJsTxxTBFd6qJ78hNGNxyye5Hbv5bZjtf3ac4MvfWB0bGdRq_skEe53yM0yh2zawA-6tBoDC-nsEL8cyZDui9t6CHsjeVV5Xenz83z7y6EmjtoRINUZAFcB2RKDJcFy7Ru" charset="UTF-8"></script><script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>-->
+	 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<h3>So nguyen to</h3>
+	<form id="submit-form">
+		Nhap so a: <input type="text" name="" value="" id="id-input">
+		<br>
+		<button type="submit" value="" id="submit-button">Show so nguyen to</button>
+		<h4 id="result"></h4>
+	</form>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			function so_nguyen (number){
+                console.log(i)
+				var check_number = true;
+				if (number < 2) {
+					check_number = false;
+				}
+
+				for (i = 2; i <= Math.sqrt(number); i++){
+				    console.log("i bên trong for = " + i)
+					if (number % i == 0) {
+						check_number = false;
+					break;
+					}
+				}
+				return check_number;
+			};
+			$('#submit-form').submit(function(){
+				var number = $('#id-input').val();
+				console.log(number);
+				var result = 'Cac so nguyen to tu 1 den '+ number + ' la:';
+				// console.log(so_nguyen(number))
+				var x = 1;
+				for (i = 1; i <= number; i++){
+					var j = so_nguyen(i);
+						x += 1;
+					// console.log(x);
+					// if (so_nguyen(i) == true) {
+						// console.log(x);
+						// console.log('inside if');
+						// result += i + ',';
+						// }
+
+					}
+				$('#result').html(result);
+				event.preventDefault();
+				});
+	
+	});
+	</script>
+</body>
+</html>
