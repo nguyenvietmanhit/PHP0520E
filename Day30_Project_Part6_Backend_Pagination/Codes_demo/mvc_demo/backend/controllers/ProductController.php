@@ -7,6 +7,20 @@ require_once 'models/Pagination.php';
 class ProductController extends Controller
 {
   public function index() {
+    // Thử test chức năng phân trang vừa xây dựng với
+    // các dữ liệu tĩnh
+    // Khởi tạo đối tượng từ class Pagination, truyền vào 1 mảng
+    // theo đúng cấu trúc của thuộc tính params của class đó
+//    $params_pagination = [
+//        'total' => 42,
+//        'limit' => 5,
+//        'controller' => 'product',
+//        'action' => 'index',
+//        'full_mode' => FALSE
+//    ];
+//    $pagination_model = new Pagination($params_pagination);
+//    echo $pagination_model->getPagination();
+
     // Xử lý khi submit form search
 //    echo "<pre>";
 //    print_r($_GET);
@@ -30,8 +44,37 @@ class ProductController extends Controller
     $product_model = new Product();
     //truyền mảng params vào làm tham số cho phương thức
     //getList
-    $products = $product_model->getList($params);
 
+    //Áp dụng phân trang bằng cách gắn thêm các phần tử
+    //cho mảng params đã khai báo
+    //Xác định giá trị của key=total
+    $total = $product_model->countTotal();
+    $params['total'] = $total;
+    // Xác định số bản ghi trên 1 trang,
+    // demo 1 trang có 2 bản ghi
+    $params['limit'] = 2;
+    $params['controller'] = 'product';
+    $params['action'] = 'index';
+    $params['full_mode'] = TRUE;
+    // Xác định tham số start trong LIMIT start,limit để truyền
+    //vào câu truy vấn
+    //VD: nếu ở trang 1 -> lấy từ bản ghi 2 bản ghi đầu tiên
+    // Start = 0
+    //    nếu ở trang 2 -> lấy 2 bản ghi nhưng từ vị trí thứ 2
+    // start 2
+    $page = 1;
+    if (isset($_GET['page']) && is_numeric($_GET['page'])) {
+      $page = $_GET['page'];
+    }
+    // LIMIT start,limit
+    $start = ($page - 1) * $params['limit'];
+    $params['start'] = $start;
+
+    $pagination_model = new Pagination($params);
+    //hiển thị phân trang ở view, nên cần truyền biến này
+    //ra view
+    $pagination = $pagination_model->getPagination();
+    $products = $product_model->getList($params);
     //Lấy toàn bộ danh mục trong CSDL để hiển thị vào
     // phần tìm kiếm theo danh mục
     $category_model = new Category();
@@ -41,7 +84,8 @@ class ProductController extends Controller
     $this->content =
         $this->render('views/products/index.php', [
             'products' => $products,
-            'categories' => $categories
+            'categories' => $categories,
+            'pagination' => $pagination
         ]);
     // + Gọi layout để hiển thị ra nội dung view vừa lấy đc
     require_once 'views/layouts/main.php';

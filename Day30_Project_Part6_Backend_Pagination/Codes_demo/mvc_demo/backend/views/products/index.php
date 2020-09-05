@@ -114,3 +114,7 @@ và action trên trình duyệt
         </tr>
     <?php endif; ?>
 </table>
+<?php
+//Hiển thị phân trang
+echo $pagination;
+?>

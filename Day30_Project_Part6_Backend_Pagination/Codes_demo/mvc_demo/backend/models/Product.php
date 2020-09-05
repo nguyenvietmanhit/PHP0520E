@@ -85,7 +85,8 @@ class Product extends Model
      */
     public function countTotal()
     {
-        $obj_select = $this->connection->prepare("SELECT COUNT(id) FROM products WHERE TRUE $this->str_search");
+        $obj_select = $this->connection
+            ->prepare("SELECT COUNT(id) FROM products WHERE TRUE $this->str_search");
         $obj_select->execute();
 
         return $obj_select->fetchColumn();
@@ -199,12 +200,18 @@ class Product extends Model
         $price = $params['price'];
         $str_search .= " AND products.price LIKE '%$price%'";
       }
+
+      //Truyền start và limit vào câu truy vấn dựa vào mảng
+      //params truyền từ controllers
+      $start = $params['start'];
+      $limit = $params['limit'];
+
       $sql_select_all =
       "SELECT products.*, categories.name AS category_name 
        FROM products
        INNER JOIN categories 
        ON products.category_id = categories.id
-       WHERE TRUE $str_search";
+       WHERE TRUE $str_search LIMIT $start,$limit";
       // + Tạo đối tượng truy vấn
       $obj_select_all = $this->connection
           ->prepare($sql_select_all);

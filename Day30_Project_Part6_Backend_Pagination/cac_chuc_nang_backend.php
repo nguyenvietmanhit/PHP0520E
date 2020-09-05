@@ -95,4 +95,28 @@
  *danh mục mà sản phẩm đó đang thuộc về
  * - Với backend, thông thường chức năng tìm kiếm sản phẩm,
  * sẽ để tại màn hình danh sách sản phẩm
+ *
+ *
+ * 3  - Chức năng phân trang
+ * + Về mặt truy vấn, khi sử dụng SELECT dể lấy ra các bản ghi,
+ * nếu lấy số lượng ít thì ko vấn đề gì, tuy nhiên nếu số lượng
+ * bản ghi mà lớn -> dễ die trang (do mỗi hệ thống đều có khoảng
+ * thời gian timeout - giả sử trong 30s mà ko thực xong 1 câu
+ * truy vấn -> die trang để tránh mất băng thông)
+ * + Chức năng phân trang giải quyết dc vấn đề này, việc lấy
+ * dữ liệu sẽ đc chia thành các trang, mỗi 1 trang chỉ 1 lấy
+ * 1 số lượng bản ghi nhất định
+ * + Thực tế chức năng phân trang là chức năng ko thể thiếu
+ * với bất kỳ 1 trang danh sách nào
+ * + Về mặt câu truy vấn, sử dụng SELECT kêt hợp với từ khóa
+ * LIMIT, trước đây có thêm 1 cách là sử dụng LIMIT OFFSET
+ * VD: SELECT * FROM products LIMIT 0,5
+ * Lấy 5 bản ghi tính từ vị trí thứ 0 (vị trí đầu tiên)
+ * + LIMIT start,limit:
+ * start: vị trí bản ghi muốn lấy
+ * limit: lấy bao nhiêu bản ghi tính từ vị trí start
+ * + Trong quá trình demo chỉ demo chức năng phân trang ko
+ * kết hợp vừa search vừa phân trang
+ * + Về mặt code, tạo 1 class chuyên dùng cho phân trang, thông
+ * qua việc truyền tham số cho class này khi khởi tạo đối tượng
  */

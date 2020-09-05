@@ -1,63 +1,63 @@
 <?php
-//models/Pagination.php
-//Class phân trang
-//ý tương của phân trang:
-//giả sử trong bảng categories có 36 bản ghi
-//và yêu cầu là hiển thị 10 bản ghi trên 1 trang
-//-> tổng số trang cần tạo để chứa hết 36 bản ghi
-// = ceil(36/10) = 4
-//như vậy cần xác định các tham số sau
-// - tổng số bản ghi: total
-// - số bản ghi trên 1 trang: limit
-//url phân trang sẽ có dạng sau, theo mô hình mvc
-//index.php?controller=category&action=index&page=3
-//- controller xử lý phân trang: controller
-//- action xử lý phân trang: action
-// - chế độ hiển thị phân trang: full_mode
-class Pagination
-{
-  //khai báo 1 thuộc tính chứa tất cả các tham số vừa liệt
-//    kê ở trên
+//xóa hết nội dung của class models/Pagination
+//định nghĩa 1 class PAgination chuyên dùng cho phân trang
+class Pagination {
+  //Khai báo 1 thuộc tính cho class, thuộc tính này đóng vai
+  //trò là nơi nhận các giá trị của các chức năng tương ứng
+  //muốn  hiển thị phân trang
   public $params = [
-    //tổng số bản ghi trên trang
+     //Tổng số bản ghi đc dùng để phân trang
     'total' => 0,
-    //giới hạn bản ghi trên 1 trang
+    // Hiển thị bao nhiêu bản ghi trên 1 trang
     'limit' => 0,
-    //controller xử lý phân trang
+    // Controller và action nào đang hiển thị
+    // chức năng phân trang
     'controller' => '',
-    //action xử lý phân trang
     'action' => '',
-    //chế độ hiển thị phân trang (show ra tất cả page hay ko)
-    'full_mode' => FALSE
+    // Kiểu hiển thị phân trang , kiểu fullmode -> show tất cả
+    // trang, ngược lại là kiểu show 1 số trang mặc định
+    'full_mode' => TRUE
   ];
 
-  //lợi dụng phương thức khởi tạo của class
-  //để gán giá trị mặc định cho thuộc tính params vừa khai báo
-  public function __construct($params) {
+  // Lợi dụng phương thức khởi tạo của 1 class để khởi tạo
+  //giá trị mặc định cho thuộc tính params
+  // Phương thức khởi tạo là phương thức chạy ngầm đầu tiên
+  //khi khởi tạo 1 đối tượng từ class đó
+  public function __construct($params = []) {
+    // Gán giá trị cho thuộc tính params, giá trị này sẽ đến
+    // từ tham số params của phương thức khởi tạo
     $this->params = $params;
   }
 
-  //tạo 1 phương thức lấy tổng số trang hiện tại
+  // Lấy ra tổng số trang hiện tại
   public function getTotalPage() {
-    $total = $this->params['total'] / $this->params['limit'];
-    //cần làm tròn lên vì có trường hợp phép chia ra số
-    //thập phân
-    $total = ceil($total); //floor - làm tròn xuống
-    //round - làm tròn phần thập phân
-    return $total;
+    // Giả sử có 42 bản ghi, mỗi trang hiển thị 5 bản ghi
+    // -> cần tổng là bao nhiêu trang?
+    // -> phương thúc này sẽ trả về là 42/5 làm tròn = 9
+    $total = $this->params['total'];
+    $limit = $this->params['limit'];
+    $total_page = $total / $limit;
+    //cần làm tròn số lên trong mọi trường hợp nếu như phép chia
+    //có kết quả là số thập phân
+    //vd: 8.4 -> 9, 8.9 -> 9, 8.001 -> 9
+    $total_page = ceil($total_page);
+    return $total_page;
   }
 
-  //tạo 1 phương thức lấy ra trang hiện tại
+  // Phương thức trả về trang hiện tại
+  // trong cấu trúc phân trang
   public function getCurrentPage() {
-    //url phân trang theo mô hình MVC hiện tại đang có dạng:
-//        index.php?controller=&action=&page=3
-    //khởi tạo page mặc định = 1
+    //Mục đích lấy ra trang hiện tại để nhận biết đang đứng
+    //ở trang nào
+    //Cần dựa vào URL của chức năng phân trang để biết đc
+    //trang hiện tại là trang nào
+    //vd: index.php?controller=product&action=index&page=4
+    //Giả sử trang đầu tiên = 1
     $page = 1;
     if (isset($_GET['page']) && is_numeric($_GET['page'])) {
       $page = $_GET['page'];
-      //kiểm tra nếu user nhập thủ công giá trị cho tham số
-      // page trên URL mà > tổng số trang đang có
-      //thì gán biến page = tổng số trang
+      //Nếu như user sửa giá trị của tham số page >= tổng số
+      //trang đang có, cần gán lại bằng tổng số trang
       $total_page = $this->getTotalPage();
       if ($page >= $total_page) {
         $page = $total_page;
@@ -66,117 +66,128 @@ class Pagination
     return $page;
   }
 
-  //tạo phương thức lấy ra link HTML của trang trước đó
-  // - Link Prev
+  //Phương thức sinh ra nút Prev - Về trang trước
   public function getPrevPage() {
-    //cần phân tích cấu trúc HTML nào sẽ dùng để xây dựng
-    //ra phân trang
-    //do hệ thống admin hiện tại đang dùng bootstrap
-    //nên sẽ sử dụng cấu trúc ul li để dựng phân trang
+    //Do template đã tích hợp Bootstrap, nên sử dụng component
+    //Pagination của Bootstrap để xây dựng cấu trúc phân trang
+    //Kết quả trả về của phương thức này sẽ là 1 thẻ <li> do
+    //mỗi trang đều là 1 thẻ <li> trong cấu trúc phân trang của
+    //Bootstrap
     $prev_page = '';
-    //lấy ra trang hiện tại
+    //Link Prev ko hiển thị trong trường hợp trang đầu tiên
     $current_page = $this->getCurrentPage();
-    //link Prev chỉ hiển thị khi trang hiện tại >= 2
     if ($current_page >= 2) {
-      //lấy ra các giá trị của controller và action
-      //từ thuộc tính params
+      //định nghĩa url cho link Prev này theo cấu trúc MVC
       $controller = $this->params['controller'];
       $action = $this->params['action'];
-      $page = $current_page - 1;
       $prev_url =
-        "index.php?controller=$controller&action=$action&page=$page";
-      //tạo cấu trúc li cho biến $prev_page
+      "index.php?controller=$controller&action=$action&page=" . ($current_page - 1);
       $prev_page = "<li><a href='$prev_url'>Prev</a></li>";
     }
     return $prev_page;
   }
 
-  //xây dựng phương thức tạo ra link Next cho phân trang
+  //Phương thức sinh ra nút Next, mục đích tương tự nút Prev
   public function getNextPage() {
     $next_page = '';
-    //lấy ra số trang hiện tại và tổng số trang
-    //để check việc hiển thị link Next
-    //vì chỉ hiển thị link Next khi trang hiện tại
-    // < tổng số trang
-    $current_page = $this->getCurrentPage();
+    //Nếu trang hiện tại >= tổng số trang đang có thì sẽ ko hiển
+    //thị nút Next
     $total_page = $this->getTotalPage();
+    $current_page = $this->getCurrentPage();
     if ($current_page < $total_page) {
       $controller = $this->params['controller'];
       $action = $this->params['action'];
-      $page = $current_page + 1;
       $next_url =
-        "index.php?controller=$controller&action=$action&page=$page";
+      "index.php?controller=$controller&action=$action&page=" . ($current_page + 1);
       $next_page = "<li><a href='$next_url'>Next</a></li>";
     }
     return $next_page;
   }
 
-  //xây dựng phương thức hiển thị ra 1 cấu trúc HTML phân trang
-  //hoàn chinh
+  //Phương thức trả về cấu trúc phân trang của Bootstrap
+  //theo <ul><li>
   public function getPagination() {
-    $data = '';
-    //nếu tổng số trang hiện tại chỉ = 1, thì ko cần hiển thị
-    //cấu trúc phân trang
+    $pagination = '';
+    // Không hiển thị phân trang nếu chỉ có 1 trang duy nhất
     $total_page = $this->getTotalPage();
     if ($total_page == 1) {
       return '';
     }
+    //Tạo cấu trúc phân trang theo Bootstrap
+    $pagination .= "<ul class='pagination'>";
+    //Ở giữa cấu trúc <ul> là logic để show ra các <li>
+    //Show ra link Prev
+    $prev_page = $this->getPrevPage();
+    $pagination .= $prev_page;
 
-    $data .= "<ul class='pagination'>";
-    //gắn link Prev vào đầu tiên
-    $prev_link = $this->getPrevPage();
-    $data .= $prev_link;
-
-    //tạo các biến controller, action lấy từ thuộc tính params
+    //Dựa vào kiểu hiển thị phân trang, key = full_mode của
+    //thuộc tính params để hiển thị ra các trang
+    $full_mode = $this->params['full_mode'];
+    //Nếu là chế độ full mode -> show ra tất cả các trang
     $controller = $this->params['controller'];
     $action = $this->params['action'];
-
-    //nếu như hiển thị phân trang theo kiểu ..
-    // -> full_mode = FALSE
-    $full_mode = $this->params['full_mode'];
-    if ($this->params['full_mode'] == FALSE) {
+    if ($full_mode) {
+      // Lặp toàn bộ các trang để set url cho từng trang
+      // và set cấu trúc <li> cho từng trang theo đúng cấu
+      //trúc của Bootstrap
       for ($page = 1; $page <= $total_page; $page++) {
+        //So sánh nếu là trang hiện tại thì thêm class active
+        //và ko set url cho trang đó
         $current_page = $this->getCurrentPage();
-        //hiển thị trang 1, trang cuối, trang ngay trước trang hiện tại và trang ngay sau trang hiện tại
-        if ($page == 1 || $page == $total_page || $page  == $current_page - 1 || $page == $current_page + 1) {
-          $page_url = "index.php?controller=$controller&action=$action&page=$page";
-          $data .= "<li><a href='$page_url'>$page</a></li>";
-        }
-        //nếu là trang hiện tại thì sẽ ko có link
-        else if ($page == $current_page) {
-          $data .= "<li class='active'><a href=''>$page</a></li>";
-        }
-//        còn nếu hoặc là trang 2, trang 3 hoặc trang tổng - 1, trang tổng -2 thì hiển thị ..
-        else if (in_array($page, [$current_page - 2, $current_page - 3, $current_page + 2, $current_page + 3])){
-          $data .= "<li><a href=''>...</a></li>";
-        }
-      }
-//ngược lại nếu là chế độ fullpage
-    }
-    //hiển thị full page
-    else {
-      //chạy vòng lặp từ 1 đến tổng số trang
-      //để hiển thị ra các trang
-      for ($page = 1; $page <= $total_page; $page++) {
-        $current_page = $this->getCurrentPage();
-        //nếu trang hiện tại trùng với với số lần lặp hiện
-        //tại thì sẽ thêm class active và ko gắn link
-//                cho trang hiện tại
         if ($current_page == $page) {
-          $data .= "<li class='active'><a href='#'>$page</a></li>";
+          $pagination .=
+          "<li class='active'><a href='#'>$page</a></li>";
         } else {
-          $page_url
-            = "index.php?controller=$controller&action=$action&page=$page";
-          $data .= "<li><a href='$page_url'>$page</a></li>";
+          $page_url =
+          "index.php?controller=$controller&action=$action&page=$page";
+          $pagination .= "<li><a href='$page_url'>$page</a></li>";
+        }
+      }
+    }
+    //Nếu không phải fullmode
+    else {
+      //Lặp từng trang
+      for ($page = 1; $page <= $total_page; $page++) {
+        //Nếu là trang hiện tại thì sẽ ko để link, và set class
+        //active
+        $current_page = $this->getCurrentPage();
+        if ($current_page == $page) {
+          $pagination .=
+          "<li class='active'><a href='#'>$page</a></li>";
+        }
+        // Nếu là trang đầu tiên hoặc trang cuối cùng hoặc trang
+        // ngay trước trang hiện tại hoặc trang ngay sau trang
+        // hiện tại thì vẫn hiển thị tên trang thay vì dấu ...
+        elseif ($page == 1 || $page == $total_page
+        || ($page == $current_page - 1 )
+        || ($page == $current_page + 1)) {
+          $page_url =
+          "index.php?controller=$controller&action=$action&page=$page";
+          $pagination .= "<li><a href='$page_url'>$page</a></li>";
+        }
+        // Nếu page = 2, 3 , trang cuối - 1, trang cuối - 2
+        elseif ($page == 2 || $page == 3
+            || $page == ($total_page - 1)
+            || $page == ($total_page - 2)
+        ){
+          $pagination .= "<li><a href='#'>...</a></li>";
         }
       }
     }
 
-
-    //gắn link NExt vào cuối của cấu trúc phân trang
-    $next_link = $this->getNextPage();
-    $data .= $next_link;
-    $data .= "</ul>";
-    return $data;
+    //Show ra link Next
+    $next_page = $this->getNextPage();
+    $pagination .= $next_page;
+    $pagination .= "</ul>";
+    return $pagination;
   }
 }
+//Khi khởi tạo class Pagination, cần truyền vào 1 tham số tương
+//ứng, do phương thức khởi tạo của class Pagination đang có
+//1 tham số truyền vào nên khi khởi tạo đối tượng cũng cần
+//truyền vào 1 giá trị tương ứng với tham số đó
+//$params = [
+//    'a' => 1
+//];
+//$pagination = new Pagination($params);
+?>
