@@ -1,0 +1,436 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MVC Demo Frontend</title>
+
+
+    <link rel="canonical" href="http://localhost"/>
+    <link rel="alternate" href="http://localhost" hreflang="vi-vn"/>
+
+    <meta name="robots" content="index,follow,noodp">
+    <meta name="author" content="http://localhost">
+    <meta name="copyright" content="http://localhost"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="MVC Demo Frontend"/>
+    <meta property="og:url" content="http://localhost"/>
+    <meta property="og:site_name" content="http://localhost"/>
+    <!-- SEO META DESCRIPTION -->
+    <meta name="title" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content=""/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,900&amp;subset=latin-ext"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/all.min.css"/>
+    <!--<link rel="stylesheet" href="assets/css/font-awesome.min.css"/>-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Tooltip plugin (zebra) css file -->
+    <link rel="stylesheet" href="assets/css/zebra_tooltips.min.css"/>
+    <!-- Owl Carousel plugin css file. only used pages -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
+
+    <!-- Ideabox responsive css file -->
+    <link rel="stylesheet" href="assets/css/responsive-style.css"/>
+    <!-- Ideabox main theme css file. you have to add all pages -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+<a href="#" class="scrollup"></a>
+<div class="header-top nopc">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-4 col-sm-4 col-xs-12">
+                <a class="info-contact" href="tel:0999999999">
+                    <i class="fas fa-phone-alt"></i> 0999999999
+                </a>
+                <a class="info-contact" href="mailto:abc@gmail.com">
+                    <i class="far fa-envelope"></i> abc@gmail.com
+                </a>
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-12">
+                <ul class="header-navigation" data-show-menu-on-mobile="">
+                    <li>
+                        <a href="info.html" class="material-button submenu-toggle">Giới thiệu
+                    </li>
+                    <li>
+                        <a href="contact.html" class="material-button submenu-toggle">Liên hệ</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link-icon-laguage material-button submenu-toggle">
+                            <img src="assets/images/icon-flag-vn.png" class="icon-language">
+                        </a>
+                        <a href="#" class="link-icon-laguage material-button submenu-toggle">
+                            <img src="/template/camping1/assets/images/icon-flag-en.png" class="icon-language">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="gio-hang-cua-ban.html" class="cart-link">
+                            <i class="fa fa-cart-plus"></i>
+                            <span class="cart-amount">
+                                0                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<span class="ajax-message"></span>
+<!-- header start -->
+<header class="header">
+
+    <div class="header-wrapper container">
+        <!--sidebar menu toggler start -->
+        <div class="toggle-sidebar material-button">
+            <i class="material-icons">&#xE5D2;</i>
+        </div>
+        <!--sidebar menu toggler end -->
+
+        <!--logo start -->
+        <div class="logo-box">
+            <h1>
+                <a href="/" class="logo"></a>
+            </h1>
+        </div>
+        <!--logo end -->
+
+        <div class="header-menu">
+
+            <!-- header left menu start -->
+            <ul class="header-navigation" data-show-menu-on-mobile>
+                <li>
+                    <a href="index.php" class="home-link material-button submenu-toggle">
+                        LOGO
+                    </a>
+
+                </li>
+                <li>
+                    <a href="index.php" class="material-button submenu-toggle">Trang chủ</a>
+                </li>
+
+                <li>
+                    <a href="news.html" class="material-button submenu-toggle">Tin tức <span
+                            class="fa fa-angle-down"></span></a>
+                    <div class="header-submenu">
+                        <ul>
+                            <li><a href="index.html">Email</a></li>
+                            <li><a href="index2.html">Hosting/a></li>
+                            <li><a href="index3.html">Tên miền</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="danh-sach-san-pham.html" class="material-button submenu-toggle">Sản phẩm</a>
+                </li>
+                <li>
+                    <a href="gio-hang-cua-ban.html" class="material-button submenu-toggle">Giỏ hàng</a>
+                </li>
+                <li>
+                    <a href="login.html" class="material-button submenu-toggle">Đăng nhập</a>
+                </li>
+            </ul>
+            <!-- header left menu end -->
+        </div>
+        <div class="header-right with-seperator">
+            <!-- header right menu start -->
+            <ul class="header-navigation">
+                <li>
+                    <a href="/gio-hang-cua-ban.html" class="">
+                        <i class="fa fa-cart-plus"></i>
+                        <span class="cart-amount-mobile">
+                                0                        </span>
+                    </a>
+                </li>
+            </ul>
+            <!-- header right menu end -->
+
+        </div>
+    </div>
+</header>
+<!-- header end -->
+
+<!-- Left sidebar menu start -->
+<div class="sidebar">
+    <div class="sidebar-wrapper">
+
+        <!-- side menu logo start -->
+        <div class="sidebar-logo">
+            <a href="#"></a>
+            <div class="sidebar-toggle-button">
+                <i class="material-icons">&#xE317;</i>
+            </div>
+        </div>
+        <!-- side menu logo end -->
+        <!-- mobile menu start -->
+        <div id="mobileMenu">
+            <div class="sidebar-seperate"></div>
+        </div>
+        <!-- mobile menu end -->
+
+        <!-- sidebar menu start -->
+        <ul class="sidebar-menu">
+            <li>
+                <a href="index.php" class="material-button submenu-toggle">Trang chủ</a>
+            </li>
+            <li>
+                <a href="#" class="material-button submenu-toggle">Sản phẩm</a>
+            </li>
+            <li>
+                <a href="#" class="material-button submenu-toggle">Tin tức</a>
+            </li>
+            <li>
+                <a href="#" class="material-button submenu-toggle">Đăng nhập</a>
+            </li>
+        </ul>
+        <!-- sidebar menu end -->
+        <div class="sidebar-seperate"></div>
+        <!-- sidebar menu end -->
+    </div>
+</div>
+
+<div class="main-content">
+    <div class="container">
+
+
+    </div>
+    <!--    hiển thị nội dung động -->
+    <!--    PRODUCT-->
+    <div class="product-wrap">
+        <div class="product container">
+            <h1 class="post-list-title">
+                <a href="danh-sach-san-pham.html" class="link-category-item">Sản phẩm mới nhất</a>
+            </h1>
+            <div class="link-secondary-wrap row">
+                <div class="service-link col-md-3 col-sm-6 col-xs-12">
+                    <a href="san-pham/sp-2/2.html">
+                        <img class="secondary-img img-responsive" title="SP 2"
+                             src="assets/images/samsung-galaxy-note-10-plus-silver-400x460.png"
+                             alt="SP 2"/>
+                        <span class="shop-title">
+                        SP 2                    </span>
+                    </a>
+                    <span class="shop-price">
+                            1                </span>
+
+                    <span data-id="2" class="add-to-cart">
+                        <a href="them-vao-gio-hang/2.html" style="color: inherit">Thêm vào giỏ</a>
+                    </span>
+                </div>
+                <div class="service-link col-md-3 col-sm-6 col-xs-12">
+                    <a href="san-pham/dsadsa/3.html">
+                        <img class="secondary-img img-responsive" title="dsadsa"
+                             src="assets/images/samsung-galaxy-note-10-plus-silver-400x460.png"
+                             alt="dsadsa"/>
+                        <span class="shop-title">
+                        dsadsa                    </span>
+                    </a>
+                    <span class="shop-price">
+                            11                </span>
+
+                    <span data-id="3" class="add-to-cart">
+                        <a href="them-vao-gio-hang/3.html" style="color: inherit">Thêm vào giỏ</a>
+                    </span>
+                </div>
+                <div class="service-link col-md-3 col-sm-6 col-xs-12">
+                    <a href="san-pham/dsadsa/3.html">
+                        <img class="secondary-img img-responsive" title="dsadsa"
+                             src="assets/images/samsung-galaxy-note-10-plus-silver-400x460.png"
+                             alt="dsadsa"/>
+                        <span class="shop-title">
+                        dsadsa                    </span>
+                    </a>
+                    <span class="shop-price">
+                            11                </span>
+
+                    <span data-id="3" class="add-to-cart">
+                        <a href="them-vao-gio-hang/3.html" style="color: inherit">Thêm vào giỏ</a>
+                    </span>
+                </div>
+                <div class="service-link col-md-3 col-sm-6 col-xs-12">
+                    <a href="san-pham/dsadsa/3.html">
+                        <img class="secondary-img img-responsive" title="dsadsa"
+                             src="assets/images/samsung-galaxy-note-10-plus-silver-400x460.png"
+                             alt="dsadsa"/>
+                        <span class="shop-title">
+                        dsadsa                    </span>
+                    </a>
+                    <span class="shop-price">
+                            11                </span>
+
+                    <span data-id="3" class="add-to-cart">
+                        <a href="them-vao-gio-hang/3.html" style="color: inherit">Thêm vào giỏ</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    END PRODUCT-->
+
+    <!--NEWS-->
+    <div class="news-wrap">
+        <div class="news container">
+            <h1 class="post-list-title">
+                <a href="/news.html" class="link-category-item">Tin mới nhất</a>
+            </h1>
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12 category-two-item">
+                    <a href="news_detail.html" class="two-item-link-heading">
+                    <span class="new-image-content">
+                        <img src="assets/images/news.jpg"
+                             title="BÍ MẬT SƠN TINH CAMP"
+                             alt="BÍ MẬT SƠN TINH CAMP"
+                             class="post-image-avatar img-responsive">
+                    </span>
+                    </a>
+                    <div class="news-content-wrap">
+                        <h3 class="category-heading timeline-post-title">
+                            <a href="#">
+                                BÍ MẬT SƠN TINH CAMP </a>
+                        </h3>
+                        <div class="news-description">
+                            Hàng trăm năm qua, không ít những câu chuyện truyền tai nhau sản sinh ra nơi hòn đảo Sơn
+                            Tinh xinh đẹp. Họ không cùng màu da, không cùng tôn giáo, họ đến từ nhiều nơi và họ là
+                            những
+                            con người sôi nổi, thích phiêu lưu. Có phải vì những lời kể ấy đã lôi cuốn họ tìm đến
+                            Sơn
+                            Tinh, hay chính vì sự hoang dã tuyệt đẹp của không gian, bởi sự trù phú của sản
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 category-two-item">
+                    <a href="news_detail.html" class="two-item-link-heading">
+                    <span class="new-image-content">
+                        <img src="assets/images/news.jpg"
+                             title="BÍ MẬT SƠN TINH CAMP"
+                             alt="BÍ MẬT SƠN TINH CAMP"
+                             class="post-image-avatar img-responsive">
+                    </span>
+                    </a>
+                    <div class="news-content-wrap">
+                        <h3 class="category-heading timeline-post-title">
+                            <a href="#">
+                                BÍ MẬT SƠN TINH CAMP </a>
+                        </h3>
+                        <div class="news-description">
+                            Hàng trăm năm qua, không ít những câu chuyện truyền tai nhau sản sinh ra nơi hòn đảo Sơn
+                            Tinh xinh đẹp. Họ không cùng màu da, không cùng tôn giáo, họ đến từ nhiều nơi và họ là
+                            những
+                            con người sôi nổi, thích phiêu lưu. Có phải vì những lời kể ấy đã lôi cuốn họ tìm đến
+                            Sơn
+                            Tinh, hay chính vì sự hoang dã tuyệt đẹp của không gian, bởi sự trù phú của sản
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END NEWS--></div>
+
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="image-footer-wrap col-md-3">
+                LOGO
+            </div>
+            <div class="address-footer-wrap col-md-6">
+                <strong>Thông tin liên hệ</strong>
+                Tòa nhà CMC, Số 11, Phố Duy Tân, Phường Dịch Vọng Hậu, Cầu Giấy, Hà Nội <br/>
+                Hotline: 0999999999 <br/>
+                Email: abc@gmail.com
+            </div>
+            <div class="social-footer-wrap col-md-3">
+                <strong>Kết nối với chúng tôi</strong>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="color fab fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="color fab fa-youtube" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="color fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-copyright">
+            Copyright 2020 by nvmanh. All rights reserved
+        </p>
+    </div>
+</div>
+
+
+<div class="overlay"></div>
+
+<ul class="icon-service-wrap">
+    <li data-toggle="tooltip" data-placement="left" title="Gọi ngay cho chúng tôi">
+        <a href="tel:0999999999">
+            <img src="assets/images/icon-phone.png" class="icon-service-img"/>
+        </a>
+    </li>
+    <li data-toggle="tooltip" data-placement="left" title="Chat với chúng tôi qua Zalo">
+        <a href="//zalo.me/0999999999" target="_blank">
+            <img src="assets/images/icon-zalo.png" class="icon-service-img"/>
+        </a>
+    </li>
+    <li data-toggle="tooltip" data-placement="left" title="Gửi mail cho chúng tôi">
+        <a href="mailto:abc@gmail.com">
+            <img src="assets/images/icon-mail.png" class="icon-service-img"/>
+        </a>
+    </li>
+    <li data-toggle="tooltip" data-placement="left" title="Liên hệ với chúng tôi">
+        <a href="/lien-he.html" target="_blank">
+            <img src="assets/images/icon-map.png" class="icon-service-img"/>
+        </a>
+    </li>
+</ul>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!-- Tooltip plugin (zebra) js file -->
+<script src="assets/js/zebra_tooltips.min.js"></script>
+
+
+<!-- Owl Carousel plugin js file -->
+<script src="assets/js/owl.carousel.min.js"></script>
+
+<!-- Ideabox theme js file. you have to add all pages. -->
+<script src="assets/js/jquery.show-more.js"></script>
+<script src="assets/js/script.js"></script>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function () {
+    FB.init({
+      xfbml: true,
+      version: 'v7.0'
+    });
+  };
+
+  (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+</body>
+
+</html>
