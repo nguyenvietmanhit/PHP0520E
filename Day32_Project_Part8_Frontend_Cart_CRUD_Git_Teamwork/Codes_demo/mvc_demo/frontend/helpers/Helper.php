@@ -31,7 +31,8 @@ class Helper
   }
 
     /**
-     * Chuyển đổi chuỗi ký tự có dấu thành chuỗi ký tự không dấu, ngăn cách  nhau bởi ký tự -
+     * Chuyển đổi chuỗi ký tự có dấu thành chuỗi ký tự không dấu,
+     * ngăn cách  nhau bởi ký tự -
      * @param $str
      * @return null|string|string[]
      */
