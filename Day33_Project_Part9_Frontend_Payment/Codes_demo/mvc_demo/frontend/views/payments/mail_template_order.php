@@ -31,14 +31,15 @@
             <th>Địa chỉ</th>
         </tr>
         <tr>
-            <td>Mạnh Viết</td>
-            <td>0987599921</td>
-            <td>nguyenvietmanhit@gmail.com</td>
-            <td>N/A</td>
+            <td><?php echo $info_customer['fullname']; ?></td>
+            <td><?php echo $info_customer['mobile']; ?></td>
+            <td><?php echo $info_customer['email']; ?></td>
+            <td><?php echo $info_customer['address']; ?></td>
         </tr>
         </tbody>
     </table>
     <br>
+<!--  Tự xử lý để hiển thị dựa vào session giỏ hàng  -->
     <h4>Thông tin đơn hàng</h4>
     <table border="1" cellpadding="8" cellspacing="0">
         <tbody>

@@ -19,3 +19,7 @@ RewriteRule gio-hang-cua-ban.html index.php?controller=cart&action=index
 # chuỗi regex, [0-9]{1,}
 RewriteRule xoa-san-pham/([0-9]+).html index.php?controller=cart&action=delete&id=$1
 RewriteRule chi-tiet-tin/(.*)/([0-9]+).html index.php?controller=news&action=detail&title=$1&i=$2
+# Rewrite cho trang Thanh toán
+RewriteRule thanh-toan.html index.php?controller=payment&action=index
+# Rewrite cho trang thanh toán trực tuyến
+RewriteRule thanh-toan-online.html index.php?controller=payment&action=online

@@ -76,21 +76,35 @@
  * Chức năng giỏ hàng khó nhất ở bước xác định cấu trúc của giỏ
  * hàng. Trong quá trình demo cấu trúc giỏ hàng có dạng như sau
  */
-$_SESSION['cart'] = [
-    4 => [
-        'name' => 'Sản phẩm 1',
-        'avatar' => 'sp1.jpg',
-        'price' => 300,
-        'quantity' => 4
-    ],
-    7 => [
-        'name' => 'Sản phẩm 2',
-        'avatar' => 'sp2.png',
-        'price' => 500,
-        'quantity' => 1
-    ]
-];
+//$_SESSION['cart'] = [
+//    4 => [
+//        'name' => 'Sản phẩm 1',
+//        'avatar' => 'sp1.jpg',
+//        'price' => 300,
+//        'quantity' => 4
+//    ],
+//    7 => [
+//        'name' => 'Sản phẩm 2',
+//        'avatar' => 'sp2.png',
+//        'price' => 500,
+//        'quantity' => 1
+//    ]
+//];
 //hàm  array_keys_exitst() dùng để kiểm tra sản phẩm khi thêm
 //vào giỏ đã tồn tại trong giỏ hàng hay chưa
 // Xử lý Thêm vào giỏ bằng cơ chế Ajax để mang tới sự tiện
 //dụng cho người dùng
+/**
+ * Demo chức năng Thanh toán
+ * + Khi user đặt hàng, tiến hành Thanh toán: thông tin người mua
+ * hàng: tên, t uổi, địa chỉ .. và thông tin đơn hàng(giỏ hàng)
+ * + Ngoài ra còn có các kiểu Thanh toán: thanh toán trực tuyến
+ * và thanh toán COD
+ * + Luôn gửi mail cho khách hàng sau khi họ mua hàng
+ * + Cơ chế code theo mô hình MVC và DB hiện tại:
+ * Lưu thông tin ng mua hàng vào bảng orders
+ * Lưu thông tin chi tiết đơn hàng trong bảng order_details
+ * - Cần phải lưu đồng thời vào 2 bảng orders và order_detail,
+ * cần lưu vào bảng orders trước để có được order_id vừa insert,
+ * mục đích để sử dụng khi insert vào bảng order_details
+ */
