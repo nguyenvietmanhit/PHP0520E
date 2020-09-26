@@ -83,4 +83,25 @@ class ProductController extends Controller {
     ]);
     require_once 'views/layouts/main.php';
   }
+
+  public function filter() {
+    //LẤy ra danh sách toàn bộ sản phẩm đang có trên hệ thống
+    $product_model = new Product();
+    $products = $product_model->getAllFilter();
+
+    //Lấy ra toàn bộ danh mục đang có để hiển thị cho phần
+    //lọc danh mục
+    $category_model = new Category();
+    $categories = $category_model->getAll();
+//    echo "<pre>";
+//    print_r($categories);
+//    echo "</pre>";
+    //Gọi view và layout để hiển thị
+    $this->content =
+        $this->render('views/products/filter.php', [
+            'products' => $products,
+            'categories' => $categories
+        ]);
+    require_once 'views/layouts/main.php';
+  }
 }

@@ -107,4 +107,7 @@
  * - Cần phải lưu đồng thời vào 2 bảng orders và order_detail,
  * cần lưu vào bảng orders trước để có được order_id vừa insert,
  * mục đích để sử dụng khi insert vào bảng order_details
+ *
+ *  - Chức năng Filter sản phẩm: giống như tìm kiếm
+ *
  */

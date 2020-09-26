@@ -40,5 +40,24 @@ class Product extends Model {
     $product =  $obj_select->fetch(PDO::FETCH_ASSOC);
     return $product;
   }
+
+  public function getAllFilter() {
+    // + Tạo truy vấn
+    $sql_select_all =
+"SELECT products.*, categories.name AS category_name 
+  FROM products
+  INNER JOIN categories 
+  ON products.category_id = categories.id
+  WHERE products.status = 1";
+    // + Tạo đối tượng truy vấn
+    $obj_select_all = $this->connection
+        ->prepare($sql_select_all);
+    // + Thưc thi đối tượng truy vấn
+    $obj_select_all->execute();
+    // + LẤy ra mảng các product
+    $products = $obj_select_all
+        ->fetchAll(PDO::FETCH_ASSOC);
+    return $products;
+  }
 }
 
