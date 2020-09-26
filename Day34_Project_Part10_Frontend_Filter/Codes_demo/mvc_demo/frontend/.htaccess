@@ -1,0 +1,25 @@
+#frontend/.htaccess
+#File .htaccess mục đích chính dùng để Rewrite URL
+#Các file mà ko có tên file thì mặc định đang ẩn với Window
+#Vẻ bản chất, định nghĩa ra các url theo ý muốn, các url khi đã rewrite
+#sẽ thân thiện với user và tốt cho SEO
+#Với 1 website thực tế, rewrite url là bắt buộc với frontend
+#Cú pháp của file này rất khó, và chỉ cần sai cú pháp là trang sẽ die
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}% !-f
+RewriteCond %{REQUEST_FILENAME}% !-d
+#Khi user truy cập url đã rewrite, về bản chất vẫn phải có 1 url
+#theo chuẩn MVC xử lý
+#Cú pháp khai báo rewrite 1 url:
+#RewriteRule <url-rewrite> <url-mvc-tương-ứng>
+#Viết rewrite cho trang Giỏ hàng của bạn
+RewriteRule gio-hang-cua-ban.html index.php?controller=cart&action=index
+#Viết rewrite cho chức năng Xóa sản phẩm khỏi giỏ hàng
+#Do xóa sản phẩm sẽ theo id, nên url rewrite sẽ có 1 tham số dưới dạng
+# chuỗi regex, [0-9]{1,}
+RewriteRule xoa-san-pham/([0-9]+).html index.php?controller=cart&action=delete&id=$1
+RewriteRule chi-tiet-tin/(.*)/([0-9]+).html index.php?controller=news&action=detail&title=$1&i=$2
+# Rewrite cho trang Thanh toán
+RewriteRule thanh-toan.html index.php?controller=payment&action=index
+# Rewrite cho trang thanh toán trực tuyến
+RewriteRule thanh-toan-online.html index.php?controller=payment&action=online
