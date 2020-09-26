@@ -17,33 +17,64 @@ require_once 'helpers/Helper.php';
             <form action="" method="post">
                 <h3>Filter</h3>
                 <div class="checkbox-category">
-                  <h5>Lọc theo danh mục</h5>
-                  <?php foreach ($categories AS $category): ?>
-                      <input type="checkbox" name="categories[]"
-                             value="<?php echo $category['id']; ?>"/>
+                    <h5>Lọc theo danh mục</h5>
+                  <?php foreach ($categories AS $category):
+                    //xử lý giữ lại checkbox đã tích cho danh mục khi
+                    //filter
+                    $checked = '';
+                    if (isset($_POST['categories'])) {
+                      if (in_array($category['id'], $_POST['categories'])) {
+                        $checked = 'checked';
+                      }
+                    }
+                    ?>
+                      <input <?php echo $checked; ?> type="checkbox"
+                                                     name="categories[]"
+                                                     value="<?php echo $category['id']; ?>"/>
                     <?php echo $category['name']; ?>
-                    <br />
+                      <br/>
                   <?php endforeach; ?>
                 </div>
                 <div class="checkbox-price">
                     <h5>Lọc theo khoảng giá</h5>
-                    <input type="checkbox" name="prices[]"
-                           value="0" /> < 1tr
-                    <br />
-                    <input type="checkbox" name="prices[]"
-                                 value="1" /> Từ 1 đến 2tr
-                    <br />
-                    <input type="checkbox" name="prices[]"
-                           value="2" /> Từ 2 đến 3tr
-                    <br />
-                    <input type="checkbox" name="prices[]"
-                           value="3" /> > 3tr
-                    <br />
+                  <?php
+                  $checked_1 = '';
+                  $checked_2 = '';
+                  $checked_3 = '';
+                  $checked_4 = '';
+                  if (isset($_POST['prices'])) {
+                    if (in_array(0, $_POST['prices'])) {
+                      $checked_1 = 'checked';
+                    }
+                    if (in_array(1, $_POST['prices'])) {
+                      $checked_2 = 'checked';
+                    }
+                    if (in_array(2, $_POST['prices'])) {
+                      $checked_3 = 'checked';
+                    }
+                    if (in_array(3, $_POST['prices'])) {
+                      $checked_4 = 'checked';
+                    }
+                  }
+                  ?>
+                    <input type="checkbox" name="prices[]" <?php echo $checked_1; ?>
+                           value="0"/> < 1tr
+                    <br/>
+                    <input type="checkbox" name="prices[]" <?php echo $checked_2; ?>
+                           value="1"/> Từ 1 đến 2tr
+                    <br/>
+                    <input type="checkbox" name="prices[]" <?php echo $checked_3; ?>
+                           value="2"/> Từ 2 đến 3tr
+                    <br/>
+                    <input type="checkbox" name="prices[]" <?php echo $checked_4; ?>
+                           value="3"/> > 3tr
+                    <br/>
                 </div>
                 <input type="submit" name="filter" value="Tìm kiếm"
-                class="btn btn-success" />
-                <a href="danh-sach-san-pham.html">
-                    
+                       class="btn btn-success"/>
+                <a href="danh-sach-san-pham.html"
+                   class="btn btn-default">
+                    Cancel
                 </a>
             </form>
 

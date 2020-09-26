@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bfae52d-3394-4fa6-985f-8e011034ee11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/cac_chuc_nang_frontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/cac_chuc_nang_frontend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/views/products/filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/views/products/filter.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +72,7 @@
           <entry key="htaccess" value="1787" />
           <entry key="html" value="2804" />
           <entry key="js" value="5901" />
-          <entry key="php" value="196448" />
+          <entry key="php" value="197007" />
           <entry key="txt" value="149" />
         </counts>
       </usages-collector>
@@ -83,7 +81,7 @@
           <entry key="CSS" value="72" />
           <entry key="HTML" value="2809" />
           <entry key="JavaScript" value="5901" />
-          <entry key="PHP" value="196403" />
+          <entry key="PHP" value="196962" />
           <entry key="PLAIN_TEXT" value="152" />
           <entry key="RegExp" value="1" />
           <entry key="SQL" value="40" />
@@ -153,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="102" column="39" lean-forward="true" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+            <state relative-caret-position="312">
+              <caret line="90" column="18" lean-forward="true" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
               <folding>
                 <element signature="n#showAll#0;n#ProductController#0;n#!!top" />
                 <element signature="n#detail#0;n#ProductController#0;n#!!top" />
@@ -184,11 +182,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/views/products/filter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="277">
+              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -512,12 +507,12 @@
       <workItem from="1599969193670" duration="709000" />
       <workItem from="1600514342195" duration="9370000" />
       <workItem from="1600688431751" duration="231000" />
-      <workItem from="1601120345865" duration="6719000" />
+      <workItem from="1601120345865" duration="7881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274134000" />
+    <option name="totallyTimeSpent" value="275296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -885,8 +880,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="102" column="39" lean-forward="true" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+        <state relative-caret-position="312">
+          <caret line="90" column="18" lean-forward="true" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
           <folding>
             <element signature="n#showAll#0;n#ProductController#0;n#!!top" />
             <element signature="n#detail#0;n#ProductController#0;n#!!top" />
@@ -896,11 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day34_Project_Part10_Frontend_Filter/Codes_demo/mvc_demo/frontend/views/products/filter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="277">
+          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
         </state>
       </provider>
     </entry>

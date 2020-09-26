@@ -85,6 +85,11 @@ class ProductController extends Controller {
   }
 
   public function filter() {
+    //Xử lý submit form
+    echo "<pre>";
+    print_r($_POST);
+    echo "</pre>";
+
     //LẤy ra danh sách toàn bộ sản phẩm đang có trên hệ thống
     $product_model = new Product();
     $products = $product_model->getAllFilter();
